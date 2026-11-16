@@ -1,0 +1,8 @@
+{
+ "d06": {"grade": 2, "reason": "Đúng (Gir). [S2] p.64 chú giải bản đồ 'Present range: 1. Gir II complex' hỗ trợ; evidence thay thế hợp lệ cho p.62."},
+ "d07": {"grade": 2, "reason": "Đúng ý chính (độ ẩm lấy từ con mồi)."},
+ "d10": {"reason": "Từ chối nhầm DÙ evidence p.101 'Wetland destruction is the primary threat facing the species' ĐÃ có trong context. Chunk không nhắc tên loài trong câu ('the species') -> model lite không nối được."},
+ "d24": {"reason": "Từ chối nhầm DÙ evidence p.156 ĐÃ có trong context; câu 'The species has been exploited...' không nhắc tên Geoffroy's cat -> model lite không nối được."},
+ "d28": {"grade": 2, "support": [true, true], "reason": "Đúng; [S2] p.170 'her theory that there are actually three different species of pampas cat, Garcia-Perea (1994)' và [S3] (gold) đều hỗ trợ."},
+ "u03": {"abstain_ok": true, "reason": "Từ chối đúng; chỉ nêu lại điều tài liệu có (karyotype), không khẳng định số NST."}
+}

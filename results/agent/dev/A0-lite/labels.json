@@ -1,0 +1,10 @@
+{
+ "d03": {"reason": "Từ chối nhầm. Evidence p.58 không vào context (lượt sau bị bỏ do budget đầy)."},
+ "d06": {"grade": 2, "reason": "Đúng (Gir). [S3] p.65 'currently exists as a single population' + 'the Gir' hỗ trợ."},
+ "d10": {"reason": "Từ chối nhầm DÙ evidence p.101 'Wetland destruction is the primary threat' ĐÃ có trong context -> lỗi đọc của model lite."},
+ "d17": {"reason": "Từ chối nhầm. Model lite không dùng tên loài khi viết lại query; p.121 không vào context."},
+ "d24": {"reason": "Từ chối nhầm DÙ evidence p.156 ĐÃ có trong context (chunk không nhắc lại tên loài trong câu) -> lỗi đọc của model lite."},
+ "d26": {"grade": 1, "reason": "Đúng loài (jaguarundi) nhưng lý do dựa vào tên Đức 'Wieselkatze' và tự dịch 'weasel cat' (kiến thức ngoài); chunk p.171 'Other Names' không mô tả ngoại hình. Citation hỗ trợ tên gọi."},
+ "d28": {"grade": 2, "reason": "Đúng; [S4] chứa evidence và tên 3 loài pajeros/braccatus/colocolo."},
+ "u03": {"abstain_ok": true, "reason": "Từ chối đúng; chỉ nêu lại điều tài liệu có (karyotype giống Lynx/Panthera/Uncia), không khẳng định số NST."}
+}

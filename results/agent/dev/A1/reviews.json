@@ -1,0 +1,290 @@
+[
+ {
+  "query_id": "d01",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ so với đáp án; chunk trích dẫn chứa evidence."
+ },
+ {
+  "query_id": "d02",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ so với đáp án; chunk trích dẫn chứa evidence."
+ },
+ {
+  "query_id": "d03",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ so với đáp án; chunk trích dẫn chứa evidence."
+ },
+ {
+  "query_id": "d04",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ so với đáp án; chunk trích dẫn chứa evidence."
+ },
+ {
+  "query_id": "d05",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ so với đáp án; chunk trích dẫn chứa evidence."
+ },
+ {
+  "query_id": "d06",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng (Gir). [S2] p.64 chú giải bản đồ 'Present range: 1. Gir II complex' hỗ trợ; evidence thay thế hợp lệ cho p.62."
+ },
+ {
+  "query_id": "d07",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng ý chính (độ ẩm lấy từ con mồi)."
+ },
+ {
+  "query_id": "d08",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ so với đáp án; chunk trích dẫn chứa evidence."
+ },
+ {
+  "query_id": "d09",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ so với đáp án; chunk trích dẫn chứa evidence."
+ },
+ {
+  "query_id": "d10",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "answer_grade": 0,
+  "citation_support": [],
+  "reason": "Từ chối nhầm DÙ evidence p.101 'Wetland destruction is the primary threat facing the species' ĐÃ có trong context. Chunk không nhắc tên loài trong câu ('the species') -> model lite không nối được."
+ },
+ {
+  "query_id": "d11",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ so với đáp án; chunk trích dẫn chứa evidence."
+ },
+ {
+  "query_id": "d12",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ so với đáp án; chunk trích dẫn chứa evidence."
+ },
+ {
+  "query_id": "d13",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ so với đáp án; chunk trích dẫn chứa evidence."
+ },
+ {
+  "query_id": "d14",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ so với đáp án; chunk trích dẫn chứa evidence."
+ },
+ {
+  "query_id": "d15",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ so với đáp án; chunk trích dẫn chứa evidence."
+ },
+ {
+  "query_id": "d16",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ so với đáp án; chunk trích dẫn chứa evidence."
+ },
+ {
+  "query_id": "d17",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ so với đáp án; chunk trích dẫn chứa evidence."
+ },
+ {
+  "query_id": "d18",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ so với đáp án; chunk trích dẫn chứa evidence."
+ },
+ {
+  "query_id": "d19",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ so với đáp án; chunk trích dẫn chứa evidence."
+ },
+ {
+  "query_id": "d20",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ so với đáp án; chunk trích dẫn chứa evidence."
+ },
+ {
+  "query_id": "d21",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ so với đáp án; chunk trích dẫn chứa evidence."
+ },
+ {
+  "query_id": "d22",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ so với đáp án; chunk trích dẫn chứa evidence."
+ },
+ {
+  "query_id": "d23",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ so với đáp án; chunk trích dẫn chứa evidence."
+ },
+ {
+  "query_id": "d24",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "answer_grade": 0,
+  "citation_support": [],
+  "reason": "Từ chối nhầm DÙ evidence p.156 ĐÃ có trong context; câu 'The species has been exploited...' không nhắc tên Geoffroy's cat -> model lite không nối được."
+ },
+ {
+  "query_id": "d25",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ so với đáp án; chunk trích dẫn chứa evidence."
+ },
+ {
+  "query_id": "d26",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ so với đáp án; chunk trích dẫn chứa evidence."
+ },
+ {
+  "query_id": "d27",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ so với đáp án; chunk trích dẫn chứa evidence."
+ },
+ {
+  "query_id": "d28",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Đúng; [S2] p.170 'her theory that there are actually three different species of pampas cat, Garcia-Perea (1994)' và [S3] (gold) đều hỗ trợ."
+ },
+ {
+  "query_id": "d29",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ so với đáp án; chunk trích dẫn chứa evidence."
+ },
+ {
+  "query_id": "d30",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ so với đáp án; chunk trích dẫn chứa evidence."
+ },
+ {
+  "query_id": "u01",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "abstention_correct": true,
+  "citation_support": [],
+  "reason": "Tìm rồi từ chối, không khẳng định thiếu căn cứ."
+ },
+ {
+  "query_id": "u02",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "abstention_correct": true,
+  "citation_support": [],
+  "reason": "Tìm rồi từ chối, không khẳng định thiếu căn cứ."
+ },
+ {
+  "query_id": "u03",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "abstention_correct": true,
+  "citation_support": [],
+  "reason": "Từ chối đúng; chỉ nêu lại điều tài liệu có (karyotype), không khẳng định số NST."
+ }
+]

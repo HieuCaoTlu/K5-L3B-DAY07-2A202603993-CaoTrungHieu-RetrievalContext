@@ -1,0 +1,49 @@
+{
+ "decided_on": "dev only (33 câu); test chưa chạy lần nào",
+ "decided_at": "2026-11-16T09:53:36+07:00",
+ "rule": [
+  "grounded answer mean /2 (chênh ≤1 câu = hoà)",
+  "abstention đúng, rồi ít từ chối nhầm hơn",
+  "citation hợp lệ",
+  "median giây/câu"
+ ],
+ "retrieval_stage": {
+  "selected": "hybrid",
+  "why": "Hit@3 dev 28/30 cao nhất (dense 27, bm25 24, rerank 27)"
+ },
+ "model_stage": {
+  "selected": "gemini-3.5-flash-lite",
+  "why": "A0 vs A0-lite hoà tiêu chí 1-2 (1.70; 3/3; 4/30); citation 26/26 vs 26/27; nhanh hơn (4.1 s vs 8.9 s)"
+ },
+ "agent_stage": {
+  "ranking": [
+   "A2",
+   "A1",
+   "A0-lite",
+   "A0"
+  ],
+  "selected": "A2",
+  "why": "A2 29/30 đúng vs A1 28/30 -> hoà theo quy tắc ≤1 câu; tiêu chí 2: từ chối nhầm 0/30 vs 2/30",
+  "known_risk": "d06: A2 trả lời sai (High Atlas thay vì Gir) — bỏ header species làm mất tín hiệu bài loài"
+ },
+ "selected_config": {
+  "name": "A2",
+  "retriever": "hybrid",
+  "top_k": 3,
+  "budget": 3000,
+  "context_mode": "rank",
+  "max_searches": 3,
+  "header": "no_species",
+  "model": "gemini-3.5-flash-lite"
+ },
+ "baseline_for_test": {
+  "name": "A0",
+  "retriever": "dense",
+  "top_k": 3,
+  "budget": 3000,
+  "context_mode": "rank",
+  "max_searches": 3,
+  "header": "full",
+  "model": "gemini-3.5-flash"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "cases": 33,
+ "provider_errors": 0,
+ "tool_use": {
+  "n": 33,
+  "N": 33
+ },
+ "grounded_answer": {
+  "0": 1,
+  "1": 0,
+  "2": 29,
+  "N": 30,
+  "mean": 1.9333333333333333
+ },
+ "citation_validity": {
+  "n": 32,
+  "N": 32
+ },
+ "answer_citation_coverage": {
+  "n": 30,
+  "N": 30
+ },
+ "abstention": {
+  "n": 3,
+  "N": 3
+ },
+ "false_abstention": {
+  "n": 0,
+  "N": 30
+ },
+ "config": "A2",
+ "split": "dev",
+ "context_evidence_rate": {
+  "n": 29,
+  "N": 30
+ },
+ "searches_distribution": {
+  "1": 27,
+  "2": 5,
+  "3": 1
+ },
+ "mean_searches": 1.21,
+ "median_seconds": 2.24,
+ "total_seconds": 94.2,
+ "prompt_tokens": 54322,
+ "completion_tokens": 1882,
+ "cost_usd": 0.0,
+ "invalid_citation_labels": 0
+}

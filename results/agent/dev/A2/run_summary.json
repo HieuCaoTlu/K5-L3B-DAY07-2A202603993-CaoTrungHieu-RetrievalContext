@@ -1,0 +1,158 @@
+{
+ "config": {
+  "name": "A2",
+  "retriever": "hybrid",
+  "top_k": 3,
+  "budget": 3000,
+  "context_mode": "rank",
+  "header": "no_species",
+  "max_searches": 3,
+  "max_turns": 6,
+  "model": "gemini-3.5-flash-lite",
+  "extra_rules": ""
+ },
+ "split": "dev",
+ "cases": 33,
+ "errors": 0,
+ "status": {
+  "answered": 30,
+  "abstain": 3,
+  "error": 0
+ },
+ "context_evidence_rate": {
+  "n": 29,
+  "N": 30
+ },
+ "searches_distribution": {
+  "1": 27,
+  "2": 5,
+  "3": 1
+ },
+ "median_seconds": 2.24,
+ "total_seconds": 94.2,
+ "prompt_tokens": 54322,
+ "completion_tokens": 1882,
+ "cost_usd": 0.0,
+ "context_hits": [
+  {
+   "query_id": "d01",
+   "context_hit": true
+  },
+  {
+   "query_id": "d02",
+   "context_hit": true
+  },
+  {
+   "query_id": "d03",
+   "context_hit": true
+  },
+  {
+   "query_id": "d04",
+   "context_hit": true
+  },
+  {
+   "query_id": "d05",
+   "context_hit": true
+  },
+  {
+   "query_id": "d06",
+   "context_hit": false
+  },
+  {
+   "query_id": "d07",
+   "context_hit": true
+  },
+  {
+   "query_id": "d08",
+   "context_hit": true
+  },
+  {
+   "query_id": "d09",
+   "context_hit": true
+  },
+  {
+   "query_id": "d10",
+   "context_hit": true
+  },
+  {
+   "query_id": "d11",
+   "context_hit": true
+  },
+  {
+   "query_id": "d12",
+   "context_hit": true
+  },
+  {
+   "query_id": "d13",
+   "context_hit": true
+  },
+  {
+   "query_id": "d14",
+   "context_hit": true
+  },
+  {
+   "query_id": "d15",
+   "context_hit": true
+  },
+  {
+   "query_id": "d16",
+   "context_hit": true
+  },
+  {
+   "query_id": "d17",
+   "context_hit": true
+  },
+  {
+   "query_id": "d18",
+   "context_hit": true
+  },
+  {
+   "query_id": "d19",
+   "context_hit": true
+  },
+  {
+   "query_id": "d20",
+   "context_hit": true
+  },
+  {
+   "query_id": "d21",
+   "context_hit": true
+  },
+  {
+   "query_id": "d22",
+   "context_hit": true
+  },
+  {
+   "query_id": "d23",
+   "context_hit": true
+  },
+  {
+   "query_id": "d24",
+   "context_hit": true
+  },
+  {
+   "query_id": "d25",
+   "context_hit": true
+  },
+  {
+   "query_id": "d26",
+   "context_hit": true
+  },
+  {
+   "query_id": "d27",
+   "context_hit": true
+  },
+  {
+   "query_id": "d28",
+   "context_hit": true
+  },
+  {
+   "query_id": "d29",
+   "context_hit": true
+  },
+  {
+   "query_id": "d30",
+   "context_hit": true
+  }
+ ]
+}

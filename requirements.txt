@@ -1,0 +1,6 @@
+# Python 3.12 (đã chạy: 3.12.13, Windows 11, RTX 3050 Ti 4 GB)
+psycopg[binary]==3.3.8
+sentence-transformers==6.2.0      # E5 query embedding + cross-encoder rerank
+torch==2.15.0                     # bản CUDA; CPU cũng chạy được (chậm hơn)
+google-genai==3.0.0               # Gemini API (agent)
+python-dotenv==1.2.4

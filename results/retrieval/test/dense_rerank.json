@@ -1,0 +1,2461 @@
+{
+ "summary": {
+  "method": "dense+rerank",
+  "N": 10,
+  "hit1": {
+   "n": 9,
+   "N": 10,
+   "rate": 0.9
+  },
+  "hit3": {
+   "n": 9,
+   "N": 10,
+   "rate": 0.9
+  },
+  "hit10": {
+   "n": 9,
+   "N": 10,
+   "rate": 0.9
+  },
+  "mrr10": 0.9,
+  "context_evidence_rate": {
+   "n": 9,
+   "N": 10,
+   "rate": 0.9
+  },
+  "context": {
+   "k": 3,
+   "budget_chars": 3000,
+   "mode": "rank",
+   "avg_chars": 2414
+  },
+  "median_ms": 216.9,
+  "by_type": {
+   "direct": {
+    "hit1": 4,
+    "hit3": 4,
+    "N": 4
+   },
+   "condition_exception": {
+    "hit1": 3,
+    "hit3": 3,
+    "N": 3
+   },
+   "metadata_filter": {
+    "hit1": 1,
+    "hit3": 1,
+    "N": 1
+   },
+   "paraphrase": {
+    "hit1": 1,
+    "hit3": 1,
+    "N": 2
+   }
+  },
+  "cost_usd": 0.0,
+  "misses_at3": [
+   "n09"
+  ]
+ },
+ "traces": [
+  {
+   "query_id": "n01",
+   "type": "direct",
+   "question": "How large was the home range of an adult female black-footed cat observed for three months near Kimberley?",
+   "filter": null,
+   "ms": 296.2,
+   "first_hit_rank": 1,
+   "hit1": true,
+   "hit3": true,
+   "hit10": true,
+   "context_hit": true,
+   "context_ids": [
+    "iucn-wildcats-1996:p034:c00",
+    "iucn-wildcats-1996:p033:c02",
+    "iucn-wildcats-1996:p112:c02"
+   ],
+   "context_chars": 2008,
+   "gold_pages": [
+    34
+   ],
+   "results": [
+    {
+     "id": "iucn-wildcats-1996:p034:c00",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 34,
+     "metadata": {
+      "region": "Sub-Saharan Africa",
+      "species": "Black-footed cat",
+      "section": "Population Status",
+      "char_start": 0,
+      "char_end": 698,
+      "day6_index": "B"
+     },
+     "score": 5.924213,
+     "rank": 1,
+     "strategy": "dense+rerank",
+     "base_rank": 1,
+     "base_score": 0.844081,
+     "hit": true,
+     "preview": "Skinner and Smithers 1990). Shortridge (1934) reported at the turn of the century that mantles made from the skins of this species were expensive, \"on account o"
+    },
+    {
+     "id": "iucn-wildcats-1996:p033:c02",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 33,
+     "metadata": {
+      "region": "Sub-Saharan Africa",
+      "species": "Black-footed cat",
+      "section": "Description and Behavior",
+      "char_start": 426,
+      "char_end": 1066,
+      "day6_index": "B"
+     },
+     "score": 1.27493,
+     "rank": 2,
+     "strategy": "dense+rerank",
+     "base_rank": 26,
+     "base_score": 0.815734,
+     "hit": false,
+     "preview": "## Description and Behavior\n\n(Plate 3) The black-footed cat is among the world's smallest felines, with females weighing around 1.2 kg (range 0.8 1.6) and males"
+    },
+    {
+     "id": "iucn-wildcats-1996:p112:c02",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 112,
+     "metadata": {
+      "region": "Tropical Asia",
+      "species": "Leopard cat",
+      "section": "Habitat and Distribution",
+      "char_start": 1345,
+      "char_end": 1759,
+      "day6_index": "B"
+     },
+     "score": 1.138096,
+     "rank": 3,
+     "strategy": "dense+rerank",
+     "base_rank": 7,
+     "base_score": 0.830078,
+     "hit": false,
+     "preview": "Two radiotelemetry studies have produced the first data on home range size for leopard cats, although densities have not been estimated. On the Tsushima islands"
+    },
+    {
+     "id": "iucn-wildcats-1996:p054:c02",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 54,
+     "metadata": {
+      "region": "Sub-Saharan Africa",
+      "species": "Leopard",
+      "section": "Population Status",
+      "char_start": 1134,
+      "char_end": 2021,
+      "day6_index": "B"
+     },
+     "score": 1.006512,
+     "rank": 4,
+     "strategy": "dense+rerank",
+     "base_rank": 9,
+     "base_score": 0.829204,
+     "hit": false,
+     "preview": "Leopard home range sizes determined by radiotelemetry have averaged between 30-78 km2 (males) and 15-16 km2 (females) in protected areas (Tsavo NP: Hamilton 198"
+    },
+    {
+     "id": "iucn-wildcats-1996:p163:c05",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 163,
+     "metadata": {
+      "region": "The Americas",
+      "species": "Ocelot",
+      "section": "Population Status",
+      "char_start": 4294,
+      "char_end": 5005,
+      "day6_index": "B"
+     },
+     "score": 0.810775,
+     "rank": 5,
+     "strategy": "dense+rerank",
+     "base_rank": 12,
+     "base_score": 0.826129,
+     "hit": false,
+     "preview": "The ocelot is one of the few small small cats for which spacing and abundance have been studied in several different habitat types.\n\nLowland rain forest .\n\n1. M"
+    },
+    {
+     "id": "iucn-wildcats-1996:p101:c01",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 101,
+     "metadata": {
+      "region": "Tropical Asia",
+      "species": "Marbled cat",
+      "section": "Account header",
+      "char_start": 906,
+      "char_end": 1131,
+      "day6_index": "B"
+     },
+     "score": -0.102111,
+     "rank": 6,
+     "strategy": "dense+rerank",
+     "base_rank": 15,
+     "base_score": 0.824548,
+     "hit": false,
+     "preview": "D. Smith (in Zitt. 1993) recorded home range size for females in Nepal's Chitwan National Park of 4-8 km2 (n=3); a single male had a home range of 22 km? Jungle"
+    },
+    {
+     "id": "iucn-wildcats-1996:p107:c01",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 107,
+     "metadata": {
+      "region": "Tropical Asia",
+      "species": "Leopard",
+      "section": "Population Status",
+      "char_start": 693,
+      "char_end": 1322,
+      "day6_index": "B"
+     },
+     "score": -0.358473,
+     "rank": 7,
+     "strategy": "dense+rerank",
+     "base_rank": 13,
+     "base_score": 0.825455,
+     "hit": false,
+     "preview": "Rabinowitz (1989) found that male leopards in the Huai Kha Khaeng WS maintained slightly overlapping home ranges of 27-37 km*, while females had ranges of 1 l-1"
+    },
+    {
+     "id": "iucn-wildcats-1996:p075:c03",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 75,
+     "metadata": {
+      "region": "North Africa and Southwest Asia",
+      "species": "Caracal",
+      "section": "Population Status",
+      "char_start": 2259,
+      "char_end": 2534,
+      "day6_index": "B"
+     },
+     "score": -0.699708,
+     "rank": 8,
+     "strategy": "dense+rerank",
+     "base_rank": 21,
+     "base_score": 0.819024,
+     "hit": false,
+     "preview": "M. Abbadi (in Zitt. 1993), who carried out the first radio-telemetry study of the sand cat in Israel, knew of 22 individuals within his 100 km2 study area. The "
+    },
+    {
+     "id": "iucn-wildcats-1996:p057:c00",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 57,
+     "metadata": {
+      "region": "Sub-Saharan Africa",
+      "species": "African wildcat",
+      "section": "Account header",
+      "char_start": 0,
+      "char_end": 367,
+      "day6_index": "B"
+     },
+     "score": -0.805032,
+     "rank": 9,
+     "strategy": "dense+rerank",
+     "base_rank": 5,
+     "base_score": 0.830583,
+     "hit": false,
+     "preview": "et al. 1980).\n\nField studies have been carried out only in South Africa and Israel (for the latter, see species account under North Africa and Southwest Asia). "
+    },
+    {
+     "id": "iucn-wildcats-1996:p077:c01",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 77,
+     "metadata": {
+      "region": "North Africa and Southwest Asia",
+      "species": "Caracal",
+      "section": "Population Status",
+      "char_start": 608,
+      "char_end": 1003,
+      "day6_index": "B"
+     },
+     "score": -1.034846,
+     "rank": 10,
+     "strategy": "dense+rerank",
+     "base_rank": 4,
+     "base_score": 0.834616,
+     "hit": false,
+     "preview": "were observed: a male migrated 60-90 km south before establishing a home range, whereas a female remained in the vicinity of her natal range, with3 her range pa"
+    }
+   ]
+  },
+  {
+   "query_id": "n02",
+   "type": "condition_exception",
+   "question": "Does the manul live in lowland sandy deserts?",
+   "filter": null,
+   "ms": 216.5,
+   "first_hit_rank": 1,
+   "hit1": true,
+   "hit3": true,
+   "hit10": true,
+   "context_hit": true,
+   "context_ids": [
+    "iucn-wildcats-1996:p124:c00",
+    "iucn-wildcats-1996:p124:c02",
+    "iucn-wildcats-1996:p123:c01"
+   ],
+   "context_chars": 2820,
+   "gold_pages": [
+    124
+   ],
+   "results": [
+    {
+     "id": "iucn-wildcats-1996:p124:c00",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 124,
+     "metadata": {
+      "region": "Eurasia",
+      "species": "Asiatic wildcat",
+      "section": "Habitat and Distribution",
+      "char_start": 0,
+      "char_end": 783,
+      "day6_index": "B"
+     },
+     "score": 7.458879,
+     "rank": 1,
+     "strategy": "dense+rerank",
+     "base_rank": 1,
+     "base_score": 0.876963,
+     "hit": true,
+     "preview": "## Habitat and Distribution\n\nThe manul is adapted to cold arid environments and has a wide distribution through central Asia (Fig. 3), but is relatively special"
+    },
+    {
+     "id": "iucn-wildcats-1996:p124:c02",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 124,
+     "metadata": {
+      "region": "Eurasia",
+      "species": "Asiatic wildcat",
+      "section": "Population Status",
+      "char_start": 1269,
+      "char_end": 2153,
+      "day6_index": "B"
+     },
+     "score": 0.754992,
+     "rank": 2,
+     "strategy": "dense+rerank",
+     "base_rank": 4,
+     "base_score": 0.840745,
+     "hit": false,
+     "preview": "## Population Status\n\nGlobal: Category 4. Regional (Asia): Category 2. IUCN: Insufficiently Known. The manul has been described as most abundant on the cold gra"
+    },
+    {
+     "id": "iucn-wildcats-1996:p123:c01",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 123,
+     "metadata": {
+      "region": "Eurasia",
+      "species": "Manul",
+      "section": "Description and Behavior",
+      "char_start": 0,
+      "char_end": 931,
+      "day6_index": "B"
+     },
+     "score": -1.905984,
+     "rank": 3,
+     "strategy": "dense+rerank",
+     "base_rank": 3,
+     "base_score": 0.841339,
+     "hit": false,
+     "preview": "The barking call of the manul is similar also to that of the sand cat (Heptner and Sludskii 1972) and, likewise, the low profile of its head is an adaptation to"
+    },
+    {
+     "id": "iucn-wildcats-1996:p074:c01",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 74,
+     "metadata": {
+      "region": "North Africa and Southwest Asia",
+      "species": "Sand cat",
+      "section": "Habitat and Distribution",
+      "char_start": 605,
+      "char_end": 1361,
+      "day6_index": "B"
+     },
+     "score": -2.282265,
+     "rank": 4,
+     "strategy": "dense+rerank",
+     "base_rank": 5,
+     "base_score": 0.84021,
+     "hit": false,
+     "preview": "(1972) describe the sand cat in Turkmenistan as most abundant amidst extensive sand massifs, as in the central Karakum where compacted soils are generally absen"
+    },
+    {
+     "id": "iucn-wildcats-1996:p073:c06",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 73,
+     "metadata": {
+      "region": "North Africa and Southwest Asia",
+      "species": "Sand cat",
+      "section": "Habitat and Distribution",
+      "char_start": 4794,
+      "char_end": 5316,
+      "day6_index": "B"
+     },
+     "score": -3.359262,
+     "rank": 5,
+     "strategy": "dense+rerank",
+     "base_rank": 11,
+     "base_score": 0.819578,
+     "hit": false,
+     "preview": "## Habitat and Distribution\n\nSand cats are found in both sandy and stony desert (Schauenberg 1974, Hemmer et al. 1976, Gasperetti et al. 1986, Harrison and Bate"
+    },
+    {
+     "id": "iucn-wildcats-1996:p123:c02",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 123,
+     "metadata": {
+      "region": "Eurasia",
+      "species": "Manul",
+      "section": "Description and Behavior",
+      "char_start": 1724,
+      "char_end": 2364,
+      "day6_index": "B"
+     },
+     "score": -4.284057,
+     "rank": 6,
+     "strategy": "dense+rerank",
+     "base_rank": 2,
+     "base_score": 0.842553,
+     "hit": false,
+     "preview": "chukor partridge (Roberts 1977). Manuls are generally crepuscular, being most frequently encountered at dusk or in early morning, but are occasionally seen at m"
+    },
+    {
+     "id": "iucn-wildcats-1996:p124:c01",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 124,
+     "metadata": {
+      "region": "Eurasia",
+      "species": "Asiatic wildcat",
+      "section": "Habitat and Distribution",
+      "char_start": 29,
+      "char_end": 512,
+      "day6_index": "B"
+     },
+     "score": -4.773228,
+     "rank": 7,
+     "strategy": "dense+rerank",
+     "base_rank": 6,
+     "base_score": 0.838207,
+     "hit": false,
+     "preview": "It has been found at altitudes up to 4,800 m (Feng et ul. 1986), but it does not occur at such high elevations as the snow leopard, and is more strongly associa"
+    },
+    {
+     "id": "iucn-wildcats-1996:p122:c07",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 122,
+     "metadata": {
+      "region": "Eurasia",
+      "species": "Manul",
+      "section": "Description and Behavior",
+      "char_start": 4488,
+      "char_end": 4988,
+      "day6_index": "B"
+     },
+     "score": -4.890447,
+     "rank": 8,
+     "strategy": "dense+rerank",
+     "base_rank": 10,
+     "base_score": 0.821006,
+     "hit": false,
+     "preview": "## Description and Behavior\n\n(Plate 12) Peter Pallas, who first described the manul, erroneously suggested that it was the ancestor of the long-haired Persian b"
+    },
+    {
+     "id": "iucn-wildcats-1996:p072:c04",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 72,
+     "metadata": {
+      "region": "North Africa and Southwest Asia",
+      "species": "Sand cat",
+      "section": "Description and Behavior",
+      "char_start": 2047,
+      "char_end": 3016,
+      "day6_index": "B"
+     },
+     "score": -5.919891,
+     "rank": 9,
+     "strategy": "dense+rerank",
+     "base_rank": 15,
+     "base_score": 0.817149,
+     "hit": false,
+     "preview": "## Description and Behavior\n\n(Plate 3) The sand cat is well adapted to the extremes of a desert environment and a psammophilic, or sand-dwelling, existence. It "
+    },
+    {
+     "id": "iucn-wildcats-1996:p098:c01",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 98,
+     "metadata": {
+      "region": "Tropical Asia",
+      "species": "Rusty-spotted cat",
+      "section": "Habitat and Distribution",
+      "char_start": 112,
+      "char_end": 1281,
+      "day6_index": "B"
+     },
+     "score": -6.939551,
+     "rank": 10,
+     "strategy": "dense+rerank",
+     "base_rank": 8,
+     "base_score": 0.826652,
+     "hit": false,
+     "preview": "The rusty-spotted cat is found only in India and Sri Lanka. Most records are from southern India (Pocock 1939a), but there are several isolated records from the"
+    }
+   ]
+  },
+  {
+   "query_id": "n03",
+   "type": "direct",
+   "question": "What is the average weight of adult male Iberian lynxes?",
+   "filter": null,
+   "ms": 207.9,
+   "first_hit_rank": 1,
+   "hit1": true,
+   "hit3": true,
+   "hit10": true,
+   "context_hit": true,
+   "context_ids": [
+    "iucn-wildcats-1996:p131:c03",
+    "iucn-wildcats-1996:p126:c06",
+    "iucn-wildcats-1996:p151:c03"
+   ],
+   "context_chars": 2844,
+   "gold_pages": [
+    131
+   ],
+   "results": [
+    {
+     "id": "iucn-wildcats-1996:p131:c03",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 131,
+     "metadata": {
+      "region": "Eurasia",
+      "species": "Iberian Lynx",
+      "section": "Description and Behavior",
+      "char_start": 1540,
+      "char_end": 2384,
+      "day6_index": "B"
+     },
+     "score": 9.230818,
+     "rank": 1,
+     "strategy": "dense+rerank",
+     "base_rank": 1,
+     "base_score": 0.881359,
+     "hit": true,
+     "preview": "## Description and Behavior\n\n(Plate 11) The Iberian lynx looks like a smaller version of the Eurasian lynx, being only about half its size, with adult males wei"
+    },
+    {
+     "id": "iucn-wildcats-1996:p126:c06",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 126,
+     "metadata": {
+      "region": "Eurasia",
+      "species": "Eurasian lynx",
+      "section": "Description and Behavior",
+      "char_start": 3525,
+      "char_end": 4314,
+      "day6_index": "B"
+     },
+     "score": 5.456531,
+     "rank": 2,
+     "strategy": "dense+rerank",
+     "base_rank": 4,
+     "base_score": 0.860257,
+     "hit": false,
+     "preview": "## Description and Behavior\n\n(Plate 11) The Eurasian lynx is the largest of the lynxes. Adult males weigh on average 2 1.6 kg (n= 103), while females are slight"
+    },
+    {
+     "id": "iucn-wildcats-1996:p151:c03",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 151,
+     "metadata": {
+      "region": "The Americas",
+      "species": "Canada lynx",
+      "section": "Description and Behavior",
+      "char_start": 699,
+      "char_end": 1682,
+      "day6_index": "B"
+     },
+     "score": 4.76695,
+     "rank": 3,
+     "strategy": "dense+rerank",
+     "base_rank": 5,
+     "base_score": 0.859398,
+     "hit": false,
+     "preview": "The lynxes show remarkable similarity of appearance compared to other related groups of cats, and the Canada lynx is often treated as conspecific with the Euras"
+    },
+    {
+     "id": "iucn-wildcats-1996:p134:c02",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 134,
+     "metadata": {
+      "region": "Eurasia",
+      "species": "Iberian Lynx",
+      "section": "Population Status",
+      "char_start": 1025,
+      "char_end": 1872,
+      "day6_index": "B"
+     },
+     "score": 4.11555,
+     "rank": 4,
+     "strategy": "dense+rerank",
+     "base_rank": 3,
+     "base_score": 0.867628,
+     "hit": false,
+     "preview": "Iberian lynxes have been studied using radiotelemetry in the Coto Dofiana NP since 1983. In good quality habitat, lynx density (including sub-adults but not kit"
+    },
+    {
+     "id": "iucn-wildcats-1996:p103:c06",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 103,
+     "metadata": {
+      "region": "Tropical Asia",
+      "species": "Leopard",
+      "section": "Description and Behavior",
+      "char_start": 3488,
+      "char_end": 4195,
+      "day6_index": "B"
+     },
+     "score": 2.77622,
+     "rank": 5,
+     "strategy": "dense+rerank",
+     "base_rank": 14,
+     "base_score": 0.833464,
+     "hit": false,
+     "preview": "The following weights have been recorded for leopards in the region. Five adult female leopards from China (Sichuan, Anhui and Jilin) weighed an average of 32 k"
+    },
+    {
+     "id": "iucn-wildcats-1996:p131:c05",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 131,
+     "metadata": {
+      "region": "Eurasia",
+      "species": "Iberian Lynx",
+      "section": "Description and Behavior",
+      "char_start": 2674,
+      "char_end": 3663,
+      "day6_index": "B"
+     },
+     "score": 1.725639,
+     "rank": 6,
+     "strategy": "dense+rerank",
+     "base_rank": 2,
+     "base_score": 0.869394,
+     "hit": false,
+     "preview": "The ecology of the Iberian lynx is very different from the Eurasian lynx. While the Eurasian lynx is a forest animal which preys on ungulates, the Iberian lynx "
+    },
+    {
+     "id": "iucn-wildcats-1996:p131:c06",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 131,
+     "metadata": {
+      "region": "Eurasia",
+      "species": "Iberian Lynx",
+      "section": "Description and Behavior",
+      "char_start": 2674,
+      "char_end": 3149,
+      "day6_index": "B"
+     },
+     "score": 1.301425,
+     "rank": 7,
+     "strategy": "dense+rerank",
+     "base_rank": 7,
+     "base_score": 0.847676,
+     "hit": false,
+     "preview": "The energy requirements of the Iberian lynx have been estimated at approximately one rabbit per day (Aldama et al. 1991).\n\nA radio-telemetry study in the Coto D"
+    },
+    {
+     "id": "iucn-wildcats-1996:p050:c02",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 50,
+     "metadata": {
+      "region": "Sub-Saharan Africa",
+      "species": "Leopard",
+      "section": "Description and Behavior",
+      "char_start": 1117,
+      "char_end": 1920,
+      "day6_index": "B"
+     },
+     "score": 1.27683,
+     "rank": 8,
+     "strategy": "dense+rerank",
+     "base_rank": 21,
+     "base_score": 0.823124,
+     "hit": false,
+     "preview": "The leopard is well known for its versatility as a generalist predator, and shows a number of morphological adaptations to this end, including its size, which s"
+    },
+    {
+     "id": "iucn-wildcats-1996:p133:c01",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 133,
+     "metadata": {
+      "region": "Eurasia",
+      "species": "Iberian Lynx",
+      "section": "Population Status",
+      "char_start": 983,
+      "char_end": 1859,
+      "day6_index": "B"
+     },
+     "score": 0.792202,
+     "rank": 9,
+     "strategy": "dense+rerank",
+     "base_rank": 9,
+     "base_score": 0.841229,
+     "hit": false,
+     "preview": "## Population Status\n\nGlobal: Category 1. Regional (Europe): Category 1. IUCN: Endangered. The Iberian lynx is the only cat species ranked in Category 1. The to"
+    },
+    {
+     "id": "iucn-wildcats-1996:p135:c04",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 135,
+     "metadata": {
+      "region": "Eurasia",
+      "species": "European wildcat",
+      "section": "Description and Behavior",
+      "char_start": 2434,
+      "char_end": 3045,
+      "day6_index": "B"
+     },
+     "score": 0.444771,
+     "rank": 10,
+     "strategy": "dense+rerank",
+     "base_rank": 28,
+     "base_score": 0.820465,
+     "hit": false,
+     "preview": "## Description and Behavior\n\n(Plate 12) The forest wildcats of Europe and western Russia are greybrown in coat color, with bushy, blunt-ended tails and a well-d"
+    }
+   ]
+  },
+  {
+   "query_id": "n04",
+   "type": "condition_exception",
+   "question": "Are Asiatic wildcats found in the steppe grasslands of Mongolia?",
+   "filter": null,
+   "ms": 194.5,
+   "first_hit_rank": 1,
+   "hit1": true,
+   "hit3": true,
+   "hit10": true,
+   "context_hit": true,
+   "context_ids": [
+    "iucn-wildcats-1996:p125:c02",
+    "iucn-wildcats-1996:p125:c03",
+    "iucn-wildcats-1996:p124:c06"
+   ],
+   "context_chars": 2235,
+   "gold_pages": [
+    125
+   ],
+   "results": [
+    {
+     "id": "iucn-wildcats-1996:p125:c02",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 125,
+     "metadata": {
+      "region": "Eurasia",
+      "species": "Asiatic wildcat",
+      "section": "Habitat and Distribution",
+      "char_start": 1669,
+      "char_end": 2460,
+      "day6_index": "B"
+     },
+     "score": 9.029916,
+     "rank": 1,
+     "strategy": "dense+rerank",
+     "base_rank": 1,
+     "base_score": 0.894494,
+     "hit": true,
+     "preview": "## Habitat and Distribution\n\nAsiatic wildcats are most typically associated with scrub desert (Allayarov 1963, Sharma 1979; T. Roberts in Zitt. 1993) (Fig. 4). "
+    },
+    {
+     "id": "iucn-wildcats-1996:p125:c03",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 125,
+     "metadata": {
+      "region": "Eurasia",
+      "species": "Asiatic wildcat",
+      "section": "Habitat and Distribution",
+      "char_start": 2462,
+      "char_end": 3079,
+      "day6_index": "B"
+     },
+     "score": 5.521852,
+     "rank": 2,
+     "strategy": "dense+rerank",
+     "base_rank": 2,
+     "base_score": 0.857848,
+     "hit": false,
+     "preview": "The Caucasus is the transitional zone between the European wildcat (silvestris group) to the north and west, and the Asiatic wildcat to the south and east. In t"
+    },
+    {
+     "id": "iucn-wildcats-1996:p124:c06",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 124,
+     "metadata": {
+      "region": "Eurasia",
+      "species": "Asiatic wildcat",
+      "section": "Other Names",
+      "char_start": 3934,
+      "char_end": 4529,
+      "day6_index": "B"
+     },
+     "score": 2.429729,
+     "rank": 3,
+     "strategy": "dense+rerank",
+     "base_rank": 4,
+     "base_score": 0.846708,
+     "hit": false,
+     "preview": "## Other Names\n\nAsiatic desert wildcat, Asiatic steppe wildcat, Indian desert cat (English); chat sauvage d'Asie, chat orne (French); Asiatische Wildkatze, Step"
+    },
+    {
+     "id": "iucn-wildcats-1996:p126:c03",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 126,
+     "metadata": {
+      "region": "Eurasia",
+      "species": "Eurasian lynx",
+      "section": "Principal Threats",
+      "char_start": 1366,
+      "char_end": 2077,
+      "day6_index": "B"
+     },
+     "score": 1.687884,
+     "rank": 4,
+     "strategy": "dense+rerank",
+     "base_rank": 5,
+     "base_score": 0.843834,
+     "hit": false,
+     "preview": "## Principal Threats\n\nIn the past, Asiatic wildcats have been trapped in large numbers in several areas: e.g., 12,800 in Kazahkstan (19289: Ognev 1935); 1,350 i"
+    },
+    {
+     "id": "iucn-wildcats-1996:p122:c00",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 122,
+     "metadata": {
+      "region": "Eurasia",
+      "species": "Manul",
+      "section": "Account header",
+      "char_start": 0,
+      "char_end": 932,
+      "day6_index": "B"
+     },
+     "score": 0.828111,
+     "rank": 5,
+     "strategy": "dense+rerank",
+     "base_rank": 3,
+     "base_score": 0.851685,
+     "hit": false,
+     "preview": "flatter, more desert-like terrain (F.b. chutuchta and F.b. veUerosa: Pocock 195 1 ), probably refer respectively to misidentified specimens of Asiatic wildcat a"
+    },
+    {
+     "id": "iucn-wildcats-1996:p124:c07",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 124,
+     "metadata": {
+      "region": "Eurasia",
+      "species": "Asiatic wildcat",
+      "section": "Description and Behavior",
+      "char_start": 4531,
+      "char_end": 5011,
+      "day6_index": "B"
+     },
+     "score": 0.28453,
+     "rank": 6,
+     "strategy": "dense+rerank",
+     "base_rank": 12,
+     "base_score": 0.833549,
+     "hit": false,
+     "preview": "## Description and Behavior\n\n(Plate 12) The wildcats of central Asia differ from the European wildcats by having a more greyish-yellow or reddish background col"
+    },
+    {
+     "id": "iucn-wildcats-1996:p094:c06",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 94,
+     "metadata": {
+      "region": "Tropical Asia",
+      "species": "Asiatic golden cat",
+      "section": "Habitat and Distribution",
+      "char_start": 3599,
+      "char_end": 3958,
+      "day6_index": "B"
+     },
+     "score": 0.174762,
+     "rank": 7,
+     "strategy": "dense+rerank",
+     "base_rank": 10,
+     "base_score": 0.835376,
+     "hit": false,
+     "preview": "## Habitat and Distribution\n\nAsiatic golden cats are found in tropical and sub-tropical moist evergreen and dry deciduous forests, and have occasionally been re"
+    },
+    {
+     "id": "iucn-wildcats-1996:p124:c02",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 124,
+     "metadata": {
+      "region": "Eurasia",
+      "species": "Asiatic wildcat",
+      "section": "Population Status",
+      "char_start": 1269,
+      "char_end": 2153,
+      "day6_index": "B"
+     },
+     "score": -0.095126,
+     "rank": 8,
+     "strategy": "dense+rerank",
+     "base_rank": 27,
+     "base_score": 0.820176,
+     "hit": false,
+     "preview": "## Population Status\n\nGlobal: Category 4. Regional (Asia): Category 2. IUCN: Insufficiently Known. The manul has been described as most abundant on the cold gra"
+    },
+    {
+     "id": "iucn-wildcats-1996:p137:c01",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 137,
+     "metadata": {
+      "region": "Eurasia",
+      "species": "European wildcat",
+      "section": "Habitat and Distribution",
+      "char_start": 177,
+      "char_end": 1159,
+      "day6_index": "B"
+     },
+     "score": -1.334473,
+     "rank": 9,
+     "strategy": "dense+rerank",
+     "base_rank": 9,
+     "base_score": 0.836528,
+     "hit": false,
+     "preview": "European wildcats are primarily associated with forest, and are found in highest numbers in broad-leaved or mixed forests (Stahl and Leger 1992). Coniferous for"
+    },
+    {
+     "id": "iucn-wildcats-1996:p125:c00",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 125,
+     "metadata": {
+      "region": "Eurasia",
+      "species": "Asiatic wildcat",
+      "section": "Description and Behavior",
+      "char_start": 0,
+      "char_end": 940,
+      "day6_index": "B"
+     },
+     "score": -1.548933,
+     "rank": 10,
+     "strategy": "dense+rerank",
+     "base_rank": 11,
+     "base_score": 0.835319,
+     "hit": false,
+     "preview": "Hemmer 1976) smaller than males. Some authorities consider the Asiatic wildcats and African wildcats to be conspecific (F. Zybica spp.), and the European wildca"
+    }
+   ]
+  },
+  {
+   "query_id": "n05",
+   "type": "condition_exception",
+   "question": "How many skins were exported from Paraguay in 1983 in the oncilla fur trade, and why might that number overstate oncillas?",
+   "filter": null,
+   "ms": 201.0,
+   "first_hit_rank": 1,
+   "hit1": true,
+   "hit3": true,
+   "hit10": true,
+   "context_hit": true,
+   "context_ids": [
+    "iucn-wildcats-1996:p148:c02",
+    "iucn-wildcats-1996:p156:c02",
+    "iucn-wildcats-1996:p148:c04"
+   ],
+   "context_chars": 2409,
+   "gold_pages": [
+    148
+   ],
+   "results": [
+    {
+     "id": "iucn-wildcats-1996:p148:c02",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 148,
+     "metadata": {
+      "region": "The Americas",
+      "species": "Oncilla",
+      "section": "Population Status",
+      "char_start": 1936,
+      "char_end": 2485,
+      "day6_index": "B"
+     },
+     "score": 5.111521,
+     "rank": 1,
+     "strategy": "dense+rerank",
+     "base_rank": 2,
+     "base_score": 0.841815,
+     "hit": true,
+     "preview": "## Population Status\n\nGlobal: Category 3. Regional: Category 2. IUCN: Insufficiently Known. This species has never been studied in the wild, and there is little"
+    },
+    {
+     "id": "iucn-wildcats-1996:p156:c02",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 156,
+     "metadata": {
+      "region": "The Americas",
+      "species": "Puma",
+      "section": "Principal Threats",
+      "char_start": 449,
+      "char_end": 1440,
+      "day6_index": "B"
+     },
+     "score": 3.830429,
+     "rank": 2,
+     "strategy": "dense+rerank",
+     "base_rank": 1,
+     "base_score": 0.873559,
+     "hit": false,
+     "preview": "The species has been exploited commercially since the international cat skin trade boomed in the late 1960s with nearly 350,000 skins exported from Argentina al"
+    },
+    {
+     "id": "iucn-wildcats-1996:p148:c04",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 148,
+     "metadata": {
+      "region": "The Americas",
+      "species": "Oncilla",
+      "section": "Principal Threats",
+      "char_start": 2795,
+      "char_end": 3444,
+      "day6_index": "B"
+     },
+     "score": 2.986329,
+     "rank": 3,
+     "strategy": "dense+rerank",
+     "base_rank": 3,
+     "base_score": 0.832917,
+     "hit": false,
+     "preview": "## Principal Threats\n\nIt is difficult to assess threats to the oncilla when so little is known about it. Coffee plantations are often established in cloud fores"
+    },
+    {
+     "id": "iucn-wildcats-1996:p163:c04",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 163,
+     "metadata": {
+      "region": "The Americas",
+      "species": "Ocelot",
+      "section": "Population Status",
+      "char_start": 3300,
+      "char_end": 4292,
+      "day6_index": "B"
+     },
+     "score": 0.513712,
+     "rank": 4,
+     "strategy": "dense+rerank",
+     "base_rank": 15,
+     "base_score": 0.805506,
+     "hit": false,
+     "preview": "## Population Status\n\nGlobal: Category 5a. Regional: Category 4. IUCN: not listed. The ocelot was the spotted cat most heavily exploited by the fur trade from t"
+    },
+    {
+     "id": "iucn-wildcats-1996:p171:c02",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 171,
+     "metadata": {
+      "region": "The Americas",
+      "species": "Jaguarundi",
+      "section": "Principal Threats",
+      "char_start": 839,
+      "char_end": 1504,
+      "day6_index": "B"
+     },
+     "score": 0.03407,
+     "rank": 5,
+     "strategy": "dense+rerank",
+     "base_rank": 12,
+     "base_score": 0.810914,
+     "hit": false,
+     "preview": "## Principal Threats\n\nThe pampas region of Argentina and Uruguay has been heavily settled and grazed relative to other regions, and the status of the species sh"
+    },
+    {
+     "id": "iucn-wildcats-1996:p131:c00",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 131,
+     "metadata": {
+      "region": "Eurasia",
+      "species": "Iberian Lynx",
+      "section": "Account header",
+      "char_start": 0,
+      "char_end": 738,
+      "day6_index": "B"
+     },
+     "score": -0.280306,
+     "rank": 6,
+     "strategy": "dense+rerank",
+     "base_rank": 4,
+     "base_score": 0.832815,
+     "hit": false,
+     "preview": "unpubl. data). There was a surge in exports from China from 1984- 1988, with a peak of over 12,000 skins in 1986 (WCMC unpubl. data). This trade was probably in"
+    },
+    {
+     "id": "iucn-wildcats-1996:p112:c06",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 112,
+     "metadata": {
+      "region": "Tropical Asia",
+      "species": "Leopard cat",
+      "section": "Principal Threats",
+      "char_start": 3858,
+      "char_end": 4833,
+      "day6_index": "B"
+     },
+     "score": -2.095447,
+     "rank": 7,
+     "strategy": "dense+rerank",
+     "base_rank": 9,
+     "base_score": 0.817997,
+     "hit": false,
+     "preview": "In China, the center of its range, commercial exploitation has been heavy, especially in the southwest (Yu Jinping in Zitt. 1993). Exports from China jumped in "
+    },
+    {
+     "id": "iucn-wildcats-1996:p150:c01",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 150,
+     "metadata": {
+      "region": "The Americas",
+      "species": "Margay",
+      "section": "Principal Threats",
+      "char_start": 382,
+      "char_end": 709,
+      "day6_index": "B"
+     },
+     "score": -2.447742,
+     "rank": 8,
+     "strategy": "dense+rerank",
+     "base_rank": 13,
+     "base_score": 0.809809,
+     "hit": false,
+     "preview": "## Principal Threats\n\nThe margay has been one of the most heavily exploited Latin American cats, with an average annual net trade reported to CITES of 13,934 sk"
+    },
+    {
+     "id": "iucn-wildcats-1996:p124:c04",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 124,
+     "metadata": {
+      "region": "Eurasia",
+      "species": "Asiatic wildcat",
+      "section": "Principal Threats",
+      "char_start": 2502,
+      "char_end": 3475,
+      "day6_index": "B"
+     },
+     "score": -3.248677,
+     "rank": 9,
+     "strategy": "dense+rerank",
+     "base_rank": 22,
+     "base_score": 0.796484,
+     "hit": false,
+     "preview": "## Principal Threats\n\nAlthough there has been little recent international trade, the manul has long been hunted for its fur in relatively large numbers. Western"
+    },
+    {
+     "id": "iucn-wildcats-1996:p054:c04",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 54,
+     "metadata": {
+      "region": "Sub-Saharan Africa",
+      "species": "Leopard",
+      "section": "Protection Status",
+      "char_start": 2324,
+      "char_end": 3306,
+      "day6_index": "B"
+     },
+     "score": -4.571292,
+     "rank": 10,
+     "strategy": "dense+rerank",
+     "base_rank": 24,
+     "base_score": 0.795923,
+     "hit": false,
+     "preview": "CITES Appendix I. A system has been in place since 1983 by which selected African countries accept an annual quota for the export of legitimate sport hunting tr"
+    }
+   ]
+  },
+  {
+   "query_id": "n06",
+   "type": "metadata_filter",
+   "question": "According to Pocock, what colour are rain forest leopards in this region?",
+   "filter": {
+    "region": "Sub-Saharan Africa"
+   },
+   "ms": 217.3,
+   "first_hit_rank": 1,
+   "hit1": true,
+   "hit3": true,
+   "hit10": true,
+   "context_hit": true,
+   "context_ids": [
+    "iucn-wildcats-1996:p050:c00",
+    "iucn-wildcats-1996:p053:c06",
+    "iucn-wildcats-1996:p054:c01"
+   ],
+   "context_chars": 2286,
+   "gold_pages": [
+    50
+   ],
+   "results": [
+    {
+     "id": "iucn-wildcats-1996:p050:c00",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 50,
+     "metadata": {
+      "region": "Sub-Saharan Africa",
+      "species": "Leopard",
+      "section": "Description and Behavior",
+      "char_start": 0,
+      "char_end": 774,
+      "day6_index": "B"
+     },
+     "score": 7.201044,
+     "rank": 1,
+     "strategy": "dense+rerank",
+     "base_rank": 1,
+     "base_score": 0.869146,
+     "hit": true,
+     "preview": "lower limbs and belly are spotted with solid black. Coat color and patterning are broadly associated with habitat type. Pocock (1932a) found the following trend"
+    },
+    {
+     "id": "iucn-wildcats-1996:p053:c06",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 53,
+     "metadata": {
+      "region": "Sub-Saharan Africa",
+      "species": "Leopard",
+      "section": "Population Status",
+      "char_start": 4205,
+      "char_end": 4930,
+      "day6_index": "B"
+     },
+     "score": 0.360107,
+     "rank": 2,
+     "strategy": "dense+rerank",
+     "base_rank": 5,
+     "base_score": 0.807851,
+     "hit": false,
+     "preview": "Biologists working in central African rain forest all describe the leopard as common (M. Agnanga, R. Barnes, A. Blom, J. Hart, S. Lahm in Zitt. 1993). The rainf"
+    },
+    {
+     "id": "iucn-wildcats-1996:p054:c01",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 54,
+     "metadata": {
+      "region": "Sub-Saharan Africa",
+      "species": "Leopard",
+      "section": "Population Status",
+      "char_start": 583,
+      "char_end": 1132,
+      "day6_index": "B"
+     },
+     "score": -0.449939,
+     "rank": 3,
+     "strategy": "dense+rerank",
+     "base_rank": 7,
+     "base_score": 0.803908,
+     "hit": false,
+     "preview": "Leopards appear to be least numerous in west Africa, possibly due to high levels of hunting for their skins, and depletion of prey due to the trade in bushmeat "
+    },
+    {
+     "id": "iucn-wildcats-1996:p049:c07",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 49,
+     "metadata": {
+      "region": "Sub-Saharan Africa",
+      "species": "Leopard",
+      "section": "Description and Behavior",
+      "char_start": 4776,
+      "char_end": 5048,
+      "day6_index": "B"
+     },
+     "score": -0.911007,
+     "rank": 4,
+     "strategy": "dense+rerank",
+     "base_rank": 25,
+     "base_score": 0.785514,
+     "hit": false,
+     "preview": "## Description and Behavior\n\n(Plate 1) The leopard has the widest distribution of the wild cats, and shows great variation in appearance and behavior. In genera"
+    },
+    {
+     "id": "iucn-wildcats-1996:p051:c01",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 51,
+     "metadata": {
+      "region": "Sub-Saharan Africa",
+      "species": "Leopard",
+      "section": "Description and Behavior",
+      "char_start": 0,
+      "char_end": 907,
+      "day6_index": "B"
+     },
+     "score": -1.00609,
+     "rank": 5,
+     "strategy": "dense+rerank",
+     "base_rank": 13,
+     "base_score": 0.795841,
+     "hit": false,
+     "preview": "In addition, leopards have been seen to either kill or prey on small competitors, e.g. black-backed jackal (Estes 1967), African wild cat (Mills 1990) and the c"
+    },
+    {
+     "id": "iucn-wildcats-1996:p050:c03",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 50,
+     "metadata": {
+      "region": "Sub-Saharan Africa",
+      "species": "Leopard",
+      "section": "Description and Behavior",
+      "char_start": 1117,
+      "char_end": 1959,
+      "day6_index": "B"
+     },
+     "score": -1.082124,
+     "rank": 6,
+     "strategy": "dense+rerank",
+     "base_rank": 3,
+     "base_score": 0.809908,
+     "hit": false,
+     "preview": "In the rain forest of the Ivory Coast's Tai National Park, on the other hand, a male leopard was captured which weighed 56 kg (Jenny 1993), and two females weig"
+    },
+    {
+     "id": "iucn-wildcats-1996:p057:c07",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 57,
+     "metadata": {
+      "region": "Sub-Saharan Africa",
+      "species": "African wildcat",
+      "section": "Description and Behavior",
+      "char_start": 4140,
+      "char_end": 4967,
+      "day6_index": "B"
+     },
+     "score": -1.12508,
+     "rank": 7,
+     "strategy": "dense+rerank",
+     "base_rank": 11,
+     "base_score": 0.797575,
+     "hit": false,
+     "preview": "## Description and Behavior\n\n(Plate 3) The wildcat has a very large geographic range, and varies locally in appearance. In general, from north to south there is"
+    },
+    {
+     "id": "iucn-wildcats-1996:p037:c06",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 37,
+     "metadata": {
+      "region": "Sub-Saharan Africa",
+      "species": "Cheetah",
+      "section": "Description and Behavior",
+      "char_start": 3942,
+      "char_end": 4941,
+      "day6_index": "B"
+     },
+     "score": -2.048298,
+     "rank": 8,
+     "strategy": "dense+rerank",
+     "base_rank": 21,
+     "base_score": 0.787526,
+     "hit": false,
+     "preview": "Cheetahs are pale yellow with white underbellies, covered all over with small round black spots. They are readily distinguished from their spotted relatives by "
+    },
+    {
+     "id": "iucn-wildcats-1996:p053:c05",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 53,
+     "metadata": {
+      "region": "Sub-Saharan Africa",
+      "species": "Leopard",
+      "section": "Population Status",
+      "char_start": 2411,
+      "char_end": 3325,
+      "day6_index": "B"
+     },
+     "score": -2.153802,
+     "rank": 9,
+     "strategy": "dense+rerank",
+     "base_rank": 12,
+     "base_score": 0.796371,
+     "hit": false,
+     "preview": "The herbivore biomass could be in the form of very large species (elephant, buffalo, hippopotamus) or herd-forming species (zebra and wildebeest), which provide"
+    },
+    {
+     "id": "iucn-wildcats-1996:p052:c02",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 52,
+     "metadata": {
+      "region": "Sub-Saharan Africa",
+      "species": "Leopard",
+      "section": "Habitat and Distribution",
+      "char_start": 349,
+      "char_end": 1112,
+      "day6_index": "B"
+     },
+     "score": -2.432446,
+     "rank": 10,
+     "strategy": "dense+rerank",
+     "base_rank": 16,
+     "base_score": 0.792667,
+     "hit": false,
+     "preview": "Kruger II complex (South\n\noccupies both rain forest and arid desert habitats. Leopards\n\nrange exceptionally up to 5,700 m, where a carcass was\n\ndiscovered on th"
+    }
+   ]
+  },
+  {
+   "query_id": "n07",
+   "type": "paraphrase",
+   "question": "Which Asian cat is named after its markings of ellipses partly edged in black?",
+   "filter": null,
+   "ms": 205.7,
+   "first_hit_rank": 1,
+   "hit1": true,
+   "hit3": true,
+   "hit10": true,
+   "context_hit": true,
+   "context_ids": [
+    "iucn-wildcats-1996:p091:c05",
+    "iucn-wildcats-1996:p090:c05"
+   ],
+   "context_chars": 2083,
+   "gold_pages": [
+    91
+   ],
+   "results": [
+    {
+     "id": "iucn-wildcats-1996:p091:c05",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 91,
+     "metadata": {
+      "region": "Tropical Asia",
+      "species": "Clouded leopard",
+      "section": "Description and Behavior",
+      "char_start": 2086,
+      "char_end": 3080,
+      "day6_index": "B"
+     },
+     "score": 5.95405,
+     "rank": 1,
+     "strategy": "dense+rerank",
+     "base_rank": 1,
+     "base_score": 0.814522,
+     "hit": true,
+     "preview": "(Plate 8) The clouded leopard is named after its distinctive markings-ellipses partially edged in black, with the insides a darker color than the background col"
+    },
+    {
+     "id": "iucn-wildcats-1996:p090:c05",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 90,
+     "metadata": {
+      "region": "Tropical Asia",
+      "species": "Bornean bay cat",
+      "section": "Description and Behavior",
+      "char_start": 3125,
+      "char_end": 4050,
+      "day6_index": "B"
+     },
+     "score": 1.855483,
+     "rank": 2,
+     "strategy": "dense+rerank",
+     "base_rank": 20,
+     "base_score": 0.80401,
+     "hit": false,
+     "preview": "The Bornean bay cat has two color phases: chestnutred, the more common, and grey (Pocock 1932, Sunquist et al. 1994b). The coat of the 1992 female was speckled "
+    },
+    {
+     "id": "iucn-wildcats-1996:p121:c02",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 121,
+     "metadata": {
+      "region": "Eurasia",
+      "species": "Chinese mountain cat",
+      "section": "Description and Behavior",
+      "char_start": 285,
+      "char_end": 1222,
+      "day6_index": "B"
+     },
+     "score": -1.659528,
+     "rank": 3,
+     "strategy": "dense+rerank",
+     "base_rank": 24,
+     "base_score": 0.803465,
+     "hit": false,
+     "preview": "## Description and Behavior\n\n(Plate 11) The Chinese mountain cat, endemic to China, is one of the least-known cats. It has a stocky build, with relatively short"
+    },
+    {
+     "id": "iucn-wildcats-1996:p080:c05",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 80,
+     "metadata": {
+      "region": "Tropical Asia",
+      "species": "Tiger",
+      "section": "Description and Behavior",
+      "char_start": 2911,
+      "char_end": 3749,
+      "day6_index": "B"
+     },
+     "score": -2.118806,
+     "rank": 4,
+     "strategy": "dense+rerank",
+     "base_rank": 8,
+     "base_score": 0.809108,
+     "hit": false,
+     "preview": "Stripe patterns differ among individual tigers and from one side of the cat's body to the other. The stripes vary in number, as well as width and propensity to "
+    },
+    {
+     "id": "iucn-wildcats-1996:p080:c06",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 80,
+     "metadata": {
+      "region": "Tropical Asia",
+      "species": "Tiger",
+      "section": "Description and Behavior",
+      "char_start": 3751,
+      "char_end": 4737,
+      "day6_index": "B"
+     },
+     "score": -2.26321,
+     "rank": 5,
+     "strategy": "dense+rerank",
+     "base_rank": 2,
+     "base_score": 0.812294,
+     "hit": false,
+     "preview": "Black tigers have been reported occasionally (Burton 1933, Perry 1964, Guggisberg 1975, Mazak 1981), but the only physical evidence rests with a skin recovered "
+    },
+    {
+     "id": "iucn-wildcats-1996:p099:c02",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 99,
+     "metadata": {
+      "region": "Tropical Asia",
+      "species": "Fishing cat",
+      "section": "Description and Behavior",
+      "char_start": 1114,
+      "char_end": 2287,
+      "day6_index": "B"
+     },
+     "score": -2.529873,
+     "rank": 6,
+     "strategy": "dense+rerank",
+     "base_rank": 23,
+     "base_score": 0.803628,
+     "hit": false,
+     "preview": "## Description and Behavior\n\n(Plate 10) The fishing cat, with its stocky, powerful build and short legs, was given its Latin name on account of its rather viver"
+    },
+    {
+     "id": "iucn-wildcats-1996:p126:c04",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 126,
+     "metadata": {
+      "region": "Eurasia",
+      "species": "Eurasian lynx",
+      "section": "Principal Threats",
+      "char_start": 2079,
+      "char_end": 2971,
+      "day6_index": "B"
+     },
+     "score": -3.158812,
+     "rank": 7,
+     "strategy": "dense+rerank",
+     "base_rank": 7,
+     "base_score": 0.809403,
+     "hit": false,
+     "preview": "Hybridization with domestic cats has been reported from Pakistan (Roberts 1977 and in Zitt. 1993) and central Asia. Heptner and Sludskii (1972: 491) state that "
+    },
+    {
+     "id": "iucn-wildcats-1996:p033:c02",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 33,
+     "metadata": {
+      "region": "Sub-Saharan Africa",
+      "species": "Black-footed cat",
+      "section": "Description and Behavior",
+      "char_start": 426,
+      "char_end": 1066,
+      "day6_index": "B"
+     },
+     "score": -3.373899,
+     "rank": 8,
+     "strategy": "dense+rerank",
+     "base_rank": 18,
+     "base_score": 0.804828,
+     "hit": false,
+     "preview": "## Description and Behavior\n\n(Plate 3) The black-footed cat is among the world's smallest felines, with females weighing around 1.2 kg (range 0.8 1.6) and males"
+    },
+    {
+     "id": "iucn-wildcats-1996:p057:c07",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 57,
+     "metadata": {
+      "region": "Sub-Saharan Africa",
+      "species": "African wildcat",
+      "section": "Description and Behavior",
+      "char_start": 4140,
+      "char_end": 4967,
+      "day6_index": "B"
+     },
+     "score": -3.42097,
+     "rank": 9,
+     "strategy": "dense+rerank",
+     "base_rank": 14,
+     "base_score": 0.807044,
+     "hit": false,
+     "preview": "## Description and Behavior\n\n(Plate 3) The wildcat has a very large geographic range, and varies locally in appearance. In general, from north to south there is"
+    },
+    {
+     "id": "iucn-wildcats-1996:p033:c00",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 33,
+     "metadata": {
+      "region": "Sub-Saharan Africa",
+      "species": "Black-footed cat",
+      "section": "Account header",
+      "char_start": 0,
+      "char_end": 48,
+      "day6_index": "B"
+     },
+     "score": -3.942602,
+     "rank": 10,
+     "strategy": "dense+rerank",
+     "base_rank": 12,
+     "base_score": 0.807478,
+     "hit": false,
+     "preview": "Black-footed cat, Fe/is\n\nnigripes Burchell, 1824"
+    }
+   ]
+  },
+  {
+   "query_id": "n08",
+   "type": "direct",
+   "question": "What is the average reproductive life span of female tigers in Chitwan?",
+   "filter": null,
+   "ms": 225.8,
+   "first_hit_rank": 1,
+   "hit1": true,
+   "hit3": true,
+   "hit10": true,
+   "context_hit": true,
+   "context_ids": [
+    "iucn-wildcats-1996:p083:c01",
+    "iucn-wildcats-1996:p082:c01",
+    "iucn-wildcats-1996:p082:c07"
+   ],
+   "context_chars": 2612,
+   "gold_pages": [
+    83
+   ],
+   "results": [
+    {
+     "id": "iucn-wildcats-1996:p083:c01",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 83,
+     "metadata": {
+      "region": "Tropical Asia",
+      "species": "Tiger",
+      "section": "Biology",
+      "char_start": 657,
+      "char_end": 1665,
+      "day6_index": "B"
+     },
+     "score": 8.92436,
+     "rank": 1,
+     "strategy": "dense+rerank",
+     "base_rank": 1,
+     "base_score": 0.920896,
+     "hit": true,
+     "preview": "L$etime reproduction: Data collected over nearly 20 years by the long-term tiger population monitoring project at Nepal's Chitwan National Park enabled Smith an"
+    },
+    {
+     "id": "iucn-wildcats-1996:p082:c01",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 82,
+     "metadata": {
+      "region": "Tropical Asia",
+      "species": "Tiger",
+      "section": "Description and Behavior",
+      "char_start": 172,
+      "char_end": 1052,
+      "day6_index": "B"
+     },
+     "score": 1.374907,
+     "rank": 2,
+     "strategy": "dense+rerank",
+     "base_rank": 2,
+     "base_score": 0.847319,
+     "hit": false,
+     "preview": "A tiger eats 18-40 kg of meat at a time (Baikov 1925, Locke 1954, Schaller 1967) beginning from the rump. If undisturbed, it returns to its kill for 3-6 days to"
+    },
+    {
+     "id": "iucn-wildcats-1996:p082:c07",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 82,
+     "metadata": {
+      "region": "Tropical Asia",
+      "species": "Tiger",
+      "section": "Biology",
+      "char_start": 5071,
+      "char_end": 5578,
+      "day6_index": "B"
+     },
+     "score": 1.33703,
+     "rank": 3,
+     "strategy": "dense+rerank",
+     "base_rank": 4,
+     "base_score": 0.838509,
+     "hit": false,
+     "preview": "Litter size: (W) mean 2.98 (range 2-5, n=49 in Chitwan NP: Smith and McDougal 1991); range l-7 (Brander 1923). Observations of females with cubs indicate that 2"
+    },
+    {
+     "id": "iucn-wildcats-1996:p086:c01",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 86,
+     "metadata": {
+      "region": "Tropical Asia",
+      "species": "Tiger",
+      "section": "Population Status",
+      "char_start": 710,
+      "char_end": 1677,
+      "day6_index": "B"
+     },
+     "score": 0.589404,
+     "rank": 4,
+     "strategy": "dense+rerank",
+     "base_rank": 3,
+     "base_score": 0.842376,
+     "hit": false,
+     "preview": "Tigers require adequate prey, cover, and water. Their ranges vary in accordance with prey densities. While females need ranges suitable for raising cubs, males "
+    },
+    {
+     "id": "iucn-wildcats-1996:p082:c06",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 82,
+     "metadata": {
+      "region": "Tropical Asia",
+      "species": "Tiger",
+      "section": "Biology",
+      "char_start": 4174,
+      "char_end": 5069,
+      "day6_index": "B"
+     },
+     "score": -0.857654,
+     "rank": 5,
+     "strategy": "dense+rerank",
+     "base_rank": 9,
+     "base_score": 0.82637,
+     "hit": false,
+     "preview": "## Biology\n\nReproductive season: (W) Mating takes place year-round, but most frequently from end November to early April (Mazak 198 1); Manchuria: December-Febr"
+    },
+    {
+     "id": "iucn-wildcats-1996:p051:c05",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 51,
+     "metadata": {
+      "region": "Sub-Saharan Africa",
+      "species": "Leopard",
+      "section": "Biology",
+      "char_start": 4275,
+      "char_end": 4892,
+      "day6_index": "B"
+     },
+     "score": -1.222775,
+     "rank": 6,
+     "strategy": "dense+rerank",
+     "base_rank": 13,
+     "base_score": 0.823695,
+     "hit": false,
+     "preview": "Sex ratio of resident adults: (W) 1 male: 1.8 females (Bailey 1993, Hamilton 198 1).\n\nAge at last reproduction: (C) average 8.5 years at one zoo (females: Eaton"
+    },
+    {
+     "id": "iucn-wildcats-1996:p063:c00",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 63,
+     "metadata": {
+      "region": "North Africa and Southwest Asia",
+      "species": "Asiatic lion",
+      "section": "Biology",
+      "char_start": 0,
+      "char_end": 722,
+      "day6_index": "B"
+     },
+     "score": -1.655838,
+     "rank": 7,
+     "strategy": "dense+rerank",
+     "base_rank": 6,
+     "base_score": 0.832479,
+     "hit": false,
+     "preview": "and Johnsingh 1993a). In captivity, records from the Sakkarbaug Zoo, which maintains the largest captive population of Asiatic lions, also show a female bias (1"
+    },
+    {
+     "id": "iucn-wildcats-1996:p051:c04",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 51,
+     "metadata": {
+      "region": "Sub-Saharan Africa",
+      "species": "Leopard",
+      "section": "Biology",
+      "char_start": 3331,
+      "char_end": 4273,
+      "day6_index": "B"
+     },
+     "score": -1.831319,
+     "rank": 8,
+     "strategy": "dense+rerank",
+     "base_rank": 7,
+     "base_score": 0.831078,
+     "hit": false,
+     "preview": "Interbirth interval: (W) average 15 months (Martin and de Meulenaer 1988; these data include some shorter periods after litters did not survive) to over 2 years"
+    },
+    {
+     "id": "iucn-wildcats-1996:p065:c01",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 65,
+     "metadata": {
+      "region": "North Africa and Southwest Asia",
+      "species": "Asiatic lion",
+      "section": "Population Status",
+      "char_start": 157,
+      "char_end": 1112,
+      "day6_index": "B"
+     },
+     "score": -2.210874,
+     "rank": 9,
+     "strategy": "dense+rerank",
+     "base_rank": 5,
+     "base_score": 0.833276,
+     "hit": false,
+     "preview": "Radio-telemetry studies (Ravi Chellam 1993) estimate the mean annual home range of male lions at 110 km2, and females at 50 km? The ranges of male coalitions ar"
+    },
+    {
+     "id": "iucn-wildcats-1996:p085:c01",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 85,
+     "metadata": {
+      "region": "Tropical Asia",
+      "species": "Tiger",
+      "section": "Population Status",
+      "char_start": 203,
+      "char_end": 1145,
+      "day6_index": "B"
+     },
+     "score": -3.669276,
+     "rank": 10,
+     "strategy": "dense+rerank",
+     "base_rank": 30,
+     "base_score": 0.815376,
+     "hit": false,
+     "preview": "The Amoy, or South China tiger, (P.t. amoyensis), estimated by Lu and Sheng (1986) to number 4,000 in the early 1950s was virtually extirpated when officially h"
+    }
+   ]
+  },
+  {
+   "query_id": "n09",
+   "type": "paraphrase",
+   "question": "For how long have the surviving long-legged spotted cats of north Africa probably been cut off from populations south of the Sahara?",
+   "filter": null,
+   "ms": 234.8,
+   "first_hit_rank": null,
+   "hit1": false,
+   "hit3": false,
+   "hit10": false,
+   "context_hit": false,
+   "context_ids": [
+    "iucn-wildcats-1996:p044:c07",
+    "iucn-wildcats-1996:p033:c07",
+    "iucn-wildcats-1996:p048:c00"
+   ],
+   "context_chars": 1980,
+   "gold_pages": [
+    48
+   ],
+   "results": [
+    {
+     "id": "iucn-wildcats-1996:p044:c07",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 44,
+     "metadata": {
+      "region": "Sub-Saharan Africa",
+      "species": "African lion",
+      "section": "Habitat and Distribution",
+      "char_start": 4507,
+      "char_end": 4986,
+      "day6_index": "B"
+     },
+     "score": -2.722012,
+     "rank": 1,
+     "strategy": "dense+rerank",
+     "base_rank": 8,
+     "base_score": 0.833418,
+     "hit": false,
+     "preview": "The lion formerly ranged from northern Africa through southwest Asia (where it disappeared from most countries within the last 150 years), west into Europe, whe"
+    },
+    {
+     "id": "iucn-wildcats-1996:p033:c07",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 33,
+     "metadata": {
+      "region": "Sub-Saharan Africa",
+      "species": "Black-footed cat",
+      "section": "Habitat and Distribution",
+      "char_start": 4069,
+      "char_end": 4960,
+      "day6_index": "B"
+     },
+     "score": -2.908843,
+     "rank": 2,
+     "strategy": "dense+rerank",
+     "base_rank": 14,
+     "base_score": 0.829378,
+     "hit": false,
+     "preview": "## Habitat and Distribution\n\nThe black-footed cat is restricted to the arid lands of southern Africa (Fig. 1). It is typically associated with open, sandy, gras"
+    },
+    {
+     "id": "iucn-wildcats-1996:p048:c00",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 48,
+     "metadata": {
+      "region": "Sub-Saharan Africa",
+      "species": "Serval",
+      "section": "Habitat and Distribution",
+      "char_start": 0,
+      "char_end": 359,
+      "day6_index": "B"
+     },
+     "score": -3.145555,
+     "rank": 3,
+     "strategy": "dense+rerank",
+     "base_rank": 9,
+     "base_score": 0.831984,
+     "hit": false,
+     "preview": "(Shortridge 1934, Yalden et al. 1980, Stuart and Wilson 1988, A. Simonetta in Zitt. 1992).\n\nIn north Africa, relict populations may still be found in humid scru"
+    },
+    {
+     "id": "iucn-wildcats-1996:p073:c05",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 73,
+     "metadata": {
+      "region": "North Africa and Southwest Asia",
+      "species": "Sand cat",
+      "section": "Biology",
+      "char_start": 3728,
+      "char_end": 4792,
+      "day6_index": "B"
+     },
+     "score": -3.780605,
+     "rank": 4,
+     "strategy": "dense+rerank",
+     "base_rank": 21,
+     "base_score": 0.826371,
+     "hit": false,
+     "preview": "## Biology\n\nReproductive season: In the wild, births have been reported from January-April in the Sahara (Dragesco- Joffe 1993), in April in Turkmenistan (Ognev"
+    },
+    {
+     "id": "iucn-wildcats-1996:p163:c04",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 163,
+     "metadata": {
+      "region": "The Americas",
+      "species": "Ocelot",
+      "section": "Population Status",
+      "char_start": 3300,
+      "char_end": 4292,
+      "day6_index": "B"
+     },
+     "score": -4.326965,
+     "rank": 5,
+     "strategy": "dense+rerank",
+     "base_rank": 30,
+     "base_score": 0.824603,
+     "hit": false,
+     "preview": "## Population Status\n\nGlobal: Category 5a. Regional: Category 4. IUCN: not listed. The ocelot was the spotted cat most heavily exploited by the fur trade from t"
+    },
+    {
+     "id": "iucn-wildcats-1996:p066:c04",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 66,
+     "metadata": {
+      "region": "North Africa and Southwest Asia",
+      "species": "Cheetah",
+      "section": "Description and Behavior",
+      "char_start": 1843,
+      "char_end": 2739,
+      "day6_index": "B"
+     },
+     "score": -4.526194,
+     "rank": 6,
+     "strategy": "dense+rerank",
+     "base_rank": 6,
+     "base_score": 0.835471,
+     "hit": false,
+     "preview": "However, cheetahs living around the black rocks of the Saharan mountain ranges tend to retain the black spots common to sub-Saharan cheetahs. Dragesco-Joffe has"
+    },
+    {
+     "id": "iucn-wildcats-1996:p068:c03",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 68,
+     "metadata": {
+      "region": "North Africa and Southwest Asia",
+      "species": "Cheetah",
+      "section": "Habitat and Distribution",
+      "char_start": 2136,
+      "char_end": 3091,
+      "day6_index": "B"
+     },
+     "score": -4.727206,
+     "rank": 7,
+     "strategy": "dense+rerank",
+     "base_rank": 7,
+     "base_score": 0.834128,
+     "hit": false,
+     "preview": "It is possible that cheetahs occur sporadically in other parts of the Saharan and southwest Asian regions (such as Egypt's Qattara Depression, where tracks poss"
+    },
+    {
+     "id": "iucn-wildcats-1996:p060:c01",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 60,
+     "metadata": {
+      "region": "Sub-Saharan Africa",
+      "species": "African wildcat",
+      "section": "Principal Threats",
+      "char_start": 452,
+      "char_end": 1396,
+      "day6_index": "B"
+     },
+     "score": -5.015289,
+     "rank": 8,
+     "strategy": "dense+rerank",
+     "base_rank": 2,
+     "base_score": 0.84369,
+     "hit": false,
+     "preview": "Feral cats are found throughout the wildcat's range. Smithers (1986) reports that, in South Africa, it is now impossible to find pure wildcats anywhere in the v"
+    },
+    {
+     "id": "iucn-wildcats-1996:p060:c00",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 60,
+     "metadata": {
+      "region": "Sub-Saharan Africa",
+      "species": "African wildcat",
+      "section": "Principal Threats",
+      "char_start": 0,
+      "char_end": 450,
+      "day6_index": "B"
+     },
+     "score": -5.340371,
+     "rank": 9,
+     "strategy": "dense+rerank",
+     "base_rank": 27,
+     "base_score": 0.825105,
+     "hit": false,
+     "preview": "occurrence, in many places, at higher densities. Hybridization in captivity has shown that distinctive characteristics of the African wildcat, such as its long "
+    },
+    {
+     "id": "iucn-wildcats-1996:p075:c02",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 75,
+     "metadata": {
+      "region": "North Africa and Southwest Asia",
+      "species": "Caracal",
+      "section": "Population Status",
+      "char_start": 1436,
+      "char_end": 2257,
+      "day6_index": "B"
+     },
+     "score": -6.69883,
+     "rank": 10,
+     "strategy": "dense+rerank",
+     "base_rank": 18,
+     "base_score": 0.828017,
+     "hit": false,
+     "preview": "## Population Status\n\nGlobal: Category 4. Regional: Category 4. IUCN: Insufficiently Known; schefleli (Pakistan) Endangered. Although the sand cat has been freq"
+    }
+   ]
+  },
+  {
+   "query_id": "n10",
+   "type": "direct",
+   "question": "How many manul skins were reportedly taken each year in Mongolia in the early 1900s?",
+   "filter": null,
+   "ms": 223.2,
+   "first_hit_rank": 1,
+   "hit1": true,
+   "hit3": true,
+   "hit10": true,
+   "context_hit": true,
+   "context_ids": [
+    "iucn-wildcats-1996:p124:c04",
+    "iucn-wildcats-1996:p123:c01",
+    "iucn-wildcats-1996:p131:c00"
+   ],
+   "context_chars": 2861,
+   "gold_pages": [
+    124
+   ],
+   "results": [
+    {
+     "id": "iucn-wildcats-1996:p124:c04",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 124,
+     "metadata": {
+      "region": "Eurasia",
+      "species": "Asiatic wildcat",
+      "section": "Principal Threats",
+      "char_start": 2502,
+      "char_end": 3475,
+      "day6_index": "B"
+     },
+     "score": 8.0536,
+     "rank": 1,
+     "strategy": "dense+rerank",
+     "base_rank": 1,
+     "base_score": 0.849079,
+     "hit": true,
+     "preview": "## Principal Threats\n\nAlthough there has been little recent international trade, the manul has long been hunted for its fur in relatively large numbers. Western"
+    },
+    {
+     "id": "iucn-wildcats-1996:p123:c01",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 123,
+     "metadata": {
+      "region": "Eurasia",
+      "species": "Manul",
+      "section": "Description and Behavior",
+      "char_start": 0,
+      "char_end": 931,
+      "day6_index": "B"
+     },
+     "score": -1.34539,
+     "rank": 2,
+     "strategy": "dense+rerank",
+     "base_rank": 2,
+     "base_score": 0.82349,
+     "hit": false,
+     "preview": "The barking call of the manul is similar also to that of the sand cat (Heptner and Sludskii 1972) and, likewise, the low profile of its head is an adaptation to"
+    },
+    {
+     "id": "iucn-wildcats-1996:p131:c00",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 131,
+     "metadata": {
+      "region": "Eurasia",
+      "species": "Iberian Lynx",
+      "section": "Account header",
+      "char_start": 0,
+      "char_end": 738,
+      "day6_index": "B"
+     },
+     "score": -1.5367,
+     "rank": 3,
+     "strategy": "dense+rerank",
+     "base_rank": 8,
+     "base_score": 0.797947,
+     "hit": false,
+     "preview": "unpubl. data). There was a surge in exports from China from 1984- 1988, with a peak of over 12,000 skins in 1986 (WCMC unpubl. data). This trade was probably in"
+    },
+    {
+     "id": "iucn-wildcats-1996:p112:c06",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 112,
+     "metadata": {
+      "region": "Tropical Asia",
+      "species": "Leopard cat",
+      "section": "Principal Threats",
+      "char_start": 3858,
+      "char_end": 4833,
+      "day6_index": "B"
+     },
+     "score": -1.857644,
+     "rank": 4,
+     "strategy": "dense+rerank",
+     "base_rank": 12,
+     "base_score": 0.793183,
+     "hit": false,
+     "preview": "In China, the center of its range, commercial exploitation has been heavy, especially in the southwest (Yu Jinping in Zitt. 1993). Exports from China jumped in "
+    },
+    {
+     "id": "iucn-wildcats-1996:p085:c01",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 85,
+     "metadata": {
+      "region": "Tropical Asia",
+      "species": "Tiger",
+      "section": "Population Status",
+      "char_start": 203,
+      "char_end": 1145,
+      "day6_index": "B"
+     },
+     "score": -1.866964,
+     "rank": 5,
+     "strategy": "dense+rerank",
+     "base_rank": 16,
+     "base_score": 0.79138,
+     "hit": false,
+     "preview": "The Amoy, or South China tiger, (P.t. amoyensis), estimated by Lu and Sheng (1986) to number 4,000 in the early 1950s was virtually extirpated when officially h"
+    },
+    {
+     "id": "iucn-wildcats-1996:p156:c02",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 156,
+     "metadata": {
+      "region": "The Americas",
+      "species": "Puma",
+      "section": "Principal Threats",
+      "char_start": 449,
+      "char_end": 1440,
+      "day6_index": "B"
+     },
+     "score": -3.537948,
+     "rank": 6,
+     "strategy": "dense+rerank",
+     "base_rank": 14,
+     "base_score": 0.792357,
+     "hit": false,
+     "preview": "The species has been exploited commercially since the international cat skin trade boomed in the late 1960s with nearly 350,000 skins exported from Argentina al"
+    },
+    {
+     "id": "iucn-wildcats-1996:p124:c02",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 124,
+     "metadata": {
+      "region": "Eurasia",
+      "species": "Asiatic wildcat",
+      "section": "Population Status",
+      "char_start": 1269,
+      "char_end": 2153,
+      "day6_index": "B"
+     },
+     "score": -3.768901,
+     "rank": 7,
+     "strategy": "dense+rerank",
+     "base_rank": 3,
+     "base_score": 0.822125,
+     "hit": false,
+     "preview": "## Population Status\n\nGlobal: Category 4. Regional (Asia): Category 2. IUCN: Insufficiently Known. The manul has been described as most abundant on the cold gra"
+    },
+    {
+     "id": "iucn-wildcats-1996:p120:c07",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 120,
+     "metadata": {
+      "region": "Eurasia",
+      "species": "Snow leopard",
+      "section": "Principal Threats",
+      "char_start": 4239,
+      "char_end": 5294,
+      "day6_index": "B"
+     },
+     "score": -4.878886,
+     "rank": 8,
+     "strategy": "dense+rerank",
+     "base_rank": 4,
+     "base_score": 0.804705,
+     "hit": false,
+     "preview": "There is demand for snow leopard bones for use as substitutes for tiger bone from the Chinese medicine trade (Liao and Tan 1988). Traders will pay up to U.S. $1"
+    },
+    {
+     "id": "iucn-wildcats-1996:p089:c03",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 89,
+     "metadata": {
+      "region": "Tropical Asia",
+      "species": "Tiger",
+      "section": "Principal Threats",
+      "char_start": 1910,
+      "char_end": 2665,
+      "day6_index": "B"
+     },
+     "score": -5.340001,
+     "rank": 9,
+     "strategy": "dense+rerank",
+     "base_rank": 11,
+     "base_score": 0.793453,
+     "hit": false,
+     "preview": "Tigers are shot or poisoned for livestock predation and for financial gain. Large numbers of tigers were killed in the 20th century in Russia and China where th"
+    },
+    {
+     "id": "iucn-wildcats-1996:p089:c06",
+     "source_id": "iucn-wildcats-1996",
+     "source": "https://portals.iucn.org/library/efiles/documents/1996-008.pdf",
+     "page": 89,
+     "metadata": {
+      "region": "Tropical Asia",
+      "species": "Tiger",
+      "section": "Principal Threats",
+      "char_start": 3194,
+      "char_end": 3660,
+      "day6_index": "B"
+     },
+     "score": -5.527464,
+     "rank": 10,
+     "strategy": "dense+rerank",
+     "base_rank": 25,
+     "base_score": 0.782353,
+     "hit": false,
+     "preview": "Ranjitsinh, pers. comm.), tiger populations became more vulnerable as habitat decreased, particularly after World War II. Sport hunters from Europe and the Amer"
+    }
+   ]
+  }
+ ],
+ "unanswerable_probe": [
+  {
+   "query_id": "u04",
+   "ms": 216.9,
+   "top1_score": 4.800105,
+   "top3": [
+    {
+     "id": "iucn-wildcats-1996:p133:c01",
+     "page": 133,
+     "score": 4.800105
+    },
+    {
+     "id": "iucn-wildcats-1996:p132:c02",
+     "page": 132,
+     "score": -0.329309
+    },
+    {
+     "id": "iucn-wildcats-1996:p131:c03",
+     "page": 131,
+     "score": -0.582941
+    }
+   ]
+  },
+  {
+   "query_id": "u05",
+   "ms": 210.3,
+   "top1_score": -0.543876,
+   "top3": [
+    {
+     "id": "iucn-wildcats-1996:p163:c03",
+     "page": 163,
+     "score": -0.543876
+    },
+    {
+     "id": "iucn-wildcats-1996:p163:c04",
+     "page": 163,
+     "score": -2.566632
+    },
+    {
+     "id": "iucn-wildcats-1996:p165:c02",
+     "page": 165,
+     "score": -4.157563
+    }
+   ]
+  },
+  {
+   "query_id": "u06",
+   "ms": 217.2,
+   "top1_score": 3.586648,
+   "top3": [
+    {
+     "id": "iucn-wildcats-1996:p090:c05",
+     "page": 90,
+     "score": 3.586648
+    },
+    {
+     "id": "iucn-wildcats-1996:p090:c04",
+     "page": 90,
+     "score": 1.785241
+    },
+    {
+     "id": "iucn-wildcats-1996:p091:c00",
+     "page": 91,
+     "score": -0.990452
+    }
+   ]
+  }
+ ]
+}

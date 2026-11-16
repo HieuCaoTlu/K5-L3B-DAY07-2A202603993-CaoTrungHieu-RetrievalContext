@@ -1,0 +1,449 @@
+[
+ {
+  "id": "d01",
+  "split": "dev",
+  "question": "How much do adult male African golden cats weigh?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "type": "direct"
+ },
+ {
+  "id": "d02",
+  "split": "dev",
+  "question": "What usually happens to a lioness's dependent cubs when new males take over her pride?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "type": "condition_exception"
+ },
+ {
+  "id": "d03",
+  "split": "dev",
+  "question": "Which wild African cat is so similar to the house cat that the two are hard to tell apart in the field?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "type": "paraphrase"
+ },
+ {
+  "id": "d04",
+  "split": "dev",
+  "question": "When do cheetahs living in this region's mountains often hunt, and why?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "type": "metadata_filter",
+  "filter": {
+   "region": "North Africa and Southwest Asia"
+  }
+ },
+ {
+  "id": "d05",
+  "split": "dev",
+  "question": "How do caracals of this region differ in size and fur from those further south?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "type": "metadata_filter",
+  "filter": {
+   "region": "North Africa and Southwest Asia"
+  }
+ },
+ {
+  "id": "d06",
+  "split": "dev",
+  "question": "Where do the last surviving lions of this region live?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "type": "metadata_filter",
+  "filter": {
+   "region": "North Africa and Southwest Asia"
+  }
+ },
+ {
+  "id": "d07",
+  "split": "dev",
+  "question": "How does the sand cat get the water it needs?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "type": "direct"
+ },
+ {
+  "id": "d08",
+  "split": "dev",
+  "question": "What coat colours does the golden cat of this region show?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "type": "metadata_filter",
+  "filter": {
+   "region": "Tropical Asia"
+  }
+ },
+ {
+  "id": "d09",
+  "split": "dev",
+  "question": "Why is the reddish cat of Borneo described as a mystery, given how it is known to science?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "type": "paraphrase"
+ },
+ {
+  "id": "d10",
+  "split": "dev",
+  "question": "What is the primary threat to the fishing cat?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "type": "direct"
+ },
+ {
+  "id": "d11",
+  "split": "dev",
+  "question": "How does water pollution threaten the flat-headed cat?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "type": "direct"
+ },
+ {
+  "id": "d12",
+  "split": "dev",
+  "question": "Which cat lives on just one small Japanese island of under 300 square kilometres?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "type": "paraphrase"
+ },
+ {
+  "id": "d13",
+  "split": "dev",
+  "question": "Is the jungle cat really a forest animal, as its name suggests?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "type": "condition_exception"
+ },
+ {
+  "id": "d14",
+  "split": "dev",
+  "question": "How does the leopard cat's coat colour change between the tropics and the north of its range?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "type": "condition_exception"
+ },
+ {
+  "id": "d15",
+  "split": "dev",
+  "question": "How long is the marbled cat's tail compared with its body?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "type": "direct"
+ },
+ {
+  "id": "d16",
+  "split": "dev",
+  "question": "Which is the tiniest member of the whole cat family?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "type": "paraphrase"
+ },
+ {
+  "id": "d17",
+  "split": "dev",
+  "question": "Which cat endemic to China is known only from the north-eastern margin of the Tibetan Plateau?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "type": "paraphrase"
+ },
+ {
+  "id": "d18",
+  "split": "dev",
+  "question": "Which is the largest lynx species?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "type": "direct"
+ },
+ {
+  "id": "d19",
+  "split": "dev",
+  "question": "Are European wildcats actually heavier than African wildcats, as they appear?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "type": "condition_exception"
+ },
+ {
+  "id": "d20",
+  "split": "dev",
+  "question": "How large can the prey of snow leopards be, and what is the exception?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "type": "condition_exception"
+ },
+ {
+  "id": "d21",
+  "split": "dev",
+  "question": "Which North American cat takes its name from its short tail?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "type": "paraphrase"
+ },
+ {
+  "id": "d22",
+  "split": "dev",
+  "question": "How does the size of the lynx in this region compare with its Old World relative?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "type": "metadata_filter",
+  "filter": {
+   "region": "The Americas"
+  }
+ },
+ {
+  "id": "d23",
+  "split": "dev",
+  "question": "At what elevations does the mountain cat of this region live?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "type": "metadata_filter",
+  "filter": {
+   "region": "The Americas"
+  }
+ },
+ {
+  "id": "d24",
+  "split": "dev",
+  "question": "How many Geoffroy's cat skins were exported from Argentina between 1976 and 1979?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "type": "direct"
+ },
+ {
+  "id": "d25",
+  "split": "dev",
+  "question": "Which big cat regularly kills prey such as capybaras by biting through the skull?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "type": "paraphrase"
+ },
+ {
+  "id": "d26",
+  "split": "dev",
+  "question": "Which small Latin American cat looks like a weasel?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "type": "paraphrase"
+ },
+ {
+  "id": "d27",
+  "split": "dev",
+  "question": "Where did a radio-collared margay in Belize forage, and where did it travel?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "type": "condition_exception"
+ },
+ {
+  "id": "d28",
+  "split": "dev",
+  "question": "How many species does Garcia-Perea propose the pampas cat actually consists of?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "type": "direct"
+ },
+ {
+  "id": "d29",
+  "split": "dev",
+  "question": "Why might kodkods live at higher densities on Chiloe Island?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "type": "condition_exception"
+ },
+ {
+  "id": "d30",
+  "split": "dev",
+  "question": "Which prey becomes more important for pumas in the tropics compared with North America?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "type": "condition_exception"
+ },
+ {
+  "id": "n01",
+  "split": "test",
+  "question": "How large was the home range of an adult female black-footed cat observed for three months near Kimberley?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "type": "direct"
+ },
+ {
+  "id": "n02",
+  "split": "test",
+  "question": "Does the manul live in lowland sandy deserts?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "type": "condition_exception"
+ },
+ {
+  "id": "n03",
+  "split": "test",
+  "question": "What is the average weight of adult male Iberian lynxes?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "type": "direct"
+ },
+ {
+  "id": "n04",
+  "split": "test",
+  "question": "Are Asiatic wildcats found in the steppe grasslands of Mongolia?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "type": "condition_exception"
+ },
+ {
+  "id": "n05",
+  "split": "test",
+  "question": "How many skins were exported from Paraguay in 1983 in the oncilla fur trade, and why might that number overstate oncillas?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "type": "condition_exception"
+ },
+ {
+  "id": "n06",
+  "split": "test",
+  "question": "According to Pocock, what colour are rain forest leopards in this region?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "type": "metadata_filter",
+  "filter": {
+   "region": "Sub-Saharan Africa"
+  }
+ },
+ {
+  "id": "n07",
+  "split": "test",
+  "question": "Which Asian cat is named after its markings of ellipses partly edged in black?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "type": "paraphrase"
+ },
+ {
+  "id": "n08",
+  "split": "test",
+  "question": "What is the average reproductive life span of female tigers in Chitwan?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "type": "direct"
+ },
+ {
+  "id": "n09",
+  "split": "test",
+  "question": "For how long have the surviving long-legged spotted cats of north Africa probably been cut off from populations south of the Sahara?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "type": "paraphrase"
+ },
+ {
+  "id": "n10",
+  "split": "test",
+  "question": "How many manul skins were reportedly taken each year in Mongolia in the early 1900s?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "type": "direct"
+ },
+ {
+  "id": "u01",
+  "split": "dev",
+  "question": "How many wild tigers did India's 2018 national tiger census count?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "type": "unanswerable",
+  "absence_reason": "Tài liệu xuất bản 1996; chỉ có ước tính 3,000-4,000 hổ ở Ấn Độ thời đó (p.88). Không có số liệu 2018.",
+  "absence_checks": [
+   {
+    "pages": "all",
+    "pattern": "\\b2018\\b"
+   },
+   {
+    "pages": "all",
+    "pattern": "\\b20[01]\\d\\b"
+   }
+  ]
+ },
+ {
+  "id": "u02",
+  "split": "dev",
+  "question": "What is the maximum running speed of the jaguar?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "type": "unanswerable",
+  "absence_reason": "Chỉ có tốc độ của báo săn (p.37) và tốc độ đi tuần của ocelot (p.163); bài báo đốm (p.143-146) không có tốc độ.",
+  "absence_checks": [
+   {
+    "pages": [
+     143,
+     144,
+     145,
+     146
+    ],
+    "pattern": "kph|km/h|mph|speed|fast"
+   }
+  ]
+ },
+ {
+  "id": "u03",
+  "split": "dev",
+  "question": "How many chromosomes does the marbled cat have?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "type": "unanswerable",
+  "absence_reason": "p.101 chỉ nói marbled cat có karyotype giống Lynx/Panthera/Uncia, không nêu số nhiễm sắc thể.",
+  "absence_checks": [
+   {
+    "pages": "all",
+    "pattern": "chromosom|2n\\s*=|diploid"
+   }
+  ]
+ },
+ {
+  "id": "u04",
+  "split": "test",
+  "question": "What IUCN Red List category was the Iberian lynx given in its 2015 reassessment?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "type": "unanswerable",
+  "absence_reason": "Tài liệu xuất bản 1996; chỉ có xếp hạng Category 1 và phân loại IUCN thời đó (p.133). Không có đánh giá 2015.",
+  "absence_checks": [
+   {
+    "pages": "all",
+    "pattern": "\\b2015\\b"
+   },
+   {
+    "pages": "all",
+    "pattern": "Red List"
+   }
+  ]
+ },
+ {
+  "id": "u05",
+  "split": "test",
+  "question": "How many ocelots were killed on Texas roads in 2010?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "type": "unanswerable",
+  "absence_reason": "Tài liệu xuất bản 1996 nên không có số liệu 2010; trang ocelot (p.162-164) không có năm 2010.",
+  "absence_checks": [
+   {
+    "pages": "all",
+    "pattern": "\\b2010\\b"
+   }
+  ]
+ },
+ {
+  "id": "u06",
+  "split": "test",
+  "question": "What is the average litter size of the Bornean bay cat in the wild?",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "type": "unanswerable",
+  "absence_reason": "Bay cat (p.90-91) chỉ biết qua vài mẫu da/sọ; không có mục litter size cho loài này.",
+  "absence_checks": [
+   {
+    "pages": [
+     90,
+     91
+    ],
+    "pattern": "[Ll]itter"
+   }
+  ]
+ }
+]

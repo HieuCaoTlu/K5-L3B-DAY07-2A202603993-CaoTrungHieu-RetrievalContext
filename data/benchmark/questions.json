@@ -1,0 +1,640 @@
+[
+ {
+  "id": "d01",
+  "split": "dev",
+  "type": "direct",
+  "question": "How much do adult male African golden cats weigh?",
+  "expected_answer": "11-14 kg",
+  "origin": "day6-dev",
+  "gold": [
+   {
+    "source_id": "iucn-wildcats-1996",
+    "page": 35,
+    "evidence": "Adult males weigh 11-14 kg"
+   }
+  ]
+ },
+ {
+  "id": "d02",
+  "split": "dev",
+  "type": "condition_exception",
+  "question": "What usually happens to a lioness's dependent cubs when new males take over her pride?",
+  "expected_answer": "Most lose their cubs within a month of the takeover (infanticide)",
+  "origin": "day6-dev",
+  "gold": [
+   {
+    "source_id": "iucn-wildcats-1996",
+    "page": 43,
+    "evidence": "most females with dependent offspring lose their cubs within a month of a takeover"
+   }
+  ]
+ },
+ {
+  "id": "d03",
+  "split": "dev",
+  "type": "paraphrase",
+  "question": "Which wild African cat is so similar to the house cat that the two are hard to tell apart in the field?",
+  "expected_answer": "The African wildcat",
+  "origin": "day6-dev",
+  "gold": [
+   {
+    "source_id": "iucn-wildcats-1996",
+    "page": 58,
+    "evidence": "The African wildcat is very similar in size and appearance to the domestic cat, and the two can be difficult to distinguish in the field"
+   }
+  ]
+ },
+ {
+  "id": "d04",
+  "split": "dev",
+  "type": "metadata_filter",
+  "question": "When do cheetahs living in this region's mountains often hunt, and why?",
+  "expected_answer": "At night, when temperatures are cooler (Saharan mountains)",
+  "origin": "day6-dev",
+  "gold": [
+   {
+    "source_id": "iucn-wildcats-1996",
+    "page": 66,
+    "evidence": "cheetahs living in the Saharan mountains often hunt at night, when temperatures are cooler"
+   }
+  ],
+  "filter": {
+   "region": "North Africa and Southwest Asia"
+  },
+  "filter_context": "User says up front they study Saharan / southwest Asian cheetahs (the book also has a Sub-Saharan cheetah account)."
+ },
+ {
+  "id": "d05",
+  "split": "dev",
+  "type": "metadata_filter",
+  "question": "How do caracals of this region differ in size and fur from those further south?",
+  "expected_answer": "Somewhat smaller than sub-Saharan caracals, with paler fur in arid areas",
+  "origin": "day6-dev",
+  "gold": [
+   {
+    "source_id": "iucn-wildcats-1996",
+    "page": 75,
+    "evidence": "caracals from this region are somewhat smaller than those of sub-Saharan Africa, with paler fur in the arid regions"
+   }
+  ],
+  "filter": {
+   "region": "North Africa and Southwest Asia"
+  },
+  "filter_context": "User selected the North Africa / Southwest Asia chapter (caracal has accounts in 2 regions)."
+ },
+ {
+  "id": "d06",
+  "split": "dev",
+  "type": "metadata_filter",
+  "question": "Where do the last surviving lions of this region live?",
+  "expected_answer": "Only in India's Gir Forest",
+  "origin": "day6-dev",
+  "gold": [
+   {
+    "source_id": "iucn-wildcats-1996",
+    "page": 62,
+    "evidence": "the only living representatives of the lions once found throughout much of southwest Asia occur in India's Gir Forest"
+   }
+  ],
+  "filter": {
+   "region": "North Africa and Southwest Asia"
+  },
+  "filter_context": "User asks from a southwest Asia context (lions have separate African and Asiatic accounts)."
+ },
+ {
+  "id": "d07",
+  "split": "dev",
+  "type": "direct",
+  "question": "How does the sand cat get the water it needs?",
+  "expected_answer": "It lives far from water and gets its moisture from its prey",
+  "origin": "day6-dev",
+  "gold": [
+   {
+    "source_id": "iucn-wildcats-1996",
+    "page": 72,
+    "evidence": "It lives in areas far from water sources, and is able to satisfy its moisture requirements from its prey."
+   }
+  ]
+ },
+ {
+  "id": "d08",
+  "split": "dev",
+  "type": "metadata_filter",
+  "question": "What coat colours does the golden cat of this region show?",
+  "expected_answer": "Most often fox-red to gold-brown, but also black, brown or grey (highly polymorphic)",
+  "origin": "day6-dev",
+  "gold": [
+   {
+    "source_id": "iucn-wildcats-1996",
+    "page": 94,
+    "evidence": "The Asiatic golden cat is remarkably polymorphic in its pelage. The most common coloration is fox-red to goldbrown, but it can also be black, brown, or grey."
+   }
+  ],
+  "filter": {
+   "region": "Tropical Asia"
+  },
+  "filter_context": "User is preparing material on Asian forest cats (golden cats have separate African and Asiatic accounts)."
+ },
+ {
+  "id": "d09",
+  "split": "dev",
+  "type": "paraphrase",
+  "question": "Why is the reddish cat of Borneo described as a mystery, given how it is known to science?",
+  "expected_answer": "Its description rests on just a few skins and skulls, mostly collected in the late 1880s",
+  "origin": "day6-dev",
+  "gold": [
+   {
+    "source_id": "iucn-wildcats-1996",
+    "page": 90,
+    "evidence": "Its description rests on just a few skins and skulls, most collected in the late 1880s"
+   }
+  ]
+ },
+ {
+  "id": "d10",
+  "split": "dev",
+  "type": "direct",
+  "question": "What is the primary threat to the fishing cat?",
+  "expected_answer": "Wetland destruction",
+  "origin": "day6-dev",
+  "gold": [
+   {
+    "source_id": "iucn-wildcats-1996",
+    "page": 101,
+    "evidence": "Wetland destruction is the primary threat facing the species."
+   }
+  ]
+ },
+ {
+  "id": "d11",
+  "split": "dev",
+  "type": "direct",
+  "question": "How does water pollution threaten the flat-headed cat?",
+  "expected_answer": "Oil, organochlorines and heavy metals from agricultural run-off and logging contaminate its prey",
+  "origin": "day6-dev",
+  "gold": [
+   {
+    "source_id": "iucn-wildcats-1996",
+    "page": 97,
+    "evidence": "Water pollution, especially by oil, organochlorines, and heavy metals associated with agricultural run-off and logging activities, poses a serious threat to the flat-headed cat through contamination of its prey."
+   }
+  ]
+ },
+ {
+  "id": "d12",
+  "split": "dev",
+  "type": "paraphrase",
+  "question": "Which cat lives on just one small Japanese island of under 300 square kilometres?",
+  "expected_answer": "The Iriomote cat, found only on Iriomote island (293 km2)",
+  "origin": "day6-dev",
+  "gold": [
+   {
+    "source_id": "iucn-wildcats-1996",
+    "page": 113,
+    "evidence": "It is found only on Iriomote island, an island of 293 km2"
+   }
+  ]
+ },
+ {
+  "id": "d13",
+  "split": "dev",
+  "type": "condition_exception",
+  "question": "Is the jungle cat really a forest animal, as its name suggests?",
+  "expected_answer": "No - it is associated with water and dense vegetation cover (reed swamps, marsh), not closed forest",
+  "origin": "day6-dev",
+  "gold": [
+   {
+    "source_id": "iucn-wildcats-1996",
+    "page": 108,
+    "evidence": "The jungle cat, despite its name, is not strongly associated with closed forest, but rather with water and dense vegetative cover"
+   }
+  ]
+ },
+ {
+  "id": "d14",
+  "split": "dev",
+  "type": "condition_exception",
+  "question": "How does the leopard cat's coat colour change between the tropics and the north of its range?",
+  "expected_answer": "Yellowish-brown in the tropics, greyish-brown in the north",
+  "origin": "day6-dev",
+  "gold": [
+   {
+    "source_id": "iucn-wildcats-1996",
+    "page": 110,
+    "evidence": "Leopard cats tend to yellowish-brown in the tropics and greyish-brown in the northern parts of their range"
+   }
+  ]
+ },
+ {
+  "id": "d15",
+  "split": "dev",
+  "type": "direct",
+  "question": "How long is the marbled cat's tail compared with its body?",
+  "expected_answer": "Equal to or longer than its head-body length",
+  "origin": "day6-dev",
+  "gold": [
+   {
+    "source_id": "iucn-wildcats-1996",
+    "page": 101,
+    "evidence": "It also has a long tail, equivalent to or longer than head-body length"
+   }
+  ]
+ },
+ {
+  "id": "d16",
+  "split": "dev",
+  "type": "paraphrase",
+  "question": "Which is the tiniest member of the whole cat family?",
+  "expected_answer": "The rusty-spotted cat",
+  "origin": "day6-dev",
+  "gold": [
+   {
+    "source_id": "iucn-wildcats-1996",
+    "page": 97,
+    "evidence": "The rusty-spotted cat is the cat family's smallest member."
+   }
+  ]
+ },
+ {
+  "id": "d17",
+  "split": "dev",
+  "type": "paraphrase",
+  "question": "Which cat endemic to China is known only from the north-eastern margin of the Tibetan Plateau?",
+  "expected_answer": "The Chinese mountain cat",
+  "origin": "day6-dev",
+  "gold": [
+   {
+    "source_id": "iucn-wildcats-1996",
+    "page": 121,
+    "evidence": "The Chinese mountain cat is known only from the northeastern edge of the Tibetan Plateau"
+   }
+  ]
+ },
+ {
+  "id": "d18",
+  "split": "dev",
+  "type": "direct",
+  "question": "Which is the largest lynx species?",
+  "expected_answer": "The Eurasian lynx",
+  "origin": "day6-dev",
+  "gold": [
+   {
+    "source_id": "iucn-wildcats-1996",
+    "page": 126,
+    "evidence": "The Eurasian lynx is the largest of the lynxes."
+   }
+  ]
+ },
+ {
+  "id": "d19",
+  "split": "dev",
+  "type": "condition_exception",
+  "question": "Are European wildcats actually heavier than African wildcats, as they appear?",
+  "expected_answer": "No - they look bigger because of thick winter fur, but weight data show they are not",
+  "origin": "day6-dev",
+  "gold": [
+   {
+    "source_id": "iucn-wildcats-1996",
+    "page": 135,
+    "evidence": "Although they tend to look bigger than African wildcats because of their thick winter fur, an extensive series of weight measurements have shown that they are not"
+   }
+  ]
+ },
+ {
+  "id": "d20",
+  "split": "dev",
+  "type": "condition_exception",
+  "question": "How large can the prey of snow leopards be, and what is the exception?",
+  "expected_answer": "Up to three times their own weight, except fully grown yak or wild ass",
+  "origin": "day6-dev",
+  "gold": [
+   {
+    "source_id": "iucn-wildcats-1996",
+    "page": 116,
+    "evidence": "Snow leopards are opportunistic predators capable of killing prey up to three times their own weight (Schaller 1977, Jackson and Ahlborn 1988, Fox 1989), with the exception of fully grown yak or wild ass."
+   }
+  ]
+ },
+ {
+  "id": "d21",
+  "split": "dev",
+  "type": "paraphrase",
+  "question": "Which North American cat takes its name from its short tail?",
+  "expected_answer": "The bobcat",
+  "origin": "day6-dev",
+  "gold": [
+   {
+    "source_id": "iucn-wildcats-1996",
+    "page": 165,
+    "evidence": "The bobcat, named for its short tail"
+   }
+  ]
+ },
+ {
+  "id": "d22",
+  "split": "dev",
+  "type": "metadata_filter",
+  "question": "How does the size of the lynx in this region compare with its Old World relative?",
+  "expected_answer": "The Canada lynx is only half the size of the Eurasian lynx",
+  "origin": "day6-dev",
+  "gold": [
+   {
+    "source_id": "iucn-wildcats-1996",
+    "page": 151,
+    "evidence": "the Canada lynx is only half the size of the Eurasian lynx"
+   }
+  ],
+  "filter": {
+   "region": "The Americas"
+  },
+  "filter_context": "User says they work in North America (lynx accounts exist for the Americas and Eurasia)."
+ },
+ {
+  "id": "d23",
+  "split": "dev",
+  "type": "metadata_filter",
+  "question": "At what elevations does the mountain cat of this region live?",
+  "expected_answer": "Only in rocky arid zones of the high Andes above the timberline, generally above 3,000-4,000 m",
+  "origin": "day6-dev",
+  "gold": [
+   {
+    "source_id": "iucn-wildcats-1996",
+    "page": 142,
+    "evidence": "having been found only in the rocky arid and semi-arid zones of the high Andes above the timberline (generally above 3,000-4,000 m in elevation)"
+   }
+  ],
+  "filter": {
+   "region": "The Americas"
+  },
+  "filter_context": "User selected the Americas chapter (both the Andean and the Chinese mountain cat are 'mountain cats')."
+ },
+ {
+  "id": "d24",
+  "split": "dev",
+  "type": "direct",
+  "question": "How many Geoffroy's cat skins were exported from Argentina between 1976 and 1979?",
+  "expected_answer": "Nearly 350,000",
+  "origin": "day6-dev",
+  "gold": [
+   {
+    "source_id": "iucn-wildcats-1996",
+    "page": 156,
+    "evidence": "nearly 350,000 skins exported from Argentina alone between 1976 and 1979"
+   }
+  ]
+ },
+ {
+  "id": "d25",
+  "split": "dev",
+  "type": "paraphrase",
+  "question": "Which big cat regularly kills prey such as capybaras by biting through the skull?",
+  "expected_answer": "The jaguar",
+  "origin": "day6-dev",
+  "gold": [
+   {
+    "source_id": "iucn-wildcats-1996",
+    "page": 144,
+    "evidence": "Jaguars are the only big cats which regularly kill prey (especially capybaras) by piercing the skull with their canines"
+   }
+  ]
+ },
+ {
+  "id": "d26",
+  "split": "dev",
+  "type": "paraphrase",
+  "question": "Which small Latin American cat looks like a weasel?",
+  "expected_answer": "The jaguarundi (elongated slender body, short legs, unpatterned fur)",
+  "origin": "day6-dev",
+  "gold": [
+   {
+    "source_id": "iucn-wildcats-1996",
+    "page": 171,
+    "evidence": "The jaguarundi has a distinctly weasel-like appearance, with its elongated slender body, short legs, and sleek unpatterned fur."
+   }
+  ]
+ },
+ {
+  "id": "d27",
+  "split": "dev",
+  "type": "condition_exception",
+  "question": "Where did a radio-collared margay in Belize forage, and where did it travel?",
+  "expected_answer": "It foraged in trees but travelled on the ground",
+  "origin": "day6-dev",
+  "gold": [
+   {
+    "source_id": "iucn-wildcats-1996",
+    "page": 149,
+    "evidence": "a radio-collared margay was found to forage in trees, but travel on the ground"
+   }
+  ]
+ },
+ {
+  "id": "d28",
+  "split": "dev",
+  "type": "direct",
+  "question": "How many species does Garcia-Perea propose the pampas cat actually consists of?",
+  "expected_answer": "Three species",
+  "origin": "day6-dev",
+  "gold": [
+   {
+    "source_id": "iucn-wildcats-1996",
+    "page": 169,
+    "evidence": "Garcia-Perea (1994) to propose that, given pronounced geographic differences, the \"pampas cat\" is actually three species"
+   }
+  ]
+ },
+ {
+  "id": "d29",
+  "split": "dev",
+  "type": "condition_exception",
+  "question": "Why might kodkods live at higher densities on Chiloe Island?",
+  "expected_answer": "Possibly because the puma, grey fox and Andean fox are absent there",
+  "origin": "day6-dev",
+  "gold": [
+   {
+    "source_id": "iucn-wildcats-1996",
+    "page": 141,
+    "evidence": "The kodkod seems to live at higher densities on Chiloe Island (Melquist 1984), possibly linked to the absence of the puma, grey fox, and Andean fox"
+   }
+  ]
+ },
+ {
+  "id": "d30",
+  "split": "dev",
+  "type": "condition_exception",
+  "question": "Which prey becomes more important for pumas in the tropics compared with North America?",
+  "expected_answer": "Small to medium-sized prey (deer dominate in the north)",
+  "origin": "day6-dev",
+  "gold": [
+   {
+    "source_id": "iucn-wildcats-1996",
+    "page": 156,
+    "evidence": "in the southern parts of puma range, and particularly in the tropics, small to medium-sized prey appear to be more important"
+   }
+  ]
+ },
+ {
+  "id": "n01",
+  "split": "test",
+  "type": "direct",
+  "question": "How large was the home range of an adult female black-footed cat observed for three months near Kimberley?",
+  "expected_answer": "About 12 km2 (game farm near Kimberley, northern Cape, South Africa)",
+  "origin": "day7-new",
+  "species": "Black-footed cat",
+  "gold": [
+   {
+    "source_id": "iucn-wildcats-1996",
+    "page": 34,
+    "evidence": "observed for three months on a game farm near Kimberley (northern Cape, South Africa) had a home range of 12 km"
+   }
+  ]
+ },
+ {
+  "id": "n02",
+  "split": "test",
+  "type": "condition_exception",
+  "question": "Does the manul live in lowland sandy deserts?",
+  "expected_answer": "Generally no - it is absent from lowland sandy desert basins, although it may penetrate them along river courses",
+  "origin": "day7-new",
+  "species": "Manul",
+  "gold": [
+   {
+    "source_id": "iucn-wildcats-1996",
+    "page": 124,
+    "evidence": "but is generally absent from lowland sandy desert basins"
+   }
+  ]
+ },
+ {
+  "id": "n03",
+  "split": "test",
+  "type": "direct",
+  "question": "What is the average weight of adult male Iberian lynxes?",
+  "expected_answer": "12.8 kg (n=5)",
+  "origin": "day7-new",
+  "species": "Iberian lynx",
+  "gold": [
+   {
+    "source_id": "iucn-wildcats-1996",
+    "page": 131,
+    "evidence": "adult males weighing an average of 12.8 kg (n=5)"
+   }
+  ]
+ },
+ {
+  "id": "n04",
+  "split": "test",
+  "type": "condition_exception",
+  "question": "Are Asiatic wildcats found in the steppe grasslands of Mongolia?",
+  "expected_answer": "No - they are typically associated with scrub desert and do not occur in the steppe grasslands of Mongolia and Inner Mongolia",
+  "origin": "day7-new",
+  "species": "Asiatic wildcat",
+  "gold": [
+   {
+    "source_id": "iucn-wildcats-1996",
+    "page": 125,
+    "evidence": "They do not occur in the steppe grasslands of Mongolia and Inner Mongolia"
+   }
+  ]
+ },
+ {
+  "id": "n05",
+  "split": "test",
+  "type": "condition_exception",
+  "question": "How many skins were exported from Paraguay in 1983 in the oncilla fur trade, and why might that number overstate oncillas?",
+  "expected_answer": "84,500 skins; other spotted cat pelts were probably mixed in with oncilla",
+  "origin": "day7-new",
+  "species": "Oncilla",
+  "gold": [
+   {
+    "source_id": "iucn-wildcats-1996",
+    "page": 148,
+    "evidence": "in 1983, 84,500 skins were exported from Paraguay"
+   }
+  ]
+ },
+ {
+  "id": "n06",
+  "split": "test",
+  "type": "metadata_filter",
+  "question": "According to Pocock, what colour are rain forest leopards in this region?",
+  "expected_answer": "Dark, deep gold",
+  "origin": "day7-new",
+  "species": "Leopard",
+  "gold": [
+   {
+    "source_id": "iucn-wildcats-1996",
+    "page": 50,
+    "evidence": "rain forest leopards-dark, deep gold in color"
+   }
+  ],
+  "filter": {
+   "region": "Sub-Saharan Africa"
+  },
+  "filter_context": "User says up front they study African leopards (leopard accounts exist for 3 regions)."
+ },
+ {
+  "id": "n07",
+  "split": "test",
+  "type": "paraphrase",
+  "question": "Which Asian cat is named after its markings of ellipses partly edged in black?",
+  "expected_answer": "The clouded leopard",
+  "origin": "day7-new",
+  "species": "Clouded leopard",
+  "gold": [
+   {
+    "source_id": "iucn-wildcats-1996",
+    "page": 91,
+    "evidence": "The clouded leopard is named after its distinctive markings-ellipses partially edged in black"
+   }
+  ]
+ },
+ {
+  "id": "n08",
+  "split": "test",
+  "type": "direct",
+  "question": "What is the average reproductive life span of female tigers in Chitwan?",
+  "expected_answer": "6.1 years (n=12; range up to 12.5 years); males only 2.8 years",
+  "origin": "day7-new",
+  "species": "Tiger",
+  "gold": [
+   {
+    "source_id": "iucn-wildcats-1996",
+    "page": 83,
+    "evidence": "the average reproductive life span of Chitwan tigers to be 6.1 years for females"
+   }
+  ]
+ },
+ {
+  "id": "n09",
+  "split": "test",
+  "type": "paraphrase",
+  "question": "For how long have the surviving long-legged spotted cats of north Africa probably been cut off from populations south of the Sahara?",
+  "expected_answer": "At least 6,000-7,000 years (north African servals)",
+  "origin": "day7-new",
+  "species": "Serval",
+  "gold": [
+   {
+    "source_id": "iucn-wildcats-1996",
+    "page": 48,
+    "evidence": "isolated from sub-Saharan\n\npopulations for at least 6,000-7,000 years"
+   }
+  ]
+ },
+ {
+  "id": "n10",
+  "split": "test",
+  "type": "direct",
+  "question": "How many manul skins were reportedly taken each year in Mongolia in the early 1900s?",
+  "expected_answer": "As many as 50,000 skins per year",
+  "origin": "day7-new",
+  "species": "Manul",
+  "gold": [
+   {
+    "source_id": "iucn-wildcats-1996",
+    "page": 124,
+    "evidence": "Annual take in Mongolia in the early 1900s was reportedly as high as 50,000 skins"
+   }
+  ]
+ }
+]

@@ -1,0 +1,7 @@
+{
+ "d06": {"grade": 0, "support": [true], "reason": "SAI: trả lời 'lions survived in the High Atlas Mountains up to the 1940s' (ghi chú lịch sử sư tử Bắc Phi, p.64) — không phải nơi sư tử cuối cùng của vùng còn sống (Gir Forest, Ấn Độ). Citation hỗ trợ đúng câu nó nói nhưng câu đó không trả lời câu hỏi. Regression so với A1 (A1 trả lời Gir)."},
+ "d07": {"grade": 2, "reason": "Đúng ý chính (độ ẩm lấy từ con mồi)."},
+ "d12": {"grade": 2, "support": [true, true], "reason": "Đúng; [S1] p.113 'Found only on Iriomote Island' và [S4] (gold, 293 km2) đều hỗ trợ."},
+ "d28": {"grade": 2, "support": [true, true], "reason": "Đúng; [S2] p.170 (theory of three species, Garcia-Perea 1994) và [S3] (gold) đều hỗ trợ."},
+ "u03": {"abstain_ok": true, "reason": "Từ chối đúng; chỉ nêu lại điều tài liệu có (karyotype), không khẳng định số NST."}
+}

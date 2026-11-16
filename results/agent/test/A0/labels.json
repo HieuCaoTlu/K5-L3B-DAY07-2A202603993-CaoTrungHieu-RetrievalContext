@@ -1,0 +1,12 @@
+{
+ "n01": {"context_grade": 0, "reason": "Từ chối nhầm; context (dense, 3 lượt) không có chunk p.34 chứa 'home range of 12 km'."},
+ "n02": {"grade": 2, "context_grade": 2, "reason": "Đúng (thường không, trừ dọc sông). Câu thứ hai 'recorded from Dzungarian Basin, Takla Makan' cũng có trong chunk p.124."},
+ "n03": {"grade": 2, "context_grade": 2, "reason": "Đúng 12.8 kg (n=5)."},
+ "n04": {"grade": 2, "context_grade": 2, "reason": "Đúng (không có ở thảo nguyên Mông Cổ); thiếu chi tiết 'scrub desert' nhưng trả lời đủ câu hỏi có/không."},
+ "n05": {"context_grade": 0, "reason": "Từ chối nhầm; chunk p.148 không vào context sau 3 lượt dense."},
+ "n06": {"grade": 2, "context_grade": 2, "reason": "Đúng 'dark, deep gold'; filter Sub-Saharan Africa đúng."},
+ "n07": {"grade": 2, "context_grade": 2, "reason": "Đúng clouded leopard."},
+ "n08": {"grade": 2, "context_grade": 2, "reason": "Đúng 6.1 năm (cái), tới 12.5 năm; câu hỏi chỉ hỏi con cái."},
+ "n09": {"context_grade": 0, "reason": "Từ chối nhầm; câu paraphrase không tên loài, chunk p.48 c02 (lẫn chú thích bản đồ) không vào top-10 của mọi retriever."},
+ "n10": {"grade": 2, "context_grade": 2, "reason": "Đúng 50,000."}
+}

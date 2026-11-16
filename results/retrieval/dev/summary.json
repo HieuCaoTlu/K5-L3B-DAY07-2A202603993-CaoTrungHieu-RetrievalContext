@@ -1,0 +1,304 @@
+[
+ {
+  "method": "dense",
+  "N": 30,
+  "hit1": {
+   "n": 23,
+   "N": 30,
+   "rate": 0.767
+  },
+  "hit3": {
+   "n": 27,
+   "N": 30,
+   "rate": 0.9
+  },
+  "hit10": {
+   "n": 30,
+   "N": 30,
+   "rate": 1.0
+  },
+  "mrr10": 0.846,
+  "context_evidence_rate": {
+   "n": 27,
+   "N": 30,
+   "rate": 0.9
+  },
+  "context": {
+   "k": 3,
+   "budget_chars": 3000,
+   "mode": "rank",
+   "avg_chars": 2466
+  },
+  "median_ms": 57.4,
+  "by_type": {
+   "direct": {
+    "hit1": 7,
+    "hit3": 8,
+    "N": 8
+   },
+   "condition_exception": {
+    "hit1": 8,
+    "hit3": 8,
+    "N": 8
+   },
+   "paraphrase": {
+    "hit1": 5,
+    "hit3": 6,
+    "N": 8
+   },
+   "metadata_filter": {
+    "hit1": 3,
+    "hit3": 5,
+    "N": 6
+   }
+  },
+  "cost_usd": 0.0,
+  "misses_at3": [
+   "d06",
+   "d21",
+   "d26"
+  ]
+ },
+ {
+  "method": "bm25",
+  "N": 30,
+  "hit1": {
+   "n": 19,
+   "N": 30,
+   "rate": 0.633
+  },
+  "hit3": {
+   "n": 24,
+   "N": 30,
+   "rate": 0.8
+  },
+  "hit10": {
+   "n": 28,
+   "N": 30,
+   "rate": 0.933
+  },
+  "mrr10": 0.739,
+  "context_evidence_rate": {
+   "n": 24,
+   "N": 30,
+   "rate": 0.8
+  },
+  "context": {
+   "k": 3,
+   "budget_chars": 3000,
+   "mode": "rank",
+   "avg_chars": 2319
+  },
+  "median_ms": 1.1,
+  "by_type": {
+   "direct": {
+    "hit1": 5,
+    "hit3": 8,
+    "N": 8
+   },
+   "condition_exception": {
+    "hit1": 6,
+    "hit3": 7,
+    "N": 8
+   },
+   "paraphrase": {
+    "hit1": 5,
+    "hit3": 6,
+    "N": 8
+   },
+   "metadata_filter": {
+    "hit1": 3,
+    "hit3": 3,
+    "N": 6
+   }
+  },
+  "cost_usd": 0.0,
+  "misses_at3": [
+   "d06",
+   "d08",
+   "d12",
+   "d19",
+   "d21",
+   "d22"
+  ]
+ },
+ {
+  "method": "hybrid",
+  "N": 30,
+  "hit1": {
+   "n": 25,
+   "N": 30,
+   "rate": 0.833
+  },
+  "hit3": {
+   "n": 28,
+   "N": 30,
+   "rate": 0.933
+  },
+  "hit10": {
+   "n": 30,
+   "N": 30,
+   "rate": 1.0
+  },
+  "mrr10": 0.895,
+  "context_evidence_rate": {
+   "n": 28,
+   "N": 30,
+   "rate": 0.933
+  },
+  "context": {
+   "k": 3,
+   "budget_chars": 3000,
+   "mode": "rank",
+   "avg_chars": 2403
+  },
+  "median_ms": 59.0,
+  "by_type": {
+   "direct": {
+    "hit1": 8,
+    "hit3": 8,
+    "N": 8
+   },
+   "condition_exception": {
+    "hit1": 7,
+    "hit3": 7,
+    "N": 8
+   },
+   "paraphrase": {
+    "hit1": 6,
+    "hit3": 8,
+    "N": 8
+   },
+   "metadata_filter": {
+    "hit1": 4,
+    "hit3": 5,
+    "N": 6
+   }
+  },
+  "cost_usd": 0.0,
+  "misses_at3": [
+   "d06",
+   "d19"
+  ]
+ },
+ {
+  "method": "dense+rerank",
+  "N": 30,
+  "hit1": {
+   "n": 26,
+   "N": 30,
+   "rate": 0.867
+  },
+  "hit3": {
+   "n": 27,
+   "N": 30,
+   "rate": 0.9
+  },
+  "hit10": {
+   "n": 30,
+   "N": 30,
+   "rate": 1.0
+  },
+  "mrr10": 0.907,
+  "context_evidence_rate": {
+   "n": 27,
+   "N": 30,
+   "rate": 0.9
+  },
+  "context": {
+   "k": 3,
+   "budget_chars": 3000,
+   "mode": "rank",
+   "avg_chars": 2396
+  },
+  "median_ms": 206.6,
+  "by_type": {
+   "direct": {
+    "hit1": 8,
+    "hit3": 8,
+    "N": 8
+   },
+   "condition_exception": {
+    "hit1": 7,
+    "hit3": 7,
+    "N": 8
+   },
+   "paraphrase": {
+    "hit1": 7,
+    "hit3": 7,
+    "N": 8
+   },
+   "metadata_filter": {
+    "hit1": 4,
+    "hit3": 5,
+    "N": 6
+   }
+  },
+  "cost_usd": 0.0,
+  "misses_at3": [
+   "d06",
+   "d12",
+   "d20"
+  ]
+ },
+ {
+  "method": "hybrid+rerank",
+  "N": 30,
+  "hit1": {
+   "n": 26,
+   "N": 30,
+   "rate": 0.867
+  },
+  "hit3": {
+   "n": 27,
+   "N": 30,
+   "rate": 0.9
+  },
+  "hit10": {
+   "n": 30,
+   "N": 30,
+   "rate": 1.0
+  },
+  "mrr10": 0.907,
+  "context_evidence_rate": {
+   "n": 27,
+   "N": 30,
+   "rate": 0.9
+  },
+  "context": {
+   "k": 3,
+   "budget_chars": 3000,
+   "mode": "rank",
+   "avg_chars": 2372
+  },
+  "median_ms": 206.4,
+  "by_type": {
+   "direct": {
+    "hit1": 8,
+    "hit3": 8,
+    "N": 8
+   },
+   "condition_exception": {
+    "hit1": 7,
+    "hit3": 7,
+    "N": 8
+   },
+   "paraphrase": {
+    "hit1": 7,
+    "hit3": 7,
+    "N": 8
+   },
+   "metadata_filter": {
+    "hit1": 4,
+    "hit3": 5,
+    "N": 6
+   }
+  },
+  "cost_usd": 0.0,
+  "misses_at3": [
+   "d06",
+   "d12",
+   "d20"
+  ]
+ }
+]

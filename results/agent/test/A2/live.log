@@ -1,0 +1,53 @@
+# A2 / test — model gemini-3.5-flash-lite, retriever hybrid
+[A2] 1/13 n01  ANS -> answered   5.5s searches=1 tokens=1145+57 cit=['S1']
+      Q: How large was the home range of an adult female black-footed cat observed for three months near Kimberley?
+      queries: ['black footed cat home range adult female Kimberley three months']
+      A: An adult female black-footed cat observed for three months on a game farm near Kimberley had a home range of 12 km² [S1].
+[A2] 2/13 n02  ANS -> answered  22.9s searches=1 tokens=1331+45 cit=['S1']
+      Q: Does the manul live in lowland sandy deserts?
+      queries: ['manul lowland sandy deserts']
+      A: The manul is generally absent from lowland sandy desert basins, although it may penetrate these areas along river courses [S1].
+[A2] 3/13 n03  ANS -> answered  25.8s searches=1 tokens=1443+43 cit=['S1']
+      Q: What is the average weight of adult male Iberian lynxes?
+      queries: ['Iberian lynx adult male average weight']
+      A: Adult male Iberian lynxes weigh an average of 12.8 kg [S1].
+[A2] 4/13 n04  ANS -> answered  18.5s searches=1 tokens=1350+41 cit=['S1']
+      Q: Are Asiatic wildcats found in the steppe grasslands of Mongolia?
+      queries: ['Asiatic wildcat steppe grasslands Mongolia']
+      A: No, Asiatic wildcats do not occur in the steppe grasslands of Mongolia [S1].
+[A2] 5/13 n05  ANS -> answered  24.2s searches=1 tokens=1343+84 cit=['S3']
+      Q: How many skins were exported from Paraguay in 1983 in the oncilla fur trade, and why might that number overstate oncillas?
+      queries: ['Paraguay 1983 oncilla fur trade skins overstate']
+      A: In 1983, 84,500 skins were exported from Paraguay in the oncilla fur trade [S3]. That number might overstate oncillas because it is likely that other spotted cat pelts were mixed with them [S3].
+[A2] 6/13 n06  ANS -> answered   1.8s searches=1 tokens=1260+41 cit=['S1']
+      Q: According to Pocock, what colour are rain forest leopards in this region?
+      queries: ['Pocock rain forest leopards colour']
+      A: According to Pocock, rain forest leopards are dark, deep gold in color [S1].
+[A2] 7/13 n07  ANS -> answered   8.8s searches=1 tokens=1292+46 cit=['S3']
+      Q: Which Asian cat is named after its markings of ellipses partly edged in black?
+      queries: ['ellipses partly edged in black Asian cat']
+      A: The clouded leopard is an Asian cat named after its distinctive markings of ellipses partially edged in black [S3].
+[A2] 8/13 n08  ANS -> answered  44.5s searches=1 tokens=1258+57 cit=['S1']
+      Q: What is the average reproductive life span of female tigers in Chitwan?
+      queries: ['female tigers Chitwan reproductive life span average']
+      A: The average reproductive life span of female tigers in Chitwan is 6.1 years, with a range of up to 12.5 years [S1].
+[A2] 9/13 n09  ANS -> abstain   12.0s searches=3 tokens=5445+124 cit=[]
+      Q: For how long have the surviving long-legged spotted cats of north Africa probably been cut off from populations south of the Sahara?
+      queries: ['long-legged spotted cats north Africa cut off Sahara', 'long-legged spotted cats north Africa', 'north Africa cut off south of the Sahara']
+      A: INSUFFICIENT EVIDENCE: The provided passages do not mention long-legged spotted cats in north Africa or how long they have been cut off from populations south of the Sahara.
+[A2] 10/13 n10  ANS -> answered   5.2s searches=1 tokens=1600+60 cit=['S1']
+      Q: How many manul skins were reportedly taken each year in Mongolia in the early 1900s?
+      queries: ['manul skins Mongolia early 1900s']
+      A: The annual take of manul skins in Mongolia in the early 1900s was reportedly as high as 50,000 [S1].
+[A2] 11/13 u04  UNANS -> abstain    4.0s searches=1 tokens=1466+68 cit=[]
+      Q: What IUCN Red List category was the Iberian lynx given in its 2015 reassessment?
+      queries: ['Iberian lynx IUCN Red List category 2015 reassessment']
+      A: INSUFFICIENT EVIDENCE: The provided report from 1996 does not contain information on the 2015 IUCN Red List reassessment of the Iberian lynx.
+[A2] 12/13 u05  UNANS -> abstain   25.1s searches=2 tokens=2433+74 cit=[]
+      Q: How many ocelots were killed on Texas roads in 2010?
+      queries: ['ocelot killed Texas roads 2010', 'ocelot road Texas']
+      A: INSUFFICIENT EVIDENCE: The provided documents do not contain information about ocelots killed on Texas roads in 2010.
+[A2] 13/13 u06  UNANS -> abstain    6.1s searches=2 tokens=2195+74 cit=[]
+      Q: What is the average litter size of the Bornean bay cat in the wild?
+      queries: ['Bornean bay cat litter size wild', 'Bornean bay cat litter reproduction']
+      A: INSUFFICIENT EVIDENCE: The provided passages do not contain information about the average litter size of the Bornean bay cat in the wild.

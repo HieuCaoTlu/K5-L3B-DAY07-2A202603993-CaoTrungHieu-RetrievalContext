@@ -1,0 +1,394 @@
+{
+ "counts": {
+  "dev/answerable": 30,
+  "test/answerable": 10,
+  "dev/unanswerable": 3,
+  "test/unanswerable": 3
+ },
+ "minimum": {
+  "dev/answerable": 15,
+  "dev/unanswerable": 2,
+  "test/answerable": 5,
+  "test/unanswerable": 2
+ },
+ "errors": [],
+ "checks": [
+  {
+   "id": "d01",
+   "page": 35,
+   "evidence_chunks": [
+    "iucn-wildcats-1996:p035:c02"
+   ],
+   "ok": true
+  },
+  {
+   "id": "d02",
+   "page": 43,
+   "evidence_chunks": [
+    "iucn-wildcats-1996:p043:c01"
+   ],
+   "ok": true
+  },
+  {
+   "id": "d03",
+   "page": 58,
+   "evidence_chunks": [
+    "iucn-wildcats-1996:p058:c00"
+   ],
+   "ok": true
+  },
+  {
+   "id": "d04",
+   "page": 66,
+   "evidence_chunks": [
+    "iucn-wildcats-1996:p066:c06"
+   ],
+   "ok": true
+  },
+  {
+   "id": "d05",
+   "page": 75,
+   "evidence_chunks": [
+    "iucn-wildcats-1996:p075:c08"
+   ],
+   "ok": true
+  },
+  {
+   "id": "d06",
+   "page": 62,
+   "evidence_chunks": [
+    "iucn-wildcats-1996:p062:c03"
+   ],
+   "ok": true
+  },
+  {
+   "id": "d07",
+   "page": 72,
+   "evidence_chunks": [
+    "iucn-wildcats-1996:p072:c04"
+   ],
+   "ok": true
+  },
+  {
+   "id": "d08",
+   "page": 94,
+   "evidence_chunks": [
+    "iucn-wildcats-1996:p094:c03"
+   ],
+   "ok": true
+  },
+  {
+   "id": "d09",
+   "page": 90,
+   "evidence_chunks": [
+    "iucn-wildcats-1996:p090:c04"
+   ],
+   "ok": true
+  },
+  {
+   "id": "d10",
+   "page": 101,
+   "evidence_chunks": [
+    "iucn-wildcats-1996:p101:c03"
+   ],
+   "ok": true
+  },
+  {
+   "id": "d11",
+   "page": 97,
+   "evidence_chunks": [
+    "iucn-wildcats-1996:p097:c06"
+   ],
+   "ok": true
+  },
+  {
+   "id": "d12",
+   "page": 113,
+   "evidence_chunks": [
+    "iucn-wildcats-1996:p113:c02"
+   ],
+   "ok": true
+  },
+  {
+   "id": "d13",
+   "page": 108,
+   "evidence_chunks": [
+    "iucn-wildcats-1996:p108:c07"
+   ],
+   "ok": true
+  },
+  {
+   "id": "d14",
+   "page": 110,
+   "evidence_chunks": [
+    "iucn-wildcats-1996:p110:c04"
+   ],
+   "ok": true
+  },
+  {
+   "id": "d15",
+   "page": 101,
+   "evidence_chunks": [
+    "iucn-wildcats-1996:p101:c05"
+   ],
+   "ok": true
+  },
+  {
+   "id": "d16",
+   "page": 97,
+   "evidence_chunks": [
+    "iucn-wildcats-1996:p097:c08"
+   ],
+   "ok": true
+  },
+  {
+   "id": "d17",
+   "page": 121,
+   "evidence_chunks": [
+    "iucn-wildcats-1996:p121:c05"
+   ],
+   "ok": true
+  },
+  {
+   "id": "d18",
+   "page": 126,
+   "evidence_chunks": [
+    "iucn-wildcats-1996:p126:c06"
+   ],
+   "ok": true
+  },
+  {
+   "id": "d19",
+   "page": 135,
+   "evidence_chunks": [
+    "iucn-wildcats-1996:p135:c04"
+   ],
+   "ok": true
+  },
+  {
+   "id": "d20",
+   "page": 116,
+   "evidence_chunks": [
+    "iucn-wildcats-1996:p116:c04"
+   ],
+   "ok": true
+  },
+  {
+   "id": "d21",
+   "page": 165,
+   "evidence_chunks": [
+    "iucn-wildcats-1996:p165:c07"
+   ],
+   "ok": true
+  },
+  {
+   "id": "d22",
+   "page": 151,
+   "evidence_chunks": [
+    "iucn-wildcats-1996:p151:c03"
+   ],
+   "ok": true
+  },
+  {
+   "id": "d23",
+   "page": 142,
+   "evidence_chunks": [
+    "iucn-wildcats-1996:p142:c05"
+   ],
+   "ok": true
+  },
+  {
+   "id": "d24",
+   "page": 156,
+   "evidence_chunks": [
+    "iucn-wildcats-1996:p156:c02"
+   ],
+   "ok": true
+  },
+  {
+   "id": "d25",
+   "page": 144,
+   "evidence_chunks": [
+    "iucn-wildcats-1996:p144:c02"
+   ],
+   "ok": true
+  },
+  {
+   "id": "d26",
+   "page": 171,
+   "evidence_chunks": [
+    "iucn-wildcats-1996:p171:c04"
+   ],
+   "ok": true
+  },
+  {
+   "id": "d27",
+   "page": 149,
+   "evidence_chunks": [
+    "iucn-wildcats-1996:p149:c04"
+   ],
+   "ok": true
+  },
+  {
+   "id": "d28",
+   "page": 169,
+   "evidence_chunks": [
+    "iucn-wildcats-1996:p169:c04"
+   ],
+   "ok": true
+  },
+  {
+   "id": "d29",
+   "page": 141,
+   "evidence_chunks": [
+    "iucn-wildcats-1996:p141:c01"
+   ],
+   "ok": true
+  },
+  {
+   "id": "d30",
+   "page": 156,
+   "evidence_chunks": [
+    "iucn-wildcats-1996:p156:c08"
+   ],
+   "ok": true
+  },
+  {
+   "id": "n01",
+   "page": 34,
+   "evidence_chunks": [
+    "iucn-wildcats-1996:p034:c00"
+   ],
+   "ok": true
+  },
+  {
+   "id": "n02",
+   "page": 124,
+   "evidence_chunks": [
+    "iucn-wildcats-1996:p124:c00"
+   ],
+   "ok": true
+  },
+  {
+   "id": "n03",
+   "page": 131,
+   "evidence_chunks": [
+    "iucn-wildcats-1996:p131:c03"
+   ],
+   "ok": true
+  },
+  {
+   "id": "n04",
+   "page": 125,
+   "evidence_chunks": [
+    "iucn-wildcats-1996:p125:c02"
+   ],
+   "ok": true
+  },
+  {
+   "id": "n05",
+   "page": 148,
+   "evidence_chunks": [
+    "iucn-wildcats-1996:p148:c02"
+   ],
+   "ok": true
+  },
+  {
+   "id": "n06",
+   "page": 50,
+   "evidence_chunks": [
+    "iucn-wildcats-1996:p050:c00"
+   ],
+   "ok": true
+  },
+  {
+   "id": "n07",
+   "page": 91,
+   "evidence_chunks": [
+    "iucn-wildcats-1996:p091:c05"
+   ],
+   "ok": true
+  },
+  {
+   "id": "n08",
+   "page": 83,
+   "evidence_chunks": [
+    "iucn-wildcats-1996:p083:c01"
+   ],
+   "ok": true
+  },
+  {
+   "id": "n09",
+   "page": 48,
+   "evidence_chunks": [
+    "iucn-wildcats-1996:p048:c02"
+   ],
+   "ok": true
+  },
+  {
+   "id": "n10",
+   "page": 124,
+   "evidence_chunks": [
+    "iucn-wildcats-1996:p124:c04"
+   ],
+   "ok": true
+  },
+  {
+   "id": "u01",
+   "pattern": "\\b2018\\b",
+   "pages_checked": 142,
+   "found_on": [],
+   "ok": true
+  },
+  {
+   "id": "u01",
+   "pattern": "\\b20[01]\\d\\b",
+   "pages_checked": 142,
+   "found_on": [],
+   "ok": true
+  },
+  {
+   "id": "u02",
+   "pattern": "kph|km/h|mph|speed|fast",
+   "pages_checked": 4,
+   "found_on": [],
+   "ok": true
+  },
+  {
+   "id": "u03",
+   "pattern": "chromosom|2n\\s*=|diploid",
+   "pages_checked": 142,
+   "found_on": [],
+   "ok": true
+  },
+  {
+   "id": "u04",
+   "pattern": "\\b2015\\b",
+   "pages_checked": 142,
+   "found_on": [],
+   "ok": true
+  },
+  {
+   "id": "u04",
+   "pattern": "Red List",
+   "pages_checked": 142,
+   "found_on": [],
+   "ok": true
+  },
+  {
+   "id": "u05",
+   "pattern": "\\b2010\\b",
+   "pages_checked": 142,
+   "found_on": [],
+   "ok": true
+  },
+  {
+   "id": "u06",
+   "pattern": "[Ll]itter",
+   "pages_checked": 2,
+   "found_on": [],
+   "ok": true
+  }
+ ],
+ "passed": true
+}

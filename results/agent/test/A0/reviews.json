@@ -1,0 +1,107 @@
+[
+ {
+  "query_id": "n01",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "answer_grade": 0,
+  "citation_support": [],
+  "reason": "Từ chối nhầm; context (dense, 3 lượt) không có chunk p.34 chứa 'home range of 12 km'."
+ },
+ {
+  "query_id": "n02",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng (thường không, trừ dọc sông). Câu thứ hai 'recorded from Dzungarian Basin, Takla Makan' cũng có trong chunk p.124."
+ },
+ {
+  "query_id": "n03",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng 12.8 kg (n=5)."
+ },
+ {
+  "query_id": "n04",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng (không có ở thảo nguyên Mông Cổ); thiếu chi tiết 'scrub desert' nhưng trả lời đủ câu hỏi có/không."
+ },
+ {
+  "query_id": "n05",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "answer_grade": 0,
+  "citation_support": [],
+  "reason": "Từ chối nhầm; chunk p.148 không vào context sau 3 lượt dense."
+ },
+ {
+  "query_id": "n06",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng 'dark, deep gold'; filter Sub-Saharan Africa đúng."
+ },
+ {
+  "query_id": "n07",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng clouded leopard."
+ },
+ {
+  "query_id": "n08",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng 6.1 năm (cái), tới 12.5 năm; câu hỏi chỉ hỏi con cái."
+ },
+ {
+  "query_id": "n09",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "answer_grade": 0,
+  "citation_support": [],
+  "reason": "Từ chối nhầm; câu paraphrase không tên loài, chunk p.48 c02 (lẫn chú thích bản đồ) không vào top-10 của mọi retriever."
+ },
+ {
+  "query_id": "n10",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng 50,000."
+ },
+ {
+  "query_id": "u04",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "abstention_correct": true,
+  "citation_support": [],
+  "reason": "Tìm rồi từ chối, không khẳng định thiếu căn cứ."
+ },
+ {
+  "query_id": "u05",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "abstention_correct": true,
+  "citation_support": [],
+  "reason": "Tìm rồi từ chối, không khẳng định thiếu căn cứ."
+ },
+ {
+  "query_id": "u06",
+  "reviewer": "Claude (AI) — đối chiếu nguyên văn chunk; xem review_sheet.md",
+  "abstention_correct": true,
+  "citation_support": [],
+  "reason": "Tìm rồi từ chối, không khẳng định thiếu căn cứ."
+ }
+]

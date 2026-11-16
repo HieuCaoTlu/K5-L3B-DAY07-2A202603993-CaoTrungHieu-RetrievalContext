@@ -1,0 +1,133 @@
+# A2 / dev — model gemini-3.5-flash-lite, retriever hybrid
+[A2] 1/33 d01  ANS -> answered  17.7s searches=1 tokens=1404+35 cit=['S1']
+      Q: How much do adult male African golden cats weigh?
+      queries: ['African golden cat adult male weight']
+      A: Adult males weigh 11-14 kg [S1].
+[A2] 2/33 d02  ANS -> answered   2.3s searches=1 tokens=1359+53 cit=['S1']
+      Q: What usually happens to a lioness's dependent cubs when new males take over her pride?
+      queries: ['lioness dependent cubs new males take over pride']
+      A: When new males take over a pride, infanticide is common and most females with dependent offspring lose their cubs within a month [S1].
+[A2] 3/33 d03  ANS -> answered   1.8s searches=1 tokens=1400+50 cit=['S2']
+      Q: Which wild African cat is so similar to the house cat that the two are hard to tell apart in the field?
+      queries: ['house cat similar field African cat']
+      A: The African wildcat is very similar in size and appearance to the domestic cat, making the two difficult to distinguish in the field [S2].
+[A2] 4/33 d04  ANS -> answered   1.9s searches=1 tokens=1473+44 cit=['S1']
+      Q: When do cheetahs living in this region's mountains often hunt, and why?
+      queries: ['cheetahs mountains hunt when why']
+      A: Cheetahs living in the Saharan mountains often hunt at night because temperatures are cooler then [S1].
+[A2] 5/33 d05  ANS -> answered   2.4s searches=1 tokens=1512+59 cit=['S1']
+      Q: How do caracals of this region differ in size and fur from those further south?
+      queries: ['caracal size fur south North Africa Southwest Asia']
+      A: Caracals from the North Africa and Southwest Asia region are somewhat smaller than those of sub-Saharan Africa, and they have paler fur in the arid regions [S1].
+[A2] 6/33 d06  ANS -> answered   3.3s searches=2 tokens=2841+63 cit=['S1']
+      Q: Where do the last surviving lions of this region live?
+      queries: ['last surviving lions live region', 'High Atlas Mountains lions']
+      A: Lions in North Africa survived in the High Atlas Mountains up to the 1940s [S1].
+[A2] 7/33 d07  ANS -> answered   2.6s searches=1 tokens=1384+36 cit=['S1']
+      Q: How does the sand cat get the water it needs?
+      queries: ['sand cat water']
+      A: The sand cat is able to satisfy its moisture requirements directly from its prey [S1].
+[A2] 8/33 d08  ANS -> answered   2.2s searches=1 tokens=1343+68 cit=['S3']
+      Q: What coat colours does the golden cat of this region show?
+      queries: ['golden cat coat colours tropical asia']
+      A: The Asiatic golden cat's most common coloration is fox-red to gold-brown, but it can also be black, brown, or grey, and it can exhibit ocelot-like rosettes and spots [S3].
+[A2] 9/33 d09  ANS -> answered   2.4s searches=1 tokens=1442+77 cit=['S1']
+      Q: Why is the reddish cat of Borneo described as a mystery, given how it is known to science?
+      queries: ['reddish cat of Borneo mystery science']
+      A: The Bornean bay cat is described as a mystery because its description rests on only a few skins and skulls collected mostly in the late 1880s, and no observations of its behavior or ecology have been made since 1893 [S1].
+[A2] 10/33 d10  ANS -> answered   5.1s searches=3 tokens=4820+100 cit=['S1']
+      Q: What is the primary threat to the fishing cat?
+      queries: ['fishing cat primary threat conservation', 'fishing cat principal threats wetland destruction', 'Fishing cat Principal Threats wetland destruction']
+      A: The primary threat to the fishing cat is wetland destruction [S1].
+[A2] 11/33 d11  ANS -> answered   2.2s searches=1 tokens=1013+56 cit=['S1']
+      Q: How does water pollution threaten the flat-headed cat?
+      queries: ['flat headed cat water pollution threaten']
+      A: Water pollution from oil, organochlorines, and heavy metals due to agricultural run-off and logging seriously threatens the flat-headed cat by contaminating its prey [S1].
+[A2] 12/33 d12  ANS -> answered   3.4s searches=2 tokens=2276+81 cit=['S1', 'S4']
+      Q: Which cat lives on just one small Japanese island of under 300 square kilometres?
+      queries: ['Japanese island under 300 square kilometres', 'Iriomote cat island area square kilometres']
+      A: The Iriomote cat lives only on Iriomote Island, which has an area of 293 km2 [S1, S4].
+[A2] 13/33 d13  ANS -> answered   1.7s searches=1 tokens=1285+58 cit=['S1']
+      Q: Is the jungle cat really a forest animal, as its name suggests?
+      queries: ['jungle cat forest animal name']
+      A: Despite its name, the jungle cat is not strongly associated with closed forest, but rather prefers water and dense vegetative cover such as reed swamps, marshes, and riparian environments [S1].
+[A2] 14/33 d14  ANS -> answered   2.4s searches=1 tokens=1364+51 cit=['S1']
+      Q: How does the leopard cat's coat colour change between the tropics and the north of its range?
+      queries: ['leopard cat coat colour tropics north range']
+      A: Leopard cats tend to be yellowish-brown in the tropics and greyish-brown in the northern parts of their range [S1].
+[A2] 15/33 d15  ANS -> answered   2.2s searches=1 tokens=1388+44 cit=['S1']
+      Q: How long is the marbled cat's tail compared with its body?
+      queries: ['marbled cat tail body length']
+      A: The marbled cat has a long tail that is equivalent to or longer than its head-body length [S1].
+[A2] 16/33 d16  ANS -> answered   2.5s searches=1 tokens=1327+44 cit=['S1']
+      Q: Which is the tiniest member of the whole cat family?
+      queries: ['tiniest member of the whole cat family smallest cat']
+      A: The rusty-spotted cat is the cat family's smallest member [S1].
+[A2] 17/33 d17  ANS -> answered   3.4s searches=2 tokens=2465+67 cit=['S3']
+      Q: Which cat endemic to China is known only from the north-eastern margin of the Tibetan Plateau?
+      queries: ['endemic to China north-eastern margin of the Tibetan Plateau', 'Chinese mountain cat Tibetan Plateau endemic']
+      A: The Chinese mountain cat is known only from the northeastern edge of the Tibetan Plateau [S3].
+[A2] 18/33 d18  ANS -> answered   2.2s searches=1 tokens=1176+34 cit=['S1']
+      Q: Which is the largest lynx species?
+      queries: ['largest lynx species']
+      A: The Eurasian lynx is the largest of the lynxes [S1].
+[A2] 19/33 d19  ANS -> answered   1.8s searches=1 tokens=1419+74 cit=['S1']
+      Q: Are European wildcats actually heavier than African wildcats, as they appear?
+      queries: ['European wildcat African wildcat weight heavier']
+      A: Although European wildcats tend to look bigger than African wildcats due to their thick winter fur, weight measurements show that they are not actually heavier [S1]. Males weigh an average of 5 kg and females 3.5 kg [S1].
+[A2] 20/33 d20  ANS -> answered   2.0s searches=1 tokens=1501+49 cit=['S1']
+      Q: How large can the prey of snow leopards be, and what is the exception?
+      queries: ['snow leopard prey size exception']
+      A: Snow leopards are capable of killing prey up to three times their own weight, with the exception of fully grown yak or wild ass [S1].
+[A2] 21/33 d21  ANS -> answered   1.9s searches=1 tokens=1400+34 cit=['S3']
+      Q: Which North American cat takes its name from its short tail?
+      queries: ['North American cat short tail name']
+      A: The bobcat is named for its short tail [S3].
+[A2] 22/33 d22  ANS -> answered   2.4s searches=1 tokens=1650+73 cit=['S1']
+      Q: How does the size of the lynx in this region compare with its Old World relative?
+      queries: ['lynx size compared Old World relative']
+      A: The Canada lynx is only half the size of its Old World relative, the Eurasian lynx [S1]. The average adult weight for male Canada lynx is 10.7 kg and for females 8.9 kg [S1].
+[A2] 23/33 d23  ANS -> answered   1.9s searches=1 tokens=1371+51 cit=['S1']
+      Q: At what elevations does the mountain cat of this region live?
+      queries: ['mountain cat elevation elevation range meters']
+      A: The Andean mountain cat lives generally above 3,000-4,000 m in elevation in the high Andes [S1].
+[A2] 24/33 d24  ANS -> answered   1.8s searches=1 tokens=1467+68 cit=['S1']
+      Q: How many Geoffroy's cat skins were exported from Argentina between 1976 and 1979?
+      queries: ['Geoffroys cat skins exported Argentina 1976 1979']
+      A: Nearly 350,000 Geoffroy's cat skins were exported from Argentina between 1976 and 1979 [S1].
+[A2] 25/33 d25  ANS -> answered   1.6s searches=1 tokens=1227+53 cit=['S1']
+      Q: Which big cat regularly kills prey such as capybaras by biting through the skull?
+      queries: ['capybaras skull bite big cat']
+      A: Jaguars are the only big cats that regularly kill prey, especially capybaras, by piercing the skull with their canines [S1].
+[A2] 26/33 d26  ANS -> answered   2.2s searches=1 tokens=1306+58 cit=['S1']
+      Q: Which small Latin American cat looks like a weasel?
+      queries: ['weasel Latin American cat']
+      A: The jaguarundi is a small Latin American cat that has a distinctly weasel-like appearance, featuring an elongated slender body, short legs, and sleek unpatterned fur [S1].
+[A2] 27/33 d27  ANS -> answered   2.3s searches=1 tokens=1499+47 cit=['S1']
+      Q: Where did a radio-collared margay in Belize forage, and where did it travel?
+      queries: ['margay Belize radio-collared forage travel']
+      A: In Belize, a radio-collared margay foraged in trees and traveled on the ground [S1].
+[A2] 28/33 d28  ANS -> answered   2.6s searches=1 tokens=1313+46 cit=['S2', 'S3']
+      Q: How many species does Garcia-Perea propose the pampas cat actually consists of?
+      queries: ['Garcia Perea pampas cat species']
+      A: Garcia-Perea proposes that the pampas cat actually consists of three species [S2, S3].
+[A2] 29/33 d29  ANS -> answered   1.9s searches=1 tokens=1382+53 cit=['S1']
+      Q: Why might kodkods live at higher densities on Chiloe Island?
+      queries: ['kodkod Chiloe Island higher densities']
+      A: Kodkods might live at higher densities on Chiloe Island possibly due to the absence of the puma, grey fox, and Andean fox [S1].
+[A2] 30/33 d30  ANS -> answered   1.7s searches=1 tokens=1163+46 cit=['S1']
+      Q: Which prey becomes more important for pumas in the tropics compared with North America?
+      queries: ['puma prey tropics North America']
+      A: In the tropics, small to medium-sized prey appear to be more important for pumas compared to North America [S1].
+[A2] 31/33 u01  UNANS -> abstain    1.8s searches=1 tokens=1498+60 cit=[]
+      Q: How many wild tigers did India's 2018 national tiger census count?
+      queries: ['India tiger census 2018 tigers count']
+      A: INSUFFICIENT EVIDENCE: The provided report dates from 1996 and therefore does not contain information on India's 2018 national tiger census.
+[A2] 32/33 u02  UNANS -> abstain    3.5s searches=2 tokens=2626+64 cit=[]
+      Q: What is the maximum running speed of the jaguar?
+      queries: ['jaguar running speed maximum', 'jaguar speed running kph mph']
+      A: INSUFFICIENT EVIDENCE: The provided passages do not contain information about the maximum running speed of the jaguar.
+[A2] 33/33 u03  UNANS -> abstain    3.2s searches=2 tokens=2228+86 cit=[]
+      Q: How many chromosomes does the marbled cat have?
+      queries: ['marbled cat chromosomes', 'marbled cat karyotype Wurster-Hill']
+      A: INSUFFICIENT EVIDENCE: The provided passages do not state the exact number of chromosomes the marbled cat has, only that it shares an identical karyotype with Lynx, Panthera, and Uncia [S1].

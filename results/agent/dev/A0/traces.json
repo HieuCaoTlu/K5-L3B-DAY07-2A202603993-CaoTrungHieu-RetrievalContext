@@ -1,0 +1,3843 @@
+[
+ {
+  "query_id": "d01",
+  "status": "answered",
+  "answer": "Adult male African golden cats weigh 11-14 kg [S1].",
+  "raw_answer": "Adult male African golden cats weigh 11-14 kg [S1].",
+  "citations": [
+   "iucn-wildcats-1996:p035:c02"
+  ],
+  "citation_labels": [
+   "S1"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "African golden cat weight male",
+    "raw_query": "African golden cat weight male",
+    "filter": null,
+    "top_k": 3,
+    "ms": 556.2,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p035:c02",
+      "page": 35,
+      "score": 0.890973,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p036:c01",
+      "page": 36,
+      "score": 0.857879,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p035:c04",
+      "page": 35,
+      "score": 0.856532,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p035:c02",
+     "iucn-wildcats-1996:p036:c01",
+     "iucn-wildcats-1996:p035:c04"
+    ],
+    "skipped": [],
+    "context_chars_after": 2962
+   },
+   {
+    "event": "answer",
+    "status": "answered"
+   }
+  ],
+  "context": "[S1] (page 35, Sub-Saharan Africa, section: African golden cat)\n## Description and Behavior\n\n(Plate 1) The African golden cat is a medium-sized cat. Adult males weigh 11-14 kg (Van Mensch and Van Bree 1969, S. Lahm in Zitt. 1993). The only recorded weight of a wild female is 6.2 kg (Van Mensch and Van Bree 1969), but this was probably an immature animal. The African golden cat has both a reddish-brown and greyish color form, and its coat can be spotted or plain. Pocock (1907a) described an animal in the London Zoo whose color changed entirely from rufous to grey in four months. Van Mensch and Van Bree (1969) examined 186 pelts from various localities and found that 50% were of the red phase and 46% of the greyish phase, with 4% being totally black. While color phase appears variable across its range, they found that specimens taken from west Africa tended to be more spotted than those from east-central Africa, with the Zaire River forming an approximate boundary. The white underbelly is consistently marked with large black spots.\n\n[S2] (page 36, Sub-Saharan Africa, section: African golden cat)\nThe golden cat has been recorded at elevations up to 3,600 m in Uganda (Guggisberg 1975), and in Kenya's Aberdare Mountains (Maberly 1966, Hardy 1979, Watson 1980). Figure 2, based on Van Mensch and Van Bree (1969), shows the tropical rain forest of the Zaire River basin as solid lines. Probable distribution elsewhere, including patches of wet montane forest and lowland humid forest interspersed with Savannah grasslands (former rain forest: Collins 1990), is shown as dashed lines.\n\nFigure 2. Distribution of the\n\nAfrican golden cat (P. aurata).\n\n1. Record from Nioro du Sahel,\n\nMali (Bigourdan and Prunier\n\n1937); 2. Basse-Casamance I I\n\n(Senegal); 3. Gola Forest\n\nReserve (Sierra Leone); 4. Mt\n\nNimba I# complex (Ivory Coast\n\nand Guinea); 5. Sapo II (Liberia);\n\n6. Tai' II# complex; 7. Mt. Sangbe\n\nand Mt. Peko II; 8. Comoe II#\n\n(Ivory Coast); 9. Bia II (Ghana);\n\nIO. Gashaka-Gumti II (Nigeria);\n\n11. Korup II; 12. Dja IV# (Cameroon); 13. Lope IV (Gabon);\n\n14. Odzala II* complex (Congo);\n\n[S3] (page 35, Sub-Saharan Africa, section: African golden cat)\nThe African golden cat has never been studied and little is known of its behavior. It is reported to be primarily nocturnal and to rest in trees during the day (Rosevear 1974, Guggisberg 1975, Kingdon 1977, Happold 1987). Diurnal activity has also been noted (Kingdon 1977). It may hunt in trees to some extent (Basilio 1962, Kingdon 1977), but probably catches most of its prey on the ground (J. Hart and M. Katembo in prep.). Hart and Katembo analyzed 60 golden cat scats from Zaire's Ituri Forest, and found that 5 1% contained rodents and 20% ungulates. The rodents were mostly small species weighing less than 300 g. From carcass collections, they also note that scavenged eagle kills and predation on fallen, injured primates may be an important component of rain forest felid diets.",
+  "context_ids": [
+   "iucn-wildcats-1996:p035:c02",
+   "iucn-wildcats-1996:p036:c01",
+   "iucn-wildcats-1996:p035:c04"
+  ],
+  "label_map": {
+   "S1": "iucn-wildcats-1996:p035:c02",
+   "S2": "iucn-wildcats-1996:p036:c01",
+   "S3": "iucn-wildcats-1996:p035:c04"
+  },
+  "searches": 1,
+  "model_calls": 2,
+  "prompt_tokens": 1598,
+  "completion_tokens": 199,
+  "api_retries": 0,
+  "cost_usd_estimate": null,
+  "seconds": 17.59,
+  "error": null,
+  "stop_reason": "final_answer",
+  "config": {
+   "name": "A0",
+   "retriever": "dense",
+   "top_k": 3,
+   "budget": 3000,
+   "context_mode": "rank",
+   "max_searches": 3,
+   "max_turns": 6,
+   "model": "gemini-3.5-flash",
+   "extra_rules": ""
+  }
+ },
+ {
+  "query_id": "d02",
+  "status": "answered",
+  "answer": "When new males take over a pride, infanticide is common and most females with dependent offspring lose their cubs within a month of the takeover [S1]. Additionally, pregnant females lose their cubs shortly after giving birth [S1].",
+  "raw_answer": "When new males take over a pride, infanticide is common and most females with dependent offspring lose their cubs within a month of the takeover [S1]. Additionally, pregnant females lose their cubs shortly after giving birth [S1].",
+  "citations": [
+   "iucn-wildcats-1996:p043:c01"
+  ],
+  "citation_labels": [
+   "S1"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "lion takeover dependent cubs",
+    "raw_query": "lion takeover dependent cubs",
+    "filter": null,
+    "top_k": 3,
+    "ms": 89.0,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p043:c01",
+      "page": 43,
+      "score": 0.817444,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p046:c04",
+      "page": 46,
+      "score": 0.812127,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p051:c03",
+      "page": 51,
+      "score": 0.812033,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p043:c01",
+     "iucn-wildcats-1996:p046:c04",
+     "iucn-wildcats-1996:p051:c03"
+    ],
+    "skipped": [],
+    "context_chars_after": 2650
+   },
+   {
+    "event": "answer",
+    "status": "answered"
+   }
+  ],
+  "context": "[S1] (page 43, Sub-Saharan Africa, section: African lion)\nDespite maternal defense, infanticide is common when males take over a new pride: most females with dependent offspring lose their cubs within a month of a takeover, and those that are pregnant lose their cubs shortly after giving birth. In this way, males assure paternity during their short reproductive lifetime, which is generally only as long as their period of pride tenure. In response, females show a burst of heightened sexual activity for about three months following a takeover, attracting other males and encouraging competition that ensures that the fittest (often largest) coalition is able to gain tenure. They remain infertile (anovulatory: Smuts et al. 1978) during this \"testing\" period, and only afterwards, when tenure has stabilized, tend to breed in synchrony (Packer and Pusey 1983). Litters born synchronously have a higher survival rate (probably due to maximal maternal care [Bertram 1975b]), and tend to show a sex ratio biased toward males.\n\n[S2] (page 46, Sub-Saharan Africa, section: Serval)\n## Principal Threats\n\nLions are generally considered serious problem animals whose existence is at odds with human settlement and cattle culture. Their scavenging behavior makes them particularly vulnerable to poisoned carcasses put out to eliminate predators (E. Abe, T. Anada, P. Chardonnet, A. Simonetta in ht. 1993). Where the wild ungulate prey base is migratory, stock-raiding has been reported to increase during the lean season (H. Dublin in Zitt. 1993). Problems of managing big cats in the vicinity of human settlement are discussed in Part II, Chapter 2.\n\nAction Planning Projects 28-32.\n\nServal, Leptailurus serval\n\n(Schreber, 1776)\n\n[S3] (page 51, Sub-Saharan Africa, section: Leopard)\n## Biology\n\nReproductive season: (W) probably year-round, but Bailey ( 1993) found a peak in leopard births during the birth season of impala, the main prey species.\n\nEstrus: (C) average 7 days.\n\nEstrus cycle: (C) average 46 days (Sadleir 1966).\n\nGestation: (C) 96 (90-105) days (Hemmer 1976).\n\nLitter size: (C) 1.65 (range 1-4; n=59) (Eaton 1977); (W) (according to time of first observation, when cubs may be several weeks old and some may have died) 2.13 (range 2-3; n=16) (Martin and de Meulenaer 1988).\n\nCub survival: (W) first-year mortality estimated at 41% (Martin and de Meulenaer 1988) to at least 50% annually (Bailey 1993).\n\nSub-adult survival: (W) Average annual mortality of subadults (1.5-3.5 years old) was estimated in Kruger NP at 32%, nearly twice as high as adults, probably related to poorer hunting success. Females: 40%; males: 25% (Bailey 1993).",
+  "context_ids": [
+   "iucn-wildcats-1996:p043:c01",
+   "iucn-wildcats-1996:p046:c04",
+   "iucn-wildcats-1996:p051:c03"
+  ],
+  "label_map": {
+   "S1": "iucn-wildcats-1996:p043:c01",
+   "S2": "iucn-wildcats-1996:p046:c04",
+   "S3": "iucn-wildcats-1996:p051:c03"
+  },
+  "searches": 1,
+  "model_calls": 2,
+  "prompt_tokens": 1474,
+  "completion_tokens": 175,
+  "api_retries": 0,
+  "cost_usd_estimate": null,
+  "seconds": 2.49,
+  "error": null,
+  "stop_reason": "final_answer",
+  "config": {
+   "name": "A0",
+   "retriever": "dense",
+   "top_k": 3,
+   "budget": 3000,
+   "context_mode": "rank",
+   "max_searches": 3,
+   "max_turns": 6,
+   "model": "gemini-3.5-flash",
+   "extra_rules": ""
+  }
+ },
+ {
+  "query_id": "d03",
+  "status": "abstain",
+  "answer": "INSUFFICIENT EVIDENCE: The provided passages do not state which wild African cat is so similar to the house cat that they are hard to tell apart in the field.",
+  "raw_answer": "INSUFFICIENT EVIDENCE: The provided passages do not state which wild African cat is so similar to the house cat that they are hard to tell apart in the field.",
+  "citations": [],
+  "citation_labels": [],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "house cat similar wild African cat field",
+    "raw_query": "house cat similar wild African cat field",
+    "filter": null,
+    "top_k": 3,
+    "ms": 75.1,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p059:c01",
+      "page": 59,
+      "score": 0.852069,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p034:c02",
+      "page": 34,
+      "score": 0.851782,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p033:c07",
+      "page": 33,
+      "score": 0.846292,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p059:c01",
+     "iucn-wildcats-1996:p034:c02",
+     "iucn-wildcats-1996:p033:c07"
+    ],
+    "skipped": [],
+    "context_chars_after": 2695
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "African wildcat domestic cat field house cat tell apart similar",
+    "raw_query": "African wildcat domestic cat field house cat tell apart similar",
+    "filter": null,
+    "top_k": 3,
+    "ms": 81.0,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p058:c00",
+      "page": 58,
+      "score": 0.85393,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p057:c07",
+      "page": 57,
+      "score": 0.844749,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p058:c02",
+      "page": 58,
+      "score": 0.843422,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [],
+    "skipped": [
+     "iucn-wildcats-1996:p058:c00",
+     "iucn-wildcats-1996:p057:c07",
+     "iucn-wildcats-1996:p058:c02"
+    ],
+    "context_chars_after": 2695
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "Felis silvestris lybica African wildcat domestic house cat",
+    "raw_query": "Felis silvestris lybica African wildcat domestic house cat",
+    "filter": null,
+    "top_k": 3,
+    "ms": 51.9,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p057:c07",
+      "page": 57,
+      "score": 0.870315,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p058:c06",
+      "page": 58,
+      "score": 0.860197,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p136:c02",
+      "page": 136,
+      "score": 0.853673,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [],
+    "skipped": [
+     "iucn-wildcats-1996:p057:c07",
+     "iucn-wildcats-1996:p058:c06",
+     "iucn-wildcats-1996:p136:c02"
+    ],
+    "context_chars_after": 2695
+   },
+   {
+    "event": "search_limit",
+    "query": "resemble domestic cat African wildcat"
+   },
+   {
+    "event": "answer",
+    "status": "abstain"
+   }
+  ],
+  "context": "[S1] (page 59, Sub-Saharan Africa, section: African wildcat)\n## Occurrence in Protected Areas\n\nIt is increasingly likely that pure strains of African wildcat will be found only in protected areas remote from human habitation. Those areas which may possibly protect populations of African wildcats isolated from feral domestic cats are marked with an asterisk in Figure 8.\n\nwildcat (E silvesfris, /yMcz~ group).\n\n3. Central Kgalagadi II (Botswana); 4. lona VI (Angola); (Zambia); 6. Kundelungu II complex (Zaire); 7. Selous IV** complex; 9. Tsavo II complex (Kenya); IO. Garamba II** (Zaire); 11. Mago\n\nFloris II** complex (Central African Republic); Benin and Niger); 14. Bane d'Arguin II** (Mauritania).\n\n[S2] (page 34, Sub-Saharan Africa, section: Black-footed cat)\n## Principal Threats\n\nIndiscriminate methods of predator control could be a significant threat, although farmers seldom report capturing black-footed cats in problem animal surveys (Joubert et al. 1982, Stuart and Wilson 1988). Farmers in South Africa and Namibia consider the similar-looking African wildcat a predator of small livestock, and set out steel-jaw traps and poisoned bait to get rid of them (Joubert et al. 1982, Vorster 1988). Carcass poisoning for jackal control could be a threat to the black-footed cat, which readily scavenges (A. Sliwa, pers. comm.). A similar threat is poisoning of locusts, which are food for the black-footed cat. Finally, overgrazing by livestock is prevalent throughout the\n\nFigure 1. Distribution of the\n\nblack-footed cat (F. nigripes).\n\nI. Etosha II (Namibia);\n\n2. Hwange II complex\n\n(Zimbabwe); 3. Makgadikgadi\n\nPans IV (Botswana); 4. Gemsbok II (Botswana) + Kalahari\n\nGemsbok II (South Africa)\n\ncomplex; 5. Karoo II; 6. Addo\n\n[S3] (page 33, Sub-Saharan Africa, section: Black-footed cat)\n## Habitat and Distribution\n\nThe black-footed cat is restricted to the arid lands of southern Africa (Fig. 1). It is typically associated with open, sandy, grassy habitats with sparse shrub and tree cover, such as the Kalahari and Karoo regions (Smithers 197 1, 1975; Visser 1977, Mills et al. 1984, Stuart and Wilson 1988, Sliwa 1993). A. Sliwa (pers. comm.) describes long grass with high rodent and bird densities as optimal habitat.\n\nThe northernmost records are from around 19\" S in Namibia and Botswana (Shortridge 1934, Visser 1978, P. Stander, pers. comm. 1992), although the species may occur in the southwestern comer of Angola (Anstey 1992). It has not been recorded from Zimbabwe and Mozambique, although it probably occurs there marginally (Shortridge 1934, Dias 1966, Stuart and Wilson 1988, J. Visser in Zitt. 1993). A record for Malawi is erroneous (Ansell and Dowsett 1988).",
+  "context_ids": [
+   "iucn-wildcats-1996:p059:c01",
+   "iucn-wildcats-1996:p034:c02",
+   "iucn-wildcats-1996:p033:c07"
+  ],
+  "label_map": {
+   "S1": "iucn-wildcats-1996:p059:c01",
+   "S2": "iucn-wildcats-1996:p034:c02",
+   "S3": "iucn-wildcats-1996:p033:c07"
+  },
+  "searches": 3,
+  "model_calls": 5,
+  "prompt_tokens": 5523,
+  "completion_tokens": 442,
+  "api_retries": 0,
+  "cost_usd_estimate": null,
+  "seconds": 6.64,
+  "error": null,
+  "stop_reason": "final_answer",
+  "config": {
+   "name": "A0",
+   "retriever": "dense",
+   "top_k": 3,
+   "budget": 3000,
+   "context_mode": "rank",
+   "max_searches": 3,
+   "max_turns": 6,
+   "model": "gemini-3.5-flash",
+   "extra_rules": ""
+  }
+ },
+ {
+  "query_id": "d04",
+  "status": "answered",
+  "answer": "Cheetahs living in the Saharan mountains often hunt at night, when temperatures are cooler [S3].",
+  "raw_answer": "Cheetahs living in the Saharan mountains often hunt at night, when temperatures are cooler [S3].",
+  "citations": [
+   "iucn-wildcats-1996:p066:c06"
+  ],
+  "citation_labels": [
+   "S3"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "cheetah mountain hunt",
+    "raw_query": "cheetah mountain hunt",
+    "filter": {
+     "region": "North Africa and Southwest Asia"
+    },
+    "top_k": 3,
+    "ms": 99.0,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p067:c03",
+      "page": 67,
+      "score": 0.829405,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p068:c02",
+      "page": 68,
+      "score": 0.828159,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p067:c01",
+      "page": 67,
+      "score": 0.827886,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p067:c03",
+     "iucn-wildcats-1996:p068:c02"
+    ],
+    "skipped": [
+     "iucn-wildcats-1996:p067:c01"
+    ],
+    "context_chars_after": 1969
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "cheetah hunt nocturnal night mountain day",
+    "raw_query": "cheetah hunt nocturnal night mountain day",
+    "filter": {
+     "region": "North Africa and Southwest Asia"
+    },
+    "top_k": 3,
+    "ms": 100.9,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p066:c06",
+      "page": 66,
+      "score": 0.831323,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p067:c03",
+      "page": 67,
+      "score": 0.812429,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p067:c02",
+      "page": 67,
+      "score": 0.810396,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p066:c06"
+    ],
+    "skipped": [
+     "iucn-wildcats-1996:p067:c03",
+     "iucn-wildcats-1996:p067:c02"
+    ],
+    "context_chars_after": 2702
+   },
+   {
+    "event": "answer",
+    "status": "answered"
+   }
+  ],
+  "context": "[S1] (page 67, North Africa and Southwest Asia, section: Cheetah)\n(eastern Georgian) princes hunted with trained cheetahs up to the of an Armenian prince. The Georgian Chronicles (Kartlis Fossil remains dating to the middle Pleistocene document the wild cheetahs persisted there in historical times (Vereschagin 1959).\n\nof a few cheetahs in Gilead, the vicinity of Mt. Tabor and the hills\n\n(Harrison and Bates 1991). c. Cheetahs were still found up to 40\n\nfor the cheetah in Western Sahara dates to when an\n\ncheetah in Tunisia was killed in 1960 near Bordj Bowrgiba in in Libya was in 1980 in the southwestern part of the country bordercomm. 1990, cited in Kraus and Marker-Kraus 1991). g. Hardy\n\nof the cheetah in Yemen dates to an observation by J.T. cheetah in Oman shot near Jibjat, Dhofar in 1977 (Harrison\n\nk. Cheetahs were reported to be rare in the desert west of\n\nof one killed by a car between the HI and H2\n\n1950s by oil workers near the Saudi Arabian, Jordan\n\nin Saudi Arabia dates to 1973, when two were killed near Ha'il\n\n[S2] (page 68, North Africa and Southwest Asia, section: Cheetah)\n## Habitat and Distribution\n\nCheetahs were once widely distributed across the region, absent only from extensive sand plains and massifs, and from areas of dense tree and shrubby vegetation (Heptner and Sludskii 1972). At present, only two main population concentrations can be confirmed: in the southwestern Sahara and in Iran (Fig. 2). In the southern Sahara, mountain ranges in Algeria, Chad, Mali, and Niger form the cheetah's stronghold, although they can range far out onto sandy plains where there is sufficient prey. Cheetahs have been observed at elevations up to 2,000 m in the rocky mountains (Kowalski and Rzebik-Kowalska 199 1, Dragesco-Joffe 1993, K. de Smet in Zitt. 1993). In Iran, there are reliable recent records of cheetahs from the provinces of Khorasan (northeastern part of the country), Markazi (central), and Fars (southwest) (Karami 1992).\n\n[S3] (page 66, North Africa and Southwest Asia, section: Cheetah)\nDragesco-Joffe (1993) reported that cheetahs living in the Saharan mountains often hunt at night, when temperatures are cooler. He translates the Touareg name for cheetah as \"one who advances slowly\"-a reversal of the popular perception of the cheetah as one of the fastest land mammals. The name is a tribute to the cheetah's slow, patient stalking of gazelles in open terrain with very little cover. Dragesco-Joffe also states that Saharan cheetahs occasionally take ostrich and Barbary sheep.\n\nThroughout this region and in Europe as well, captive cheetahs were kept by the nobility and trained to hunt, a practice dating back about 5,000 years to the Sumerians.",
+  "context_ids": [
+   "iucn-wildcats-1996:p067:c03",
+   "iucn-wildcats-1996:p068:c02",
+   "iucn-wildcats-1996:p066:c06"
+  ],
+  "label_map": {
+   "S1": "iucn-wildcats-1996:p067:c03",
+   "S2": "iucn-wildcats-1996:p068:c02",
+   "S3": "iucn-wildcats-1996:p066:c06"
+  },
+  "searches": 2,
+  "model_calls": 3,
+  "prompt_tokens": 2516,
+  "completion_tokens": 241,
+  "api_retries": 0,
+  "cost_usd_estimate": null,
+  "seconds": 3.97,
+  "error": null,
+  "stop_reason": "final_answer",
+  "config": {
+   "name": "A0",
+   "retriever": "dense",
+   "top_k": 3,
+   "budget": 3000,
+   "context_mode": "rank",
+   "max_searches": 3,
+   "max_turns": 6,
+   "model": "gemini-3.5-flash",
+   "extra_rules": ""
+  }
+ },
+ {
+  "query_id": "d05",
+  "status": "answered",
+  "answer": "Caracals from North Africa and Southwest Asia are generally somewhat smaller than those of sub-Saharan Africa [S1]. Additionally, caracals in the arid regions of this area have paler fur [S1].",
+  "raw_answer": "Caracals from North Africa and Southwest Asia are generally somewhat smaller than those of sub-Saharan Africa [S1]. Additionally, caracals in the arid regions of this area have paler fur [S1].",
+  "citations": [
+   "iucn-wildcats-1996:p075:c08"
+  ],
+  "citation_labels": [
+   "S1"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "caracal size fur south North Africa Southwest Asia",
+    "raw_query": "caracal size fur south North Africa Southwest Asia",
+    "filter": {
+     "region": "North Africa and Southwest Asia"
+    },
+    "top_k": 3,
+    "ms": 101.1,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p075:c08",
+      "page": 75,
+      "score": 0.880807,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p076:c05",
+      "page": 76,
+      "score": 0.87356,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p076:c06",
+      "page": 76,
+      "score": 0.869324,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p075:c08",
+     "iucn-wildcats-1996:p076:c05",
+     "iucn-wildcats-1996:p076:c06"
+    ],
+    "skipped": [],
+    "context_chars_after": 2200
+   },
+   {
+    "event": "answer",
+    "status": "answered"
+   }
+  ],
+  "context": "[S1] (page 75, North Africa and Southwest Asia, section: Caracal)\n## Description and Behavior\n\n(Plate 3) Like cheetahs, caracals were trained to hunt for the nobility in India (Sterndale 1884, Sharma and Sankhala 1984). In general, caracals from this region are somewhat smaller than those of sub-Saharan Africa, with paler fur in the arid regions (Harrison and Bates 1991, K. de Smet in Zitt. 1993). Heptner and Sludskii ( 1972) remark that the pelage\n\n[S2] (page 76, North Africa and Southwest Asia, section: Caracal)\n## Habitat and Distribution\n\nThe caracal is widely distributed through the region, absent only from true desert (Fig. 6). In north Africa, it is common in the humid forest zone of the northern coastal regions, and is also found in the Saharan mountain ranges (K. de Smet in lift. 1993) and semi-arid woodlands (Dragesco-Joffe (1993). In microhabitat preference, it is typically associated with either well-vegetated or rocky areas (Heptner and Sludskii 1972, Gasperetti et al. 1986, Weisbein 1989, A. Johnsingh in Zitt. 1991, Dragesco-Joffe 1993), which provide cover for hunting as well as shelter. It is often found near water points (Heptner and Sludskii 1972; S. Biquand, H. Mendelssohn in Zitt. 1993), but is apparently capable of satisfying its moisture requirements from its prey (Dragesco-Joffe 1993, J. Gasperetti in Zitt. 1993).\n\n[S3] (page 76, North Africa and Southwest Asia, section: Caracal)\n## Population Status\n\nGlobal: Category 5b. Regional: Category 5a(A). IUCN: Turkmenian caracal Rare. The regional Red Data Books of the former U.S.S.R. describe the caracal as rare, with the largest population found in Turkmenistan (estimated at 250-300 for the country: Belousova 1993). In Kazakhstan, the northernmost limit of its range, harsh winters are the limiting factor (Neronov and Bobrov 1991). Small populations occur in Uzbekistan along the Amu-Darya River (Heptner and Sludskii 1972). The caracal is described as rare in India, the eastern limit of its range (Pocock 1939a, Sharma and Sankhala 1984, R.S. Bhadauria in Zitt. 1991). Overall, and especially compared to the larger cats, the caracal is relatively secure, still widespread, and occasionally common.",
+  "context_ids": [
+   "iucn-wildcats-1996:p075:c08",
+   "iucn-wildcats-1996:p076:c05",
+   "iucn-wildcats-1996:p076:c06"
+  ],
+  "label_map": {
+   "S1": "iucn-wildcats-1996:p075:c08",
+   "S2": "iucn-wildcats-1996:p076:c05",
+   "S3": "iucn-wildcats-1996:p076:c06"
+  },
+  "searches": 1,
+  "model_calls": 2,
+  "prompt_tokens": 1461,
+  "completion_tokens": 191,
+  "api_retries": 0,
+  "cost_usd_estimate": null,
+  "seconds": 12.93,
+  "error": null,
+  "stop_reason": "final_answer",
+  "config": {
+   "name": "A0",
+   "retriever": "dense",
+   "top_k": 3,
+   "budget": 3000,
+   "context_mode": "rank",
+   "max_searches": 3,
+   "max_turns": 6,
+   "model": "gemini-3.5-flash",
+   "extra_rules": ""
+  }
+ },
+ {
+  "query_id": "d06",
+  "status": "answered",
+  "answer": "By the turn of the century, the last surviving Asiatic lions of the region were confined to the Gir Forest, where they were protected in the private hunting grounds of the Nawab of Junagadh [S2].",
+  "raw_answer": "By the turn of the century, the last surviving Asiatic lions of the region were confined to the Gir Forest, where they were protected in the private hunting grounds of the Nawab of Junagadh [S2].",
+  "citations": [
+   "iucn-wildcats-1996:p063:c01"
+  ],
+  "citation_labels": [
+   "S2"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "last surviving lions North Africa Southwest Asia Gir Forest Panthera leo persica",
+    "raw_query": "last surviving lions North Africa Southwest Asia Gir Forest Panthera leo persica",
+    "filter": {
+     "region": "North Africa and Southwest Asia"
+    },
+    "top_k": 3,
+    "ms": 111.3,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p064:c03",
+      "page": 64,
+      "score": 0.879036,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p063:c01",
+      "page": 63,
+      "score": 0.877505,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p064:c02",
+      "page": 64,
+      "score": 0.873217,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p064:c03",
+     "iucn-wildcats-1996:p063:c01"
+    ],
+    "skipped": [
+     "iucn-wildcats-1996:p064:c02"
+    ],
+    "context_chars_after": 2171
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "Asiatic lion Gir Forest location",
+    "raw_query": "Asiatic lion Gir Forest location",
+    "filter": {
+     "region": "North Africa and Southwest Asia"
+    },
+    "top_k": 3,
+    "ms": 100.2,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p065:c04",
+      "page": 65,
+      "score": 0.866093,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p062:c04",
+      "page": 62,
+      "score": 0.855456,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p062:c03",
+      "page": 62,
+      "score": 0.853282,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p062:c04"
+    ],
+    "skipped": [
+     "iucn-wildcats-1996:p065:c04",
+     "iucn-wildcats-1996:p062:c03"
+    ],
+    "context_chars_after": 2778
+   },
+   {
+    "event": "answer",
+    "status": "answered"
+   }
+  ],
+  "context": "[S1] (page 64, North Africa and Southwest Asia, section: Asiatic lion)\nthrough Macedonia in 480 B.C., several of his baggage camels\n\nof present-day Greece in A.D. 80-100. b. Lions were probably\n\nfrom the reed thickets and pistachio and juniper forests is\n\nin environmental conditions, which in turn led to the decline of still be found in the vicinity of Samaria in the 12th century. d. Lions\n\nsurvived in the High Atlas Mountains up to the 1940s. e. Last\n\nf. Last known lion killed in Tunisia in 1891 near Babouch,\n\nas early as 1700. h. Last known lion in Turkey killed in 1870\n\nthat lions still existed west of Aleppo, Syria, in 1891 (Kinnear The Turkish governor's bag of two in 1914 is the last report of them in the reedy swamps bordering the Tigris and Euphrates rivers in\n\nTigris (Hatt 1959). I. The valley of Dashtiarjan, 57 km west of\n\nreport of lion presence in Iran was a 1942 observation of a 1943). n. There are no confirmed modern records of lion presence in\n\nlion in Pakistan killed near Kot Deji in Sind province in 1810. p.\n\n[S2] (page 63, North Africa and Southwest Asia, section: Asiatic lion)\n## Habitat and Distribution\n\nThe range of the lion in north Africa and southwest Asia formerly stretched across the coastal forests of northern Africa and from northern Greece across southwest Asia to eastern India (Guggisberg 1961, Joslin 1973, Smithers 1975). It became extinct in eastern Europe around A.D. 100, and in Palestine around the time of the Crusades (Guggisberg 196 1). It remained widespread elsewhere until the mid- 1800s when the advent of firearms led to its extinction over large areas. By the late 1800s the lion had disappeared from Turkey @stay 1990); the last reports from Iran and Iraq date to 1942 (Joslin 1973) and 19 18 (Hatt 1959) respectively. In India, lions ranged east to the state of Bihar, but declined under heavy hunting pressure-Pocock (1939a) uses the diaries of an English officer who shot 300 lions during the 1857 Indian Mutiny as an example.\n\nBy the turn of the century, the Asiatic lion was confined to the Gir Forest, where it was protected by the Nawab of Junagadh in his private hunting grounds (Kinnear 1920).\n\n[S3] (page 62, North Africa and Southwest Asia, section: Asiatic lion)\nFinally, about 50% of Asiatic lion skulls from the Gir forest have bifurcated infraorbital foramina (small apertures which permit passage of blood vessels and nerves to the eyes). In African lions, there is only one foramen on either side (Pocock 1939a, O'Brien et al. 1987~). Asiatic lions are slightly smaller than African lions: adult Gir males weigh 160- 190 kg (n=4), while females weigh 1 lo- 120 kg (n=2) (Ravi Chellam in Zitt.\n\n1994). The record total length of a male Asiatic lion (including the tail) is 2.92 m (Sinha 1987).",
+  "context_ids": [
+   "iucn-wildcats-1996:p064:c03",
+   "iucn-wildcats-1996:p063:c01",
+   "iucn-wildcats-1996:p062:c04"
+  ],
+  "label_map": {
+   "S1": "iucn-wildcats-1996:p064:c03",
+   "S2": "iucn-wildcats-1996:p063:c01",
+   "S3": "iucn-wildcats-1996:p062:c04"
+  },
+  "searches": 2,
+  "model_calls": 3,
+  "prompt_tokens": 2789,
+  "completion_tokens": 482,
+  "api_retries": 0,
+  "cost_usd_estimate": null,
+  "seconds": 7.03,
+  "error": null,
+  "stop_reason": "final_answer",
+  "config": {
+   "name": "A0",
+   "retriever": "dense",
+   "top_k": 3,
+   "budget": 3000,
+   "context_mode": "rank",
+   "max_searches": 3,
+   "max_turns": 6,
+   "model": "gemini-3.5-flash",
+   "extra_rules": ""
+  }
+ },
+ {
+  "query_id": "d07",
+  "status": "answered",
+  "answer": "The sand cat is able to satisfy its moisture requirements from its prey [S1].",
+  "raw_answer": "The sand cat is able to satisfy its moisture requirements from its prey [S1].",
+  "citations": [
+   "iucn-wildcats-1996:p072:c04"
+  ],
+  "citation_labels": [
+   "S1"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "sand cat water",
+    "raw_query": "sand cat water",
+    "filter": null,
+    "top_k": 3,
+    "ms": 98.6,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p072:c04",
+      "page": 72,
+      "score": 0.863984,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p072:c05",
+      "page": 72,
+      "score": 0.856597,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p073:c00",
+      "page": 73,
+      "score": 0.851601,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p072:c04",
+     "iucn-wildcats-1996:p072:c05",
+     "iucn-wildcats-1996:p073:c00"
+    ],
+    "skipped": [],
+    "context_chars_after": 2585
+   },
+   {
+    "event": "answer",
+    "status": "answered"
+   }
+  ],
+  "context": "[S1] (page 72, North Africa and Southwest Asia, section: Sand cat)\n## Description and Behavior\n\n(Plate 3) The sand cat is well adapted to the extremes of a desert environment and a psammophilic, or sand-dwelling, existence. It lives in areas far from water sources, and is able to satisfy its moisture requirements from its prey. Its coat is pale yellow to grey; the tail is ringed and there are dark horizontal bars on the legs. Sand cats are prolific diggers, an adaptation not only for hunting fossorial rodents but for constructing or improving upon the burrows in which they shelter, such as those dug by the sand fox (M. Abbadi in Zitt. 1993). Dragesco-Joffe (1993) notes that the sand cat's claws are not very sharp, as there is little opportunity to sharpen them in the desert, and that impressions of the claws are often visible in the tracks. The soles of the feet are covered with a thick layer of wiry black hair (Fig. 4), insulating the foot pads against extremes of heat and cold and allowing easier movement through sand.\n\n[S2] (page 72, North Africa and Southwest Asia, section: Sand cat)\nDaytime sand surface temperatures in the Sahara during the summer can reach 52\" C (Yunker and Guirgis 1969). Day air temperatures range up to 58\" C in the shade, but night temperatures are much lower, ranging down to -0.5\" C (Cloudsley-Thompson 1984). In the northern parts of the sand cat's range, it snows in the winter, and temperatures drop as low as -25\" C (Heptner and Sludskii 1972).\n\nThe sand cat is generally active only at night, according to the results of a radiotelemetry study in Israel (Abbadi 1992), tracks seen in the central Kara Kum Desert (Bilkevich 1934, cited in Ognev 1935), and activity patterns observed in captivity (Hemmer 1977). Sand cats have occasionally been observed above ground in dayFigure 4. The underside of a sand cat's paw is protected from extreme desert temperatures by a thick covering of fur. The fur also helps spread the cat's weight so it can move more easily over shifting sands (Harrison 1968, Kitchener 1991).\n\n[S3] (page 73, North Africa and Southwest Asia, section: Sand cat)\nlight near their burrows (Lay et al. 1970, Abbadi 1992), lying on their backs in a posture which, in captivity, is regularly adopted at temperatures above 30\" C and presumably helps to shed internal heat. In captivity, sand cats are very sensitive to humidity (Hemmer 1977), and it is interesting that during six months of radio-tracking, a sand cat was only observed resting outside its burrow in the daytime after several days of rain (Abbadi 1992).",
+  "context_ids": [
+   "iucn-wildcats-1996:p072:c04",
+   "iucn-wildcats-1996:p072:c05",
+   "iucn-wildcats-1996:p073:c00"
+  ],
+  "label_map": {
+   "S1": "iucn-wildcats-1996:p072:c04",
+   "S2": "iucn-wildcats-1996:p072:c05",
+   "S3": "iucn-wildcats-1996:p073:c00"
+  },
+  "searches": 1,
+  "model_calls": 2,
+  "prompt_tokens": 1399,
+  "completion_tokens": 172,
+  "api_retries": 0,
+  "cost_usd_estimate": null,
+  "seconds": 45.05,
+  "error": null,
+  "stop_reason": "final_answer",
+  "config": {
+   "name": "A0",
+   "retriever": "dense",
+   "top_k": 3,
+   "budget": 3000,
+   "context_mode": "rank",
+   "max_searches": 3,
+   "max_turns": 6,
+   "model": "gemini-3.5-flash",
+   "extra_rules": ""
+  }
+ },
+ {
+  "query_id": "d08",
+  "status": "answered",
+  "answer": "The most common pelage coloration of the Asiatic golden cat is fox-red to gold-brown, but it can also be black, brown, or grey [S1]. In addition, a variation reported from China features ocelot-like rosettes and spots [S1].",
+  "raw_answer": "The most common pelage coloration of the Asiatic golden cat is fox-red to gold-brown, but it can also be black, brown, or grey [S1]. In addition, a variation reported from China features ocelot-like rosettes and spots [S1].",
+  "citations": [
+   "iucn-wildcats-1996:p094:c03"
+  ],
+  "citation_labels": [
+   "S1"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "Asiatic golden cat coat colour color",
+    "raw_query": "Asiatic golden cat coat colour color",
+    "filter": {
+     "region": "Tropical Asia"
+    },
+    "top_k": 3,
+    "ms": 100.7,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p094:c03",
+      "page": 94,
+      "score": 0.885508,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p094:c07",
+      "page": 94,
+      "score": 0.866252,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p094:c06",
+      "page": 94,
+      "score": 0.862153,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p094:c03",
+     "iucn-wildcats-1996:p094:c07",
+     "iucn-wildcats-1996:p094:c06"
+    ],
+    "skipped": [],
+    "context_chars_after": 1897
+   },
+   {
+    "event": "answer",
+    "status": "answered"
+   }
+  ],
+  "context": "[S1] (page 94, Tropical Asia, section: Asiatic golden cat)\n## Description and Behavior\n\n(Plate 9) The Asiatic golden cat is remarkably polymorphic in its pelage. The most common coloration is fox-red to goldbrown, but it can also be black, brown, or grey. There is a variation, thus far reported only from China, of ocelot-like rosettes and spots, which looks so unlike the plain form that some taxonomists have considered it a separate species (Weigel 1961, Leyhausen 1979). Pocock (1939a) classified the patterned form as a distinct subspecies of golden cat (C. t. tristis) from Sichuan and Tibet, but B. Tan (in ht. 199 1) reports that these forms have been collected from many areas of China. Adults weigh 8.5-15 kg, with males notably larger than females (Lekagul and McNeely 1977, Tan 1984). The terminal half of the tail has a whitish streak on the underside.\n\n[S2] (page 94, Tropical Asia, section: Asiatic golden cat)\n## Population Status\n\nGlobal: Category 3. Regional: Category 2. IUCN: Indeterminate. There is little specific information available. The Asiatic golden cat is widely reported as uncommon and threatened by deforestation (Lekagul and McNeely 1977, Biswas et al. 1985, Khan 1986, R. Salter in Zitt. 1989). Like the clouded leopard, it is found throughout much of south-central China, but there have been no studies. The largest skin harvests have come from Jiangxi (234 in 1980-81), Fujian, Hunan, Sichuan, and Yunnan (Tan 1984, B. Tan in Zitt. 1991).\n\n[S3] (page 94, Tropical Asia, section: Asiatic golden cat)\n## Habitat and Distribution\n\nAsiatic golden cats are found in tropical and sub-tropical moist evergreen and dry deciduous forests, and have occasionally been reported from more open habitats, such as shrub and grassland (Pham 1982). In the Himalayas, the species has been recorded at elevations up to 3,050 m in Sikkim, India (Biswas and Ghose 1982) (Fig. 8).",
+  "context_ids": [
+   "iucn-wildcats-1996:p094:c03",
+   "iucn-wildcats-1996:p094:c07",
+   "iucn-wildcats-1996:p094:c06"
+  ],
+  "label_map": {
+   "S1": "iucn-wildcats-1996:p094:c03",
+   "S2": "iucn-wildcats-1996:p094:c07",
+   "S3": "iucn-wildcats-1996:p094:c06"
+  },
+  "searches": 1,
+  "model_calls": 2,
+  "prompt_tokens": 1334,
+  "completion_tokens": 273,
+  "api_retries": 0,
+  "cost_usd_estimate": null,
+  "seconds": 4.26,
+  "error": null,
+  "stop_reason": "final_answer",
+  "config": {
+   "name": "A0",
+   "retriever": "dense",
+   "top_k": 3,
+   "budget": 3000,
+   "context_mode": "rank",
+   "max_searches": 3,
+   "max_turns": 6,
+   "model": "gemini-3.5-flash",
+   "extra_rules": ""
+  }
+ },
+ {
+  "query_id": "d09",
+  "status": "answered",
+  "answer": "The Bornean bay cat is described as a mystery cat because its scientific description rests on just a few skins and skulls, most collected in the late 1880s and scattered in several museums around the world [S1]. Furthermore, no observations of its behavior or ecology have been made since 1893 [S1].",
+  "raw_answer": "The Bornean bay cat is described as a mystery cat because its scientific description rests on just a few skins and skulls, most collected in the late 1880s and scattered in several museums around the world [S1]. Furthermore, no observations of its behavior or ecology have been made since 1893 [S1].",
+  "citations": [
+   "iucn-wildcats-1996:p090:c04"
+  ],
+  "citation_labels": [
+   "S1"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "reddish cat of Borneo mystery",
+    "raw_query": "reddish cat of Borneo mystery",
+    "filter": null,
+    "top_k": 3,
+    "ms": 98.8,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p090:c04",
+      "page": 90,
+      "score": 0.84489,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p090:c05",
+      "page": 90,
+      "score": 0.841027,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p102:c00",
+      "page": 102,
+      "score": 0.837146,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p090:c04",
+     "iucn-wildcats-1996:p090:c05",
+     "iucn-wildcats-1996:p102:c00"
+    ],
+    "skipped": [],
+    "context_chars_after": 2629
+   },
+   {
+    "event": "answer",
+    "status": "answered"
+   }
+  ],
+  "context": "[S1] (page 90, Tropical Asia, section: Bornean bay cat)\n## Description and Behavior\n\n(Plate 9) The Bomean bay cat is the mystery cat of the family. Its description rests on just a few skins and skulls, most collected in the late 1880s scattered in several museums around the world (Sunquist et al. 1994a). Tissue and blood samples for genetic analysis were acquired only in late 1992, when a female captured by trappers on the Sarawak-Indonesian border was brought to the Sarawak museum on the point of death. The cat weighed 1.95 kg, but was estimated to have weighed between 3-4 kg when healthy (Sunquist et al. 1994b). No observations of the bay cat's behavior or ecology have been made since Hose (1893).\n\n[S2] (page 90, Tropical Asia, section: Bornean bay cat)\nThe Bornean bay cat has two color phases: chestnutred, the more common, and grey (Pocock 1932, Sunquist et al. 1994b). The coat of the 1992 female was speckled with black markings (Sunquist et al. 1994a). Her tail was long: at 391 mm, 73% of head-body length (533 mm). On all specimens, the backs of the rounded ears are darker-colored, and a whitish stripe runs down the ventral surface of the terminal half of the tail. The bay cat resembles the Asiatic golden cat not only in these characters, but also in skull dimensions, and may well be an island form (Weigel 1961, Hemmer 1978a, Groves 1982). The Asiatic golden cat occurs widely throughout southeast Asia, including Sumatra but not Borneo. Borneo has been separated from Sumatra and other islands on the Sunda Shelf for lO,OOO- 15,000 years (Sunquist et al. 1994a). Genetic analysis indicates a close relationship to the Asiatic golden cat (Collier and O'Brien 1985).\n\n[S3] (page 102, Tropical Asia, section: Marbled cat)\nwere not found in dry tropical deciduous forest mosaic where a study of the carnivore community was carried out, but were known to be present in adjacent areas of more extensive mixed deciduous-evergreen forest (Rabinowitz and Walker 1991). Occurrence in secondary forest has been noted in Vietnam (Trinh 199 1) and Thailand (B. Lekagul, pers. comm., cited in Humphrey and Bain 1990), and Hose (1893) noted that marbled cats were seen frequently in clearings in Sarawak, and were found more often at low elevations than in the mountains. A marbled cat was observed in a six-year-old logged forest isolate in Sabah (Johns 1989). Although most records for the marbled cat in Borneo are from dipterocarp forests, Davies and Payne (1982) observed one individual on a sandy beach stabilized with Casuarina trees and grass, in a remote, swampy mangrove area. Pocock (1939a: 258) reported",
+  "context_ids": [
+   "iucn-wildcats-1996:p090:c04",
+   "iucn-wildcats-1996:p090:c05",
+   "iucn-wildcats-1996:p102:c00"
+  ],
+  "label_map": {
+   "S1": "iucn-wildcats-1996:p090:c04",
+   "S2": "iucn-wildcats-1996:p090:c05",
+   "S3": "iucn-wildcats-1996:p102:c00"
+  },
+  "searches": 1,
+  "model_calls": 2,
+  "prompt_tokens": 1460,
+  "completion_tokens": 372,
+  "api_retries": 0,
+  "cost_usd_estimate": null,
+  "seconds": 27.48,
+  "error": null,
+  "stop_reason": "final_answer",
+  "config": {
+   "name": "A0",
+   "retriever": "dense",
+   "top_k": 3,
+   "budget": 3000,
+   "context_mode": "rank",
+   "max_searches": 3,
+   "max_turns": 6,
+   "model": "gemini-3.5-flash",
+   "extra_rules": ""
+  }
+ },
+ {
+  "query_id": "d10",
+  "status": "answered",
+  "answer": "The primary threat facing the fishing cat is wetland destruction [S1].",
+  "raw_answer": "The primary threat facing the fishing cat is wetland destruction [S1].",
+  "citations": [
+   "iucn-wildcats-1996:p101:c03"
+  ],
+  "citation_labels": [
+   "S1"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "fishing cat primary threat",
+    "raw_query": "fishing cat primary threat",
+    "filter": null,
+    "top_k": 3,
+    "ms": 98.4,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p101:c03",
+      "page": 101,
+      "score": 0.866434,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p097:c06",
+      "page": 97,
+      "score": 0.865674,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p034:c02",
+      "page": 34,
+      "score": 0.859334,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p101:c03",
+     "iucn-wildcats-1996:p097:c06",
+     "iucn-wildcats-1996:p034:c02"
+    ],
+    "skipped": [],
+    "context_chars_after": 2433
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "Fishing cat Prionailurus viverrinus threat",
+    "raw_query": "Fishing cat Prionailurus viverrinus threat",
+    "filter": null,
+    "top_k": 3,
+    "ms": 104.1,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p097:c06",
+      "page": 97,
+      "score": 0.864897,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p110:c02",
+      "page": 110,
+      "score": 0.862981,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p099:c00",
+      "page": 99,
+      "score": 0.858619,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p110:c02"
+    ],
+    "skipped": [
+     "iucn-wildcats-1996:p097:c06",
+     "iucn-wildcats-1996:p099:c00"
+    ],
+    "context_chars_after": 2979
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "Fishing cat Principal Threats wetland",
+    "raw_query": "Fishing cat Principal Threats wetland",
+    "filter": null,
+    "top_k": 3,
+    "ms": 96.0,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p101:c03",
+      "page": 101,
+      "score": 0.880129,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p097:c06",
+      "page": 97,
+      "score": 0.866077,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p110:c02",
+      "page": 110,
+      "score": 0.857358,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [],
+    "skipped": [
+     "iucn-wildcats-1996:p101:c03",
+     "iucn-wildcats-1996:p097:c06",
+     "iucn-wildcats-1996:p110:c02"
+    ],
+    "context_chars_after": 2979
+   },
+   {
+    "event": "search_limit",
+    "query": "viverrinus"
+   },
+   {
+    "event": "answer",
+    "status": "answered"
+   }
+  ],
+  "context": "[S1] (page 101, Tropical Asia, section: Marbled cat)\n## Principal Threats\n\nWetland destruction is the primary threat facing the species. A survey of the status of Asian wetlands found that 50% of over 700 sites were faced with moderate to high degrees of threat, including settlement, draining for agriculture, pollution, and excessive hunting, wood-cutting and fishing. Severely threatened sites include the estuaries of the Kamataka coast (southwestern India) and the deltas of the Irrawaddy, Indus, Mekong, and Red rivers (Scott and Poole 1989). In addition, clearance of coastal mangroves over the past decade has been rapid in Tropical Asia (Dugan 1993).\n\nAction Planning Projects 64 and 65.\n\nMarbled cat, Pardofeliis\n\nmarntomfa (Martin, 1837)\n\n[S2] (page 97, Tropical Asia, section: Rusty-spotted cat)\n## Principal Threats\n\nWater pollution, especially by oil, organochlorines, and heavy metals associated with agricultural run-off and logging activities, poses a serious threat to the flat-headed cat through contamination of its prey. This is a major problem throughout much of the flat-headed cat's range (Foster-Turley et al. 1990). In addition, waterways are often the areas first cleared by people as settlement expands into the forested areas (Collins et al. 1991).\n\nAction Planning Projects 61 and 62.\n\nRusty-spotted cat,\n\nPrionailurus rubiginosus\n\n(I. Geoff roy Saint-Hilaire,\n\n1831)\n\n[S3] (page 34, Sub-Saharan Africa, section: Black-footed cat)\n## Principal Threats\n\nIndiscriminate methods of predator control could be a significant threat, although farmers seldom report capturing black-footed cats in problem animal surveys (Joubert et al. 1982, Stuart and Wilson 1988). Farmers in South Africa and Namibia consider the similar-looking African wildcat a predator of small livestock, and set out steel-jaw traps and poisoned bait to get rid of them (Joubert et al. 1982, Vorster 1988). Carcass poisoning for jackal control could be a threat to the black-footed cat, which readily scavenges (A. Sliwa, pers. comm.). A similar threat is poisoning of locusts, which are food for the black-footed cat. Finally, overgrazing by livestock is prevalent throughout the\n\nFigure 1. Distribution of the\n\nblack-footed cat (F. nigripes).\n\nI. Etosha II (Namibia);\n\n2. Hwange II complex\n\n(Zimbabwe); 3. Makgadikgadi\n\nPans IV (Botswana); 4. Gemsbok II (Botswana) + Kalahari\n\nGemsbok II (South Africa)\n\ncomplex; 5. Karoo II; 6. Addo\n\n[S4] (page 110, Tropical Asia, section: Leopard cat)\n## Principal Threats\n\nJungle cats do well in cultivated landscapes (especially those that lead to increased numbers of rodents) and artificial wetlands. However, reclamation and destruction of natural wetlands, ongoing throughout its range but particularly in the arid areas (Dugan 1993), still pose a threat to the species, as density in natural wetlands is generally higher (Allayarov 1964, Belousova 1993).\n\nAction Planning Project 80.\n\nLeopard cat, Prionailurus\n\nbengalensis (Kerr, 1792)",
+  "context_ids": [
+   "iucn-wildcats-1996:p101:c03",
+   "iucn-wildcats-1996:p097:c06",
+   "iucn-wildcats-1996:p034:c02",
+   "iucn-wildcats-1996:p110:c02"
+  ],
+  "label_map": {
+   "S1": "iucn-wildcats-1996:p101:c03",
+   "S2": "iucn-wildcats-1996:p097:c06",
+   "S3": "iucn-wildcats-1996:p034:c02",
+   "S4": "iucn-wildcats-1996:p110:c02"
+  },
+  "searches": 3,
+  "model_calls": 5,
+  "prompt_tokens": 5210,
+  "completion_tokens": 512,
+  "api_retries": 0,
+  "cost_usd_estimate": null,
+  "seconds": 31.6,
+  "error": null,
+  "stop_reason": "final_answer",
+  "config": {
+   "name": "A0",
+   "retriever": "dense",
+   "top_k": 3,
+   "budget": 3000,
+   "context_mode": "rank",
+   "max_searches": 3,
+   "max_turns": 6,
+   "model": "gemini-3.5-flash",
+   "extra_rules": ""
+  }
+ },
+ {
+  "query_id": "d11",
+  "status": "answered",
+  "answer": "Water pollution, particularly from oil, organochlorines, and heavy metals associated with agricultural run-off and logging activities, seriously threatens the flat-headed cat by contaminating its prey [S1]. This contamination represents a major problem across much of the species' range [S1].",
+  "raw_answer": "Water pollution, particularly from oil, organochlorines, and heavy metals associated with agricultural run-off and logging activities, seriously threatens the flat-headed cat by contaminating its prey [S1]. This contamination represents a major problem across much of the species' range [S1].",
+  "citations": [
+   "iucn-wildcats-1996:p097:c06"
+  ],
+  "citation_labels": [
+   "S1"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "flat-headed cat water pollution",
+    "raw_query": "flat-headed cat water pollution",
+    "filter": null,
+    "top_k": 3,
+    "ms": 103.4,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p097:c06",
+      "page": 97,
+      "score": 0.916381,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p097:c00",
+      "page": 97,
+      "score": 0.872481,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p097:c03",
+      "page": 97,
+      "score": 0.860707,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p097:c06",
+     "iucn-wildcats-1996:p097:c00",
+     "iucn-wildcats-1996:p097:c03"
+    ],
+    "skipped": [],
+    "context_chars_after": 1863
+   },
+   {
+    "event": "answer",
+    "status": "answered"
+   }
+  ],
+  "context": "[S1] (page 97, Tropical Asia, section: Rusty-spotted cat)\n## Principal Threats\n\nWater pollution, especially by oil, organochlorines, and heavy metals associated with agricultural run-off and logging activities, poses a serious threat to the flat-headed cat through contamination of its prey. This is a major problem throughout much of the flat-headed cat's range (Foster-Turley et al. 1990). In addition, waterways are often the areas first cleared by people as settlement expands into the forested areas (Collins et al. 1991).\n\nAction Planning Projects 61 and 62.\n\nRusty-spotted cat,\n\nPrionailurus rubiginosus\n\n(I. Geoff roy Saint-Hilaire,\n\n1831)\n\n[S2] (page 97, Tropical Asia, section: Rusty-spotted cat)\n1993). In captivity, flat-headed cats enjoy a basin of water, playing or simply sitting in it for hours. They have been observed to wash objects, raccoon-style. Live fish were readily taken, with full submergence of the head, and the fish were usually carried at least two meters away, suggesting a feeding strategy to avoid letting aquatic prey escape back into water (Muul and Lim 1970; M. Rosenthal, S. Yasuma in litt. 1993).\n\n[S3] (page 97, Tropical Asia, section: Rusty-spotted cat)\n## Habitat and Distribution\n\nMost collection records for the flat-headed cat are from swampy areas, oxbow lakes, and river-me forest (C. Groves in Zitt. 1993). No research has been done on the species in the wild; for example, the only information on altitudinal range for the species (up to 700 m in the Dulit mountains of Sarawak: Hose 1893) is 100 years old. It may be less specialized than presently believed in its habitat requirements, as indicated by sightings in oil palm plantations in Malaysia, where it apparently hunts rodents (M. Khan in Zitt. 1991). It is not known north of the Isthmus of Kra (Lekagul and McNeely 1977, U. Ohn in Zitt. 1993) (Fig. 9).",
+  "context_ids": [
+   "iucn-wildcats-1996:p097:c06",
+   "iucn-wildcats-1996:p097:c00",
+   "iucn-wildcats-1996:p097:c03"
+  ],
+  "label_map": {
+   "S1": "iucn-wildcats-1996:p097:c06",
+   "S2": "iucn-wildcats-1996:p097:c00",
+   "S3": "iucn-wildcats-1996:p097:c03"
+  },
+  "searches": 1,
+  "model_calls": 2,
+  "prompt_tokens": 1228,
+  "completion_tokens": 180,
+  "api_retries": 0,
+  "cost_usd_estimate": null,
+  "seconds": 23.64,
+  "error": null,
+  "stop_reason": "final_answer",
+  "config": {
+   "name": "A0",
+   "retriever": "dense",
+   "top_k": 3,
+   "budget": 3000,
+   "context_mode": "rank",
+   "max_searches": 3,
+   "max_turns": 6,
+   "model": "gemini-3.5-flash",
+   "extra_rules": ""
+  }
+ },
+ {
+  "query_id": "d12",
+  "status": "answered",
+  "answer": "The Iriomote cat is found only on Iriomote Island, a Japanese island of 293 km² located at the southernmost tip of the Ryukyu chain [S1].",
+  "raw_answer": "The Iriomote cat is found only on Iriomote Island, a Japanese island of 293 km² located at the southernmost tip of the Ryukyu chain [S1].",
+  "citations": [
+   "iucn-wildcats-1996:p113:c02"
+  ],
+  "citation_labels": [
+   "S1"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "Japanese island 300 square kilometres cat",
+    "raw_query": "Japanese island 300 square kilometres cat",
+    "filter": null,
+    "top_k": 3,
+    "ms": 100.4,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p113:c02",
+      "page": 113,
+      "score": 0.83001,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p114:c03",
+      "page": 114,
+      "score": 0.827483,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p112:c02",
+      "page": 112,
+      "score": 0.822558,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p113:c02",
+     "iucn-wildcats-1996:p114:c03",
+     "iucn-wildcats-1996:p112:c02"
+    ],
+    "skipped": [],
+    "context_chars_after": 2081
+   },
+   {
+    "event": "answer",
+    "status": "answered"
+   }
+  ],
+  "context": "[S1] (page 113, Tropical Asia, section: Iriomote cat)\n## Description and Behavior\n\n(Plate 10) The Iriomote cat was first described for science in the late 1960s when Imaizumi (1967) labelled it \"probably one of the most primitive species among the Asiatic Felidae.\" It is found only on Iriomote island, an island of 293 km2 at the southernmost tip of the Ryuku chain, located about 200 km east of Taiwan. Imaizumi (1967) considered the Iriomote cat to be a highly differentiated form based upon the following principal characters: the ventral border of the paraoccipital process separated from the auditory bulla; an oval disc on each side of the basisphenoid and basioccipital region; P3 with postero-external comer evenly rounded, without a cingulum cusp; and auditory bullae unusually small. These characters, however, are polymorphic in the leopard cat (Petzsch 1970, Corbett and Hill 1993).\n\n[S2] (page 114, Tropical Asia, section: Iriomote cat)\n## Principal Threats\n\nThe Iriomote cat is endangered primarily because it is restricted to a single population, albeit located on the least developed island in Japan. That situation is changing rapidly, however, as island residents press for accelerated economic growth. Iriomote is promoted as a tourist location, with the Iriomote cat a major source of appeal. The industry is still nascent, but plans are being laid for major resort development, along with a dam to provide the eight projected hotels with a stable supply of water (Anon. 1992a). A major airport is being constructed on nearby Ishigaki island (20 km away) to provide a direct link to Tokyo.\n\n[S3] (page 112, Tropical Asia, section: Leopard cat)\nTwo radiotelemetry studies have produced the first data on home range size for leopard cats, although densities have not been estimated. On the Tsushima islands, Izawa et al. (199 1) reported average home ranges of 0.83 km2 for five males and one female. In dry tropical forest in Thailand, home range sizes for three males and one female ranged between 1.5-7.5 km2, with core areas of 0.7-2 km2 (Rabinowitz 1990).",
+  "context_ids": [
+   "iucn-wildcats-1996:p113:c02",
+   "iucn-wildcats-1996:p114:c03",
+   "iucn-wildcats-1996:p112:c02"
+  ],
+  "label_map": {
+   "S1": "iucn-wildcats-1996:p113:c02",
+   "S2": "iucn-wildcats-1996:p114:c03",
+   "S3": "iucn-wildcats-1996:p112:c02"
+  },
+  "searches": 1,
+  "model_calls": 2,
+  "prompt_tokens": 1281,
+  "completion_tokens": 257,
+  "api_retries": 0,
+  "cost_usd_estimate": null,
+  "seconds": 30.85,
+  "error": null,
+  "stop_reason": "final_answer",
+  "config": {
+   "name": "A0",
+   "retriever": "dense",
+   "top_k": 3,
+   "budget": 3000,
+   "context_mode": "rank",
+   "max_searches": 3,
+   "max_turns": 6,
+   "model": "gemini-3.5-flash",
+   "extra_rules": ""
+  }
+ },
+ {
+  "query_id": "d13",
+  "status": "answered",
+  "answer": "Despite its name, the jungle cat is not strongly associated with closed forest, but rather with water and dense vegetative cover, especially reed swamps, marsh, and littoral and riparian environments [S1].",
+  "raw_answer": "Despite its name, the jungle cat is not strongly associated with closed forest, but rather with water and dense vegetative cover, especially reed swamps, marsh, and littoral and riparian environments [S1].",
+  "citations": [
+   "iucn-wildcats-1996:p108:c07"
+  ],
+  "citation_labels": [
+   "S1"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "jungle cat forest animal habitat",
+    "raw_query": "jungle cat forest animal habitat",
+    "filter": null,
+    "top_k": 3,
+    "ms": 99.6,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p108:c07",
+      "page": 108,
+      "score": 0.899798,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p110:c02",
+      "page": 110,
+      "score": 0.873109,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p035:c07",
+      "page": 35,
+      "score": 0.8647,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p108:c07",
+     "iucn-wildcats-1996:p110:c02",
+     "iucn-wildcats-1996:p035:c07"
+    ],
+    "skipped": [],
+    "context_chars_after": 2481
+   },
+   {
+    "event": "answer",
+    "status": "answered"
+   }
+  ],
+  "context": "[S1] (page 108, Tropical Asia, section: Jungle cat)\n## Habitat and Distribution\n\nThe jungle cat, despite its name, is not strongly associated with closed forest, but rather with water and dense vegetative cover, especially reed swamps, marsh, and littoral and riparian environments. It is able to satisfy these requirements in a variety of habitats across a wide geographic area (Fig. 16). In sandy and stony desert country (sometimes with only very sparse shrub cover: Roberts 1977), it occurs along riverbeds or near oases (Heptner and Sludskii 1972, Osborn and Helmy 1980, Harrison and Bates 199 1, Belousova 1993, E. Matjuschkin in litt. 1993). In southeast Asia, it is typically found in tropical deciduous forest (Lekagul and McNeely 1977, Feng et al. 1986, Rabinowitz and Walker 1990, A. Johnsingh in litt. 1991), although it has also been reported from evergreen forest in central Vietnam (Trinh 1991), probably in association\n\n[S2] (page 110, Tropical Asia, section: Leopard cat)\n## Principal Threats\n\nJungle cats do well in cultivated landscapes (especially those that lead to increased numbers of rodents) and artificial wetlands. However, reclamation and destruction of natural wetlands, ongoing throughout its range but particularly in the arid areas (Dugan 1993), still pose a threat to the species, as density in natural wetlands is generally higher (Allayarov 1964, Belousova 1993).\n\nAction Planning Project 80.\n\nLeopard cat, Prionailurus\n\nbengalensis (Kerr, 1792)\n\n[S3] (page 35, Sub-Saharan Africa, section: African golden cat)\n## Habitat and Distribution\n\nThe primary habitat of the African golden cat is the moist forest zone of equatorial Africa, including mangrove and alpine bamboo forests. Golden cats can penetrate savannah grasslands along belts of riverine forest (Van Mensch and Van Bree 1969), and so their distribution probably extends beyond the moist forest zone. As an extreme example, the species was recorded from Nioro du Sahel, Mali, in relatively arid Savannah woodland (Bigourdan and Prunier 1937), although possibly in error (Van Mensch and Van Bree 1969).\n\nGolden cats apparently adapt well to logged areas, as destruction of the canopy favors the dense secondary undergrowth with which they are often associated (Kingdon 1977, Anstey 1991, S. Lahm in Zitt. 1993). Edge environments generally contain higher rodent densities, and may thus be preferred (J. Hart in Zitt. 1994). However, primary forest with minimal human disturbance is the",
+  "context_ids": [
+   "iucn-wildcats-1996:p108:c07",
+   "iucn-wildcats-1996:p110:c02",
+   "iucn-wildcats-1996:p035:c07"
+  ],
+  "label_map": {
+   "S1": "iucn-wildcats-1996:p108:c07",
+   "S2": "iucn-wildcats-1996:p110:c02",
+   "S3": "iucn-wildcats-1996:p035:c07"
+  },
+  "searches": 1,
+  "model_calls": 2,
+  "prompt_tokens": 1359,
+  "completion_tokens": 165,
+  "api_retries": 0,
+  "cost_usd_estimate": null,
+  "seconds": 2.6,
+  "error": null,
+  "stop_reason": "final_answer",
+  "config": {
+   "name": "A0",
+   "retriever": "dense",
+   "top_k": 3,
+   "budget": 3000,
+   "context_mode": "rank",
+   "max_searches": 3,
+   "max_turns": 6,
+   "model": "gemini-3.5-flash",
+   "extra_rules": ""
+  }
+ },
+ {
+  "query_id": "d14",
+  "status": "answered",
+  "answer": "Leopard cats tend to be yellowish-brown in the tropics and greyish-brown in the northern parts of their range [S2].",
+  "raw_answer": "Leopard cats tend to be yellowish-brown in the tropics and greyish-brown in the northern parts of their range [S2].",
+  "citations": [
+   "iucn-wildcats-1996:p110:c04"
+  ],
+  "citation_labels": [
+   "S2"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "leopard cat coat colour tropics north",
+    "raw_query": "leopard cat coat colour tropics north",
+    "filter": null,
+    "top_k": 3,
+    "ms": 101.3,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p049:c07",
+      "page": 49,
+      "score": 0.860704,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p110:c04",
+      "page": 110,
+      "score": 0.859369,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p111:c01",
+      "page": 111,
+      "score": 0.855367,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p049:c07",
+     "iucn-wildcats-1996:p110:c04",
+     "iucn-wildcats-1996:p111:c01"
+    ],
+    "skipped": [],
+    "context_chars_after": 2401
+   },
+   {
+    "event": "answer",
+    "status": "answered"
+   }
+  ],
+  "context": "[S1] (page 49, Sub-Saharan Africa, section: Leopard)\n## Description and Behavior\n\n(Plate 1) The leopard has the widest distribution of the wild cats, and shows great variation in appearance and behavior. In general, the coat color varies from pale yellow to deep gold or tawny, and is patterned with black rosettes. The head,\n\n[S2] (page 110, Tropical Asia, section: Leopard cat)\n## Description and Behavior\n\n(Plate 10) Leopard cats tend to yellowish-brown in the tropics and greyish-brown in the northern parts of their range (Pocock 1939a, Gao et al. 1987). There is a good deal of variation in the pelage: for example, Heptner and Sludskii (1972) describe the leopard cat in Russia, with its tiny range, as having greater color variation than any other Soviet felid except the lynx, which has a much wider range. The leopard cat's pelt is dotted with dark spots which are sometimes solid, sometimes rosettes, and the tail is banded with black rings toward the tip. Males (3.3-4 kg: n=6) are larger than females (2.5-3 kg: n=2) (Izawa et al. 1991, Rabinowitz 1990). Male leopard cats in Russia have weighed up to seven kg (Heptner and Sludskii 1972). Rodents form the principal prey (China: Wang Peichao, pers. comm to A. Abdukadir; Japan: Inoue 1972; Philippines: Alcala and Brown 1969; Russia: Stroganov 1962, Heptner and Sludskii 1972; Thailand: Rabinowitz 1990).\n\n[S3] (page 111, Tropical Asia, section: Leopard cat)\n## Habitat and Distribution\n\nThe leopard cat has a wide distribution in Asia, ranging up to 3,000 m in parts of its range, which extends into the Himalayas along river valleys (Habibi 1977, Feng et al. 1986). It occurs in a broad spectrum of habitats, from tropical rain forest to temperate broadleaf and, marginally,\n\nFigure 17. Distribution of the\n\nleopard cat (I? bengalensis).\n\n1. Naltar IV (Pakistan); 2.\n\nDachigam II; 3. Kedarnath IV;\n\n4. Bandipur II; 5. Kanha II;\n\n6. Balphakram II; 7. Mouling II\n\n(India); 8. Royal Sukla Phanta\n\nIV; 9. Royal Chitwan II**\n\ncomplex (Nepal); 10. Huai\n\nKha Khaeng IV complex;\n\n11. Tarutao II (Thailand);\n\n12. Cut Phuong II; 13. Bach\n\nMa Hai Van II; 14. Nam Bai Cat\n\nTien II (Vietnam); 15. Lomphat\n\nreserve (proposed: Cambodia);\n\n16. Taman Negara II (Peninsular Malaysia); 17. Tabin VIII;\n\n18. Kinabalu II (Sabah, Malaysia); 19. Kutai II (Kalimantan,\n\nIndonesia); 20. Meru Betiri II;\n\n21. Ujung Kulong II (Java,\n\nIndonesia); 22. Berbak IV;",
+  "context_ids": [
+   "iucn-wildcats-1996:p049:c07",
+   "iucn-wildcats-1996:p110:c04",
+   "iucn-wildcats-1996:p111:c01"
+  ],
+  "label_map": {
+   "S1": "iucn-wildcats-1996:p049:c07",
+   "S2": "iucn-wildcats-1996:p110:c04",
+   "S3": "iucn-wildcats-1996:p111:c01"
+  },
+  "searches": 1,
+  "model_calls": 2,
+  "prompt_tokens": 1509,
+  "completion_tokens": 171,
+  "api_retries": 0,
+  "cost_usd_estimate": null,
+  "seconds": 2.4,
+  "error": null,
+  "stop_reason": "final_answer",
+  "config": {
+   "name": "A0",
+   "retriever": "dense",
+   "top_k": 3,
+   "budget": 3000,
+   "context_mode": "rank",
+   "max_searches": 3,
+   "max_turns": 6,
+   "model": "gemini-3.5-flash",
+   "extra_rules": ""
+  }
+ },
+ {
+  "query_id": "d15",
+  "status": "answered",
+  "answer": "The marbled cat has a long tail that is equivalent to or longer than its head-body length, measuring 48–55 cm [S1].",
+  "raw_answer": "The marbled cat has a long tail that is equivalent to or longer than its head-body length, measuring 48–55 cm [S1].",
+  "citations": [
+   "iucn-wildcats-1996:p101:c05"
+  ],
+  "citation_labels": [
+   "S1"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "marbled cat tail body length",
+    "raw_query": "marbled cat tail body length",
+    "filter": null,
+    "top_k": 3,
+    "ms": 109.8,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p101:c05",
+      "page": 101,
+      "score": 0.863598,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p149:c03",
+      "page": 149,
+      "score": 0.861395,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p108:c03",
+      "page": 108,
+      "score": 0.837431,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p101:c05",
+     "iucn-wildcats-1996:p149:c03",
+     "iucn-wildcats-1996:p108:c03"
+    ],
+    "skipped": [],
+    "context_chars_after": 2412
+   },
+   {
+    "event": "answer",
+    "status": "answered"
+   }
+  ],
+  "context": "[S1] (page 101, Tropical Asia, section: Marbled cat)\n## Description and Behavior\n\n(Plate 8) The marbled cat's coat is very similar to that of the clouded leopard, although the black-edged blotches on the sides of its body are less distinct, and black spots on the limbs more numerous. It also has a long tail, equivalent to or longer than head-body length (TL = 48-55 cm: Pocock 1939a). Corbett and Hill (1993) place both species in the genus Pardofelis, noting that \"the unique and complex pattern of the pelage is unlikely to be independently derived or primitive.\" Groves (1982) also supports a close relationship, noting that, like the clouded leopard, the marbled cat's upper canines are relatively enlarged. However, the marbled cat is less than one-third the weight of the clouded leopard, has a shorter, rounder skull (Pocock 1932b) and shares an identical karyotype with Lynx, Panthera, and Uncia (Wurster-Hill and Centerwall 1982).\n\n[S2] (page 149, The Americas, section: Margay)\nThe cats would jump from a distance of 2 m with front legs and claws extended, hit the rope at their belly region, somersault over to hang by the hind feet, and drop back to the ground. The margay's tail is proportionately quite long (although not as long as the Andean mountain cat), averaging 70% of headbody length (TL=36.4 cm; n=6: Redford and Eisenberg 1992). It serves as a counterweight to aid balance (Eisenberg 1990).\n\n[S3] (page 108, Tropical Asia, section: Jungle cat)\n## Description and Behavior\n\n(Plate 10) Like the serval, the jungle cat has long legs and a slender build. The fur is generally sandy brown, reddish or grey, and is unpatterned except for stripes on the legs and occasionally the throat, which are very light in the south of its range and darker in the north (Pocock 195 1, Heptner and Sludskii 1972, Harrison and Bates 1991). The winter coat is darker and denser than in summer (Heptner and Sludskii 1972). Melanistic individuals are occasionally reported (Pocock 1939a, Chakraborty et al. 1988, T. Roberts in litt. 1993). Jungle cats have black ear tufts (up to 15 mm in length: Roberts 1977). The tail is relatively short, averaging about 40% of head-body length (TL=27 cm; n=49: Pocock 195 1). Males are markedly larger than females (6.1 k 1.5 kg [n=20] vs. 4.2 t 1.1 kg [n=l2]: Pocock 195 1). An old male captured in Russia's Astrakhan reserve weighed 13 kg (Heptner and Sludskii 1972).",
+  "context_ids": [
+   "iucn-wildcats-1996:p101:c05",
+   "iucn-wildcats-1996:p149:c03",
+   "iucn-wildcats-1996:p108:c03"
+  ],
+  "label_map": {
+   "S1": "iucn-wildcats-1996:p101:c05",
+   "S2": "iucn-wildcats-1996:p149:c03",
+   "S3": "iucn-wildcats-1996:p108:c03"
+  },
+  "searches": 1,
+  "model_calls": 2,
+  "prompt_tokens": 1429,
+  "completion_tokens": 207,
+  "api_retries": 0,
+  "cost_usd_estimate": null,
+  "seconds": 2.67,
+  "error": null,
+  "stop_reason": "final_answer",
+  "config": {
+   "name": "A0",
+   "retriever": "dense",
+   "top_k": 3,
+   "budget": 3000,
+   "context_mode": "rank",
+   "max_searches": 3,
+   "max_turns": 6,
+   "model": "gemini-3.5-flash",
+   "extra_rules": ""
+  }
+ },
+ {
+  "query_id": "d16",
+  "status": "answered",
+  "answer": "The rusty-spotted cat is the smallest member of the cat family [S1].",
+  "raw_answer": "The rusty-spotted cat is the smallest member of the cat family [S1].",
+  "citations": [
+   "iucn-wildcats-1996:p097:c08"
+  ],
+  "citation_labels": [
+   "S1"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "tiniest cat family smallest",
+    "raw_query": "tiniest cat family smallest",
+    "filter": null,
+    "top_k": 3,
+    "ms": 105.9,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p097:c08",
+      "page": 97,
+      "score": 0.85624,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p033:c02",
+      "page": 33,
+      "score": 0.844238,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p155:c03",
+      "page": 155,
+      "score": 0.842356,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p097:c08",
+     "iucn-wildcats-1996:p033:c02",
+     "iucn-wildcats-1996:p155:c03"
+    ],
+    "skipped": [],
+    "context_chars_after": 2089
+   },
+   {
+    "event": "answer",
+    "status": "answered"
+   }
+  ],
+  "context": "[S1] (page 97, Tropical Asia, section: Rusty-spotted cat)\n## Description and Behavior\n\n(Plate 10) The rusty-spotted cat is the cat family's smallest member. Males weigh about 1 S-l .6 kg, and females 1.1 kg (Phillips 1935, Pocock 1939a). The coat is a short, soft fawn-grey with a rufous tinge, patterned with transverse lines of small rusty-brown spots which form solid stripes along the back of the head. The tail, which averages about 50% of headbody length, is faintly marked with dark rings (Pocock 1939a).\n\n[S2] (page 33, Sub-Saharan Africa, section: Black-footed cat)\n## Description and Behavior\n\n(Plate 3) The black-footed cat is among the world's smallest felines, with females weighing around 1.2 kg (range 0.8 1.6) and males larger at 1.6-2.1 kg (Smithers 1971, Stuart 1981, Lynch 1983, A. Sliwa in litt. 1993). Total length ranges from 50-63 cm (Smithers 1971), and shoulder height is around 25 cm (Stuart and Wilson 1988). It is boldly patterned with blackish oblong spots, and its legs are barred with thick dark stripes. The undersides of its feet are black, like those of the African wildcat. The auditory bullae are enlarged, with total length about 25% of skull length (Skinner and Smithers 1990).\n\n[S3] (page 155, The Americas, section: Geoffroy's cat)\n## Population Status\n\nGlobal: Category 4. Regional: Category 3. IUCN: not listed. Throughout its range, Geoffroy's cat has been described as the most common of the small cats (Ximenez 1973, Melquist 1984, Brooks 1992), with the exception of southern Chile, where it is restricted to a small area of cold scrublands east of the Andes (Glade 1988). However, there are fears that a decade of high-volume skin trade has severely reduced populations (Govt. of Brazil 1992). Its status is not well known.\n\nIn Torres de1 Paine National Park, female annual home ranges averaged 3.7 t 1.1 km2 (n=2), and males 9.2 t 1.7 km2 (n=5) . Female ranges overlapped, while males apparently did not. Density was estimated at 1.2 individuals per 10 km2 (including kittens) in prime habitat (NothoProtected area where\n\nspecies may occur",
+  "context_ids": [
+   "iucn-wildcats-1996:p097:c08",
+   "iucn-wildcats-1996:p033:c02",
+   "iucn-wildcats-1996:p155:c03"
+  ],
+  "label_map": {
+   "S1": "iucn-wildcats-1996:p097:c08",
+   "S2": "iucn-wildcats-1996:p033:c02",
+   "S3": "iucn-wildcats-1996:p155:c03"
+  },
+  "searches": 1,
+  "model_calls": 2,
+  "prompt_tokens": 1331,
+  "completion_tokens": 143,
+  "api_retries": 0,
+  "cost_usd_estimate": null,
+  "seconds": 24.86,
+  "error": null,
+  "stop_reason": "final_answer",
+  "config": {
+   "name": "A0",
+   "retriever": "dense",
+   "top_k": 3,
+   "budget": 3000,
+   "context_mode": "rank",
+   "max_searches": 3,
+   "max_turns": 6,
+   "model": "gemini-3.5-flash",
+   "extra_rules": ""
+  }
+ },
+ {
+  "query_id": "d17",
+  "status": "abstain",
+  "answer": "INSUFFICIENT EVIDENCE: The provided passages do not contain information about a cat endemic to China that is known only from the north-eastern margin of the Tibetan Plateau.",
+  "raw_answer": "INSUFFICIENT EVIDENCE: The provided passages do not contain information about a cat endemic to China that is known only from the north-eastern margin of the Tibetan Plateau.",
+  "citations": [],
+  "citation_labels": [],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "north-eastern margin Tibetan Plateau endemic China",
+    "raw_query": "north-eastern margin Tibetan Plateau endemic China",
+    "filter": null,
+    "top_k": 3,
+    "ms": 112.5,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p122:c00",
+      "page": 122,
+      "score": 0.84381,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p087:c01",
+      "page": 87,
+      "score": 0.830069,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p124:c02",
+      "page": 124,
+      "score": 0.825239,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p122:c00",
+     "iucn-wildcats-1996:p087:c01",
+     "iucn-wildcats-1996:p124:c02"
+    ],
+    "skipped": [],
+    "context_chars_after": 2951
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "Chinese mountain cat Felis bieti endemic",
+    "raw_query": "Chinese mountain cat Felis bieti endemic",
+    "filter": null,
+    "top_k": 3,
+    "ms": 103.9,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p121:c02",
+      "page": 121,
+      "score": 0.893663,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p121:c00",
+      "page": 121,
+      "score": 0.885419,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p121:c05",
+      "page": 121,
+      "score": 0.876195,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [],
+    "skipped": [
+     "iucn-wildcats-1996:p121:c02",
+     "iucn-wildcats-1996:p121:c00",
+     "iucn-wildcats-1996:p121:c05"
+    ],
+    "context_chars_after": 2951
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "Felis bieti",
+    "raw_query": "Felis bieti",
+    "filter": null,
+    "top_k": 3,
+    "ms": 111.8,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p121:c00",
+      "page": 121,
+      "score": 0.839583,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p033:c00",
+      "page": 33,
+      "score": 0.818661,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p099:c02",
+      "page": 99,
+      "score": 0.804519,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [],
+    "skipped": [
+     "iucn-wildcats-1996:p121:c00",
+     "iucn-wildcats-1996:p033:c00",
+     "iucn-wildcats-1996:p099:c02"
+    ],
+    "context_chars_after": 2951
+   },
+   {
+    "event": "search_limit",
+    "query": "Tibetan Plateau endemic"
+   },
+   {
+    "event": "answer",
+    "status": "abstain"
+   }
+  ],
+  "context": "[S1] (page 122, Eurasia, section: Manul)\nflatter, more desert-like terrain (F.b. chutuchta and F.b. veUerosa: Pocock 195 1 ), probably refer respectively to misidentified specimens of Asiatic wildcat and domestic cat (Haltenorth 1953, Groves 1980). It may occur along the northern edge of the Tibetan Plateau, in the desert mountains of Xinjiang (Pamir and Kunlun Mountains: Wang and Wang 1986, X. Gao in litt. 1993), but such reports have yet to be confirmed (Achuff and Petocz 1988, A. Abdukadir in Zitt. 1993). The southernmost records near Chengdu (Fig. 2) are from the same sort of area where the giant panda is found, an entirely different habitat type consisting of montane bamboo forest. Allen (1938) notes that these specimens, obtained in the late 1800s in the fur markets of Tatsienlu and Sungpan (Sichuan province), were probably not locally obtained, and speculates that they came from \"the borderlands of the extreme western edge of China or even from Tibet.\"\n\n[S2] (page 87, Tropical Asia, section: Tiger)\nCambodia: Tigers have been recorded in the proposed Lomphat reserve (shown in Fig. 2; MacKinnon and\n\nGUIZO U\n\nFigure 3. Current distribution\n\nproposed network (Gui and Meng\n\n(440 km*); 3. Wulingyun Mt. Nature\n\nMt. IV (50 km2); 6. Jinggang\n\n9. Chebaling IV (75 km*); 10. Mang\n\n(78 km*); 13. Dayunyunko IV (103\n\n16. Wuyi Mts. IV (565 km*); 17. Meihua\n\n19. Shennongjia (Shewengia)\n\nMacKinnon 1986: 237-244), but there have otherwise been\n\nno surveys to map tiger distribution in Cambodia (Chim\n\nSomean, Wildlife Protection Office, in Anon. 1994~).\n\nChina: In China, a 1990 survey found South China tiger\n\nsigns in 11 reserves (Koehler 1991); a total of 19 fall\n\nwithin its present range (Gui and Meng 1993). Total protected area coverage is about 2,500 km2. Gui and Meng\n\n(1993) identify 12 additional sites, with a total area of\n\n6,000 km\", which they recommend for protection (Fig.\n\n3). Sightings of Amur tigers in Changbai Mts. IV* (1,905\n\nkm2) in northeastern China were reported in Chinese\n\n[S3] (page 124, Eurasia, section: Asiatic wildcat)\n## Population Status\n\nGlobal: Category 4. Regional (Asia): Category 2. IUCN: Insufficiently Known. The manul has been described as most abundant on the cold grasslands of Mongolia and Inner Mongolia (Mallon 1985, Feng et al. 1986, Y. Ma, pers. comm. 1992). On the Tibetan Plateau, it occurs widely but is nowhere common (G. Schaller in Zitt. 1993), as most of the region lies above 4,500 m in elevation. Elsewhere, the species is considered vulnerable to rare and uncommon: Afghanistan (Habibi 1977), Lakdakh, India (Mallon 1991), and Pakistan, especially the small, isolated populations found in Baluchistan (Roberts 1977). In particular, the manul has disappeared in recent years from much of the Caspian region (Bannikov and Sokolov 1984, Belousova 1993). Y. Ma (pers. comm. 1992) reports that it has been eliminated from the easternmost parts of its range in China due to hunting.",
+  "context_ids": [
+   "iucn-wildcats-1996:p122:c00",
+   "iucn-wildcats-1996:p087:c01",
+   "iucn-wildcats-1996:p124:c02"
+  ],
+  "label_map": {
+   "S1": "iucn-wildcats-1996:p122:c00",
+   "S2": "iucn-wildcats-1996:p087:c01",
+   "S3": "iucn-wildcats-1996:p124:c02"
+  },
+  "searches": 3,
+  "model_calls": 5,
+  "prompt_tokens": 6083,
+  "completion_tokens": 469,
+  "api_retries": 0,
+  "cost_usd_estimate": null,
+  "seconds": 7.87,
+  "error": null,
+  "stop_reason": "final_answer",
+  "config": {
+   "name": "A0",
+   "retriever": "dense",
+   "top_k": 3,
+   "budget": 3000,
+   "context_mode": "rank",
+   "max_searches": 3,
+   "max_turns": 6,
+   "model": "gemini-3.5-flash",
+   "extra_rules": ""
+  }
+ },
+ {
+  "query_id": "d18",
+  "status": "answered",
+  "answer": "The Eurasian lynx is the largest of the lynxes [S1].",
+  "raw_answer": "The Eurasian lynx is the largest of the lynxes [S1].",
+  "citations": [
+   "iucn-wildcats-1996:p126:c06"
+  ],
+  "citation_labels": [
+   "S1"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "largest lynx species",
+    "raw_query": "largest lynx species",
+    "filter": null,
+    "top_k": 3,
+    "ms": 101.2,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p126:c06",
+      "page": 126,
+      "score": 0.884358,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p153:c02",
+      "page": 153,
+      "score": 0.864175,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p128:c05",
+      "page": 128,
+      "score": 0.863897,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p126:c06",
+     "iucn-wildcats-1996:p153:c02",
+     "iucn-wildcats-1996:p128:c05"
+    ],
+    "skipped": [],
+    "context_chars_after": 1822
+   },
+   {
+    "event": "answer",
+    "status": "answered"
+   }
+  ],
+  "context": "[S1] (page 126, Eurasia, section: Eurasian lynx)\n## Description and Behavior\n\n(Plate 11) The Eurasian lynx is the largest of the lynxes. Adult males weigh on average 2 1.6 kg (n= 103), while females are slightly smaller at 18.1 kg (n=93). The lynxes of eastern Siberia consistently reach the greatest size (Breitenmoser and Breitenmoser-Wursten in prep.). The Eurasian lynx has relatively long legs, and large feet which provide a \"snowshoe effect,\" allowing for more efficient travel through deep snow. In winter, the fur grows very densely on the bottom of the feet (Formozov 1946). The coat is greyish, with tint varying from rusty to yellowish. A bright reddish tint, with profuse spotting, is seen most frequently in the southwestern part of the lynx's range (southern Europe, Asia Minor and the Caucasus: Heptner and Sludskii 1972).\n\n[S2] (page 153, The Americas, section: Canada lynx)\nCanada lynx (L. canadensis).\n\n1. Arctic IV complex; 2. Noatak\n\nII* complex; 3. lnnoko IV;\n\n4. Lake Clark II; 5. Katmai II;\n\n6. Kenai IV complex; 7. Denali\n\nII*; 8. Wrangell-Saint Elias II;\n\n9. Glacier Bay II; IO. North\n\nCascades I I complex;\n\n11. Glacier II*; 12. Yellowstone II# complex (U.S.).\n\nNew York (reintroduced), Vermont, New Hampshire, and Maine, with the largest populations in the Rocky Mountains. Washington State recently listed the lynx as Threatened, and will take more active measures to aid population recovery (Anon. 1994b). Much of the lynx's American range consists of National Forest lands (Koehler 1990b).\n\n[S3] (page 128, Eurasia, section: Eurasian lynx)\nThe Eurasian lynx has one of the widest ranges of all cat species, with approximately 75% of the range within the borders of Russia (Fig. 5). Lynx have been recorded as far north as 72\" N, near the edge of the continental landmass (Zheltuchin 1992).",
+  "context_ids": [
+   "iucn-wildcats-1996:p126:c06",
+   "iucn-wildcats-1996:p153:c02",
+   "iucn-wildcats-1996:p128:c05"
+  ],
+  "label_map": {
+   "S1": "iucn-wildcats-1996:p126:c06",
+   "S2": "iucn-wildcats-1996:p153:c02",
+   "S3": "iucn-wildcats-1996:p128:c05"
+  },
+  "searches": 1,
+  "model_calls": 2,
+  "prompt_tokens": 1234,
+  "completion_tokens": 106,
+  "api_retries": 0,
+  "cost_usd_estimate": null,
+  "seconds": 9.82,
+  "error": null,
+  "stop_reason": "final_answer",
+  "config": {
+   "name": "A0",
+   "retriever": "dense",
+   "top_k": 3,
+   "budget": 3000,
+   "context_mode": "rank",
+   "max_searches": 3,
+   "max_turns": 6,
+   "model": "gemini-3.5-flash",
+   "extra_rules": ""
+  }
+ },
+ {
+  "query_id": "d19",
+  "status": "answered",
+  "answer": "Although European wildcats tend to look bigger than African wildcats due to their thick winter fur, an extensive series of weight measurements has shown that they are not actually heavier [S2]. European wildcat males weigh an average of 5 kg and females 3.5 kg [S2], compared to African wildcats in southern Africa where males average 5 kg and females approximately 4 kg [S1].",
+  "raw_answer": "Although European wildcats tend to look bigger than African wildcats due to their thick winter fur, an extensive series of weight measurements has shown that they are not actually heavier [S2]. European wildcat males weigh an average of 5 kg and females 3.5 kg [S2], compared to African wildcats in southern Africa where males average 5 kg and females approximately 4 kg [S1].",
+  "citations": [
+   "iucn-wildcats-1996:p135:c04",
+   "iucn-wildcats-1996:p058:c00"
+  ],
+  "citation_labels": [
+   "S2",
+   "S1"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "European wildcat African wildcat weight heavier",
+    "raw_query": "European wildcat African wildcat weight heavier",
+    "filter": null,
+    "top_k": 3,
+    "ms": 108.7,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p058:c00",
+      "page": 58,
+      "score": 0.867431,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p135:c04",
+      "page": 135,
+      "score": 0.866868,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p035:c02",
+      "page": 35,
+      "score": 0.852771,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p058:c00",
+     "iucn-wildcats-1996:p135:c04",
+     "iucn-wildcats-1996:p035:c02"
+    ],
+    "skipped": [],
+    "context_chars_after": 2526
+   },
+   {
+    "event": "answer",
+    "status": "answered"
+   }
+  ],
+  "context": "[S1] (page 58, Sub-Saharan Africa, section: African wildcat)\nThe Zybicn group is the most widespread, and these cats differ from the European forms by their lighter build, less distinct markings, and thin, tapering tails. The African wildcat is very similar in size and appearance to the domestic cat, and the two can be difficult to distinguish in the field. In southern Africa, males weigh an average of 5 kg (n=42), and females approximately 4 kg (n=36) (Smithers 1971, Stuart 198 1). The background color of its coat ranges from reddish to sandy yellow to tawny brown to grey, and is typically marked with faint tabby stripes and spots. A characteristic feature of this group is a reddish or rusty-brown tint to the backs of the ears (Skinner and Smithers 1990, Harrison and Bates 1991, Dragesco-Joffe 1993).\n\n[S2] (page 135, Eurasia, section: European wildcat)\n## Description and Behavior\n\n(Plate 12) The forest wildcats of Europe and western Russia are greybrown in coat color, with bushy, blunt-ended tails and a well-defined pattern of black stripes. Although they tend to look bigger than African wildcats because of their thick winter fur, an extensive series of weight measurements have shown that they are not: males weigh an average of 5 kg and females 3.5 kg (Conde and Schauenberg 197 1). However, the authors did record strong seasonal weight fluctuations ranging up to 2.5 kg, with heaviest male weights recorded from September to the end of February (France).\n\n[S3] (page 35, Sub-Saharan Africa, section: African golden cat)\n## Description and Behavior\n\n(Plate 1) The African golden cat is a medium-sized cat. Adult males weigh 11-14 kg (Van Mensch and Van Bree 1969, S. Lahm in Zitt. 1993). The only recorded weight of a wild female is 6.2 kg (Van Mensch and Van Bree 1969), but this was probably an immature animal. The African golden cat has both a reddish-brown and greyish color form, and its coat can be spotted or plain. Pocock (1907a) described an animal in the London Zoo whose color changed entirely from rufous to grey in four months. Van Mensch and Van Bree (1969) examined 186 pelts from various localities and found that 50% were of the red phase and 46% of the greyish phase, with 4% being totally black. While color phase appears variable across its range, they found that specimens taken from west Africa tended to be more spotted than those from east-central Africa, with the Zaire River forming an approximate boundary. The white underbelly is consistently marked with large black spots.",
+  "context_ids": [
+   "iucn-wildcats-1996:p058:c00",
+   "iucn-wildcats-1996:p135:c04",
+   "iucn-wildcats-1996:p035:c02"
+  ],
+  "label_map": {
+   "S1": "iucn-wildcats-1996:p058:c00",
+   "S2": "iucn-wildcats-1996:p135:c04",
+   "S3": "iucn-wildcats-1996:p035:c02"
+  },
+  "searches": 1,
+  "model_calls": 2,
+  "prompt_tokens": 1330,
+  "completion_tokens": 106,
+  "api_retries": 0,
+  "cost_usd_estimate": null,
+  "seconds": 9.36,
+  "error": null,
+  "stop_reason": "final_answer",
+  "config": {
+   "name": "A0",
+   "retriever": "dense",
+   "top_k": 3,
+   "budget": 3000,
+   "context_mode": "rank",
+   "max_searches": 3,
+   "max_turns": 6,
+   "model": "gemini-3.5-flash",
+   "extra_rules": ""
+  }
+ },
+ {
+  "query_id": "d20",
+  "status": "answered",
+  "answer": "Snow leopards are capable of killing prey up to three times their own weight [S1]. The exception to this capability is fully grown yak or wild ass [S1].",
+  "raw_answer": "Snow leopards are capable of killing prey up to three times their own weight [S1]. The exception to this capability is fully grown yak or wild ass [S1].",
+  "citations": [
+   "iucn-wildcats-1996:p116:c04"
+  ],
+  "citation_labels": [
+   "S1"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "snow leopard prey size exception",
+    "raw_query": "snow leopard prey size exception",
+    "filter": null,
+    "top_k": 3,
+    "ms": 99.2,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p116:c04",
+      "page": 116,
+      "score": 0.869802,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p117:c00",
+      "page": 117,
+      "score": 0.860228,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p116:c02",
+      "page": 116,
+      "score": 0.85061,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p116:c04",
+     "iucn-wildcats-1996:p117:c00",
+     "iucn-wildcats-1996:p116:c02"
+    ],
+    "skipped": [],
+    "context_chars_after": 2806
+   },
+   {
+    "event": "answer",
+    "status": "answered"
+   }
+  ],
+  "context": "[S1] (page 116, Eurasia, section: Snow leopard)\nA. Kitchener (in Zitt. 1993) has suggested that the snow leopard, for which two subspecies have been described (Stroganov 1962) but are not generally recognized (e.g., Hemmer 1972, Wildt et al. 1992a), is a prime candidate for subspeciation because of the insular and patchy nature of its high mountain habitat. Similarly, Fox (1994) draws attention to the gap between the main southern snow leopard population and the northern population in Russia and Mongolia, and suggests that the two populations may differ genetically. On the other hand, instances of snow leopards migrating up to 600 km have been reported from the former U.S.S.R. (Heptner and Sludskii 1972, Koshkarev 1990: Fig. 1).\n\nSnow leopards are opportunistic predators capable of killing prey up to three times their own weight (Schaller 1977, Jackson and Ahlborn 1988, Fox 1989), with the exception of fully grown yak or wild ass. They will also take small prey: in China's Qinghai province, Schaller et\n\n[S2] (page 117, Eurasia, section: Snow leopard)\nal. (1988a) found that 45% of their summer diet consisted of marmots. In general, their most commonly taken prey consists of wild sheep and goats (including blue sheep, Asian ibex, markhor, and argali), but also includes pikas, hares, and gamebirds (chukor partridge and snowcocks) (Hemmer 1972, Heptner and Sludskii 1972, Schaller 1977, Jackson 1979, Mallon 1984a, Schaller et al. 1987, 1988a, Fox 1989). Jackson and Ahlborn (1984) estimated a snow leopard's annual prey requirements to be of the order of 20-30 adult blue sheep. In a study of radio-collared animals, Jackson and Ahlborn (1988) found that adult snow leopards killed a large prey animal every lo- 15 days, and remained on the kill for an average of 3-4 days, and sometimes up to a week. Snow leopards tend to remain within a relatively small area for 7- 10 days, then shift activity to a relatively distant part of their home range.\n\n[S3] (page 116, Eurasia, section: Snow leopard)\n## Description and Behavior\n\n(Plate 11) The snow leopard exhibits superb camouflage for its mountain environment of bare rocks and snow, being whitish-grey (tinged with yellow) in color, and patterned with dark grey rosettes and spots. Further adaptations for high altitude life include an enlarged nasal cavity, shortened limbs (adult shoulder height is about 60 cm), welldeveloped chest muscles (for climbing), long hair with dense, woolly underfur (belly fur grows as long as 12 cm), and a tail up to one meter long, 7590% of head-body length (Hemmer 1972, Fox 1989, Jackson 1992). Snow leopards molt twice a year, but the summer coat differs\n\nGeog. Score Body Total Ranking\n\nRange Size Score\n\n(106 km*) Score\n\nR: 0.08 -2 M 0 -2 1\n\nS: 0.95 -1 M 0 -1 2\n\nS: 1.67 -1 s +I 0 3\n\nmillion km2",
+  "context_ids": [
+   "iucn-wildcats-1996:p116:c04",
+   "iucn-wildcats-1996:p117:c00",
+   "iucn-wildcats-1996:p116:c02"
+  ],
+  "label_map": {
+   "S1": "iucn-wildcats-1996:p116:c04",
+   "S2": "iucn-wildcats-1996:p117:c00",
+   "S3": "iucn-wildcats-1996:p116:c02"
+  },
+  "searches": 1,
+  "model_calls": 2,
+  "prompt_tokens": 1556,
+  "completion_tokens": 159,
+  "api_retries": 0,
+  "cost_usd_estimate": null,
+  "seconds": 3.86,
+  "error": null,
+  "stop_reason": "final_answer",
+  "config": {
+   "name": "A0",
+   "retriever": "dense",
+   "top_k": 3,
+   "budget": 3000,
+   "context_mode": "rank",
+   "max_searches": 3,
+   "max_turns": 6,
+   "model": "gemini-3.5-flash",
+   "extra_rules": ""
+  }
+ },
+ {
+  "query_id": "d21",
+  "status": "answered",
+  "answer": "The bobcat is named for its short tail [S3].",
+  "raw_answer": "The bobcat is named for its short tail [S3].",
+  "citations": [
+   "iucn-wildcats-1996:p165:c07"
+  ],
+  "citation_labels": [
+   "S3"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "short tail North American cat",
+    "raw_query": "short tail North American cat",
+    "filter": null,
+    "top_k": 3,
+    "ms": 109.4,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p121:c02",
+      "page": 121,
+      "score": 0.835299,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p140:c02",
+      "page": 140,
+      "score": 0.833079,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p099:c02",
+      "page": 99,
+      "score": 0.827324,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p121:c02",
+     "iucn-wildcats-1996:p140:c02"
+    ],
+    "skipped": [
+     "iucn-wildcats-1996:p099:c02"
+    ],
+    "context_chars_after": 1960
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "bobcat short tail name",
+    "raw_query": "bobcat short tail name",
+    "filter": null,
+    "top_k": 3,
+    "ms": 105.9,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p165:c07",
+      "page": 165,
+      "score": 0.868217,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p166:c00",
+      "page": 166,
+      "score": 0.837768,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p099:c02",
+      "page": 99,
+      "score": 0.826538,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p165:c07"
+    ],
+    "skipped": [
+     "iucn-wildcats-1996:p166:c00",
+     "iucn-wildcats-1996:p099:c02"
+    ],
+    "context_chars_after": 2384
+   },
+   {
+    "event": "answer",
+    "status": "answered"
+   }
+  ],
+  "context": "[S1] (page 121, Eurasia, section: Chinese mountain cat)\n## Description and Behavior\n\n(Plate 11) The Chinese mountain cat, endemic to China, is one of the least-known cats. It has a stocky build, with relatively short legs. Its coat is pale grey-fawn in winter, somewhat darker brown in the summer, and marked with indistinct horizontal stripes on the sides and legs. Its ears have slight dark brown tufts. The tail is fairly short (35 cm: Jacobi 1923), about 40% of head-body length; it is banded with 5- 6 dark grey bands, and has a black tip. The auditory bullae are moderately large, measuring about 25% of total skull length (Pocock 1951). A wild male and female brought to the Beijing Zoo weighed nine and 6.5 kg, respectively (Tan 1984).\n\nWhat little is known of this species in the wild is mainly due to the efforts of collectors from the Xining Zoo, who obtained 34 specimens between 1973-1985 (Liao 1988, B. Tan in Zitt. 199 1). Chinese mountain cats are predomiKnown species range\n\n[S2] (page 140, The Americas, section: Kodkod)\n## Description and Behavior\n\n(Plate 6) The kodkod is the smallest felid in the Americas, weighing an average of 2.2 kg (n=3: Greer 1965a). It is a buffy to brownish cat heavily patterned with small black spots. The kodkod is closely related to Geoffroy's cat, of which it may be a subspeciesthey do not appear to be sympatric (Hemmer 1978aj. The subject deserves further investigation, particularly in Argentina, where Geoffroy's cat is more common and widely distributed, and has been collected near to the kodkod's known range (Redford and Eisenberg 1992, O.N. Herrera in Zitt. 1992). In comparison to Geoffroy's cat, the kodkod has a small face and much thicker tail (P. Quillen in Zitt. 1993). There is a high incidence of melanism (Cabrera and Yepes 1960, Osgood 1943, Greer 1965a) which, according to Miller and Rottmann (1976), increases with latitude, and is particularly common on Chiloe and Guaitecas islands.\n\n[S3] (page 165, The Americas, section: Bobcat)\n## Description and Behavior\n\n(Plate 6) The bobcat, named for its short tail (TL=13-20 cm; 13- 16% of head-body length: Hall 198 l), is a medium-sized cat with a ruff of fur edging the sides of the face. The average weight of adult males ranges from 8.9- 13.3 kg, and females from 5.8-9.2 kg (Anderson 1987). The largest verifiable weight recorded is 17.6 kg for an adult male",
+  "context_ids": [
+   "iucn-wildcats-1996:p121:c02",
+   "iucn-wildcats-1996:p140:c02",
+   "iucn-wildcats-1996:p165:c07"
+  ],
+  "label_map": {
+   "S1": "iucn-wildcats-1996:p121:c02",
+   "S2": "iucn-wildcats-1996:p140:c02",
+   "S3": "iucn-wildcats-1996:p165:c07"
+  },
+  "searches": 2,
+  "model_calls": 3,
+  "prompt_tokens": 2443,
+  "completion_tokens": 185,
+  "api_retries": 0,
+  "cost_usd_estimate": null,
+  "seconds": 25.08,
+  "error": null,
+  "stop_reason": "final_answer",
+  "config": {
+   "name": "A0",
+   "retriever": "dense",
+   "top_k": 3,
+   "budget": 3000,
+   "context_mode": "rank",
+   "max_searches": 3,
+   "max_turns": 6,
+   "model": "gemini-3.5-flash",
+   "extra_rules": ""
+  }
+ },
+ {
+  "query_id": "d22",
+  "status": "answered",
+  "answer": "The Canada lynx is only half the size of its Old World relative, the Eurasian lynx [S3]. Average adult weight for male Canada lynx is 10.7 kg, and for females it is 8.9 kg [S3].",
+  "raw_answer": "The Canada lynx is only half the size of its Old World relative, the Eurasian lynx [S3]. Average adult weight for male Canada lynx is 10.7 kg, and for females it is 8.9 kg [S3].",
+  "citations": [
+   "iucn-wildcats-1996:p151:c03"
+  ],
+  "citation_labels": [
+   "S3"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "lynx size Old World relative Americas",
+    "raw_query": "lynx size Old World relative Americas",
+    "filter": {
+     "region": "The Americas"
+    },
+    "top_k": 3,
+    "ms": 103.6,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p152:c04",
+      "page": 152,
+      "score": 0.848856,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p153:c01",
+      "page": 153,
+      "score": 0.8397,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p151:c03",
+      "page": 151,
+      "score": 0.832026,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p152:c04",
+     "iucn-wildcats-1996:p153:c01",
+     "iucn-wildcats-1996:p151:c03"
+    ],
+    "skipped": [],
+    "context_chars_after": 2988
+   },
+   {
+    "event": "answer",
+    "status": "answered"
+   }
+  ],
+  "context": "[S1] (page 152, The Americas, section: Canada lynx)\n## Habitat and Distribution\n\nLynx are distributed throughout the broad boreal forest belt of North America (Banfield 1974) and south into the American Rocky Mountains (Koehler 1990b), with a total range of some 7.7 million km2 (Parker and Quinn 1987: Fig. 8). The historic range is largely intact, although it has shrunk in the south due to human settlement and forest clearance (Banfield 1974, Quinn and Parker 1987). Lynx will inhabit farming country, but only if it is interrupted by sufficient areas of woodland (Todd 1985). Bobcats appear to be expanding northwards, and have displaced lynx in some areas (Parker and Smith 1983, Rolley 1987). Lynx will travel long distances during both phases of the hare cycle seeking out patches of hare abundance (Ward and Krebs 1985), with movements of up to 1,200 km recorded (K. Poole, B. Slough & G. Mowat, unpubl.\n\n[S2] (page 153, The Americas, section: Canada lynx)\n## Population Status\n\nGlobal: Category 4. Regional: Category 3. IUCN: not listed. The status of the lynx is generally satisfactory (Quinn and Parker 1987, Govt. of Canada 1988). In Canada, it is considered endangered only in New Brunswick, and has been extirpated from Prince Edward Island and mainland Nova Scotia. The largest populations are found in southern Quebec, northern Alberta, northern British Columbia, Yukon, the Northwest Territories and Alaska (Govt. of Canada 1988; K. Poole, B. Slough in Zitt. 1993). There is some concern that trapping pressure during the 197Os- 1980s may have reduced population levels (see Part II Chapter 4), but R. Eagan (pers. corm-n.) draws attention to low hare cycles since the early 1970s.\n\nThe main U.S. lynx population is found in Alaska. Elsewhere, they are more sparsely distributed, occurring in low numbers in the states of Washington, Montana, Idaho, Wyoming, Colorado, Minnesota, Wisconsin, Michigan,\n\nFigure 8. Distribution of the\n\n[S3] (page 151, The Americas, section: Canada lynx)\nThe lynxes show remarkable similarity of appearance compared to other related groups of cats, and the Canada lynx is often treated as conspecific with the Eurasian lynx (Kurten and Rausch 1959, Tumlison 1987). However, the Canada lynx is only half the size of the Eurasian lynx: average adult weight of Canada lynx males is 10.7 kg (n=201) and females 8.9 kg (n=183) (U. Breitenmoser and C. Breitenmoser-Wursten in prep.). While the Canada lynx is probably a descendent of a Eurasian lynx ancestor which migrated into North America during one of the last two major glacial periods (Werdelin 1981, 1983b), the Breitenmosers (in prep.) argue convincingly that the two should be considered separate species, as they now show marked adaptive differences for prey capture. Whereas the larger Eurasian lynx preys mainly on ungulates, the Canada lynx relies almost exclusively on snowshoe hares, and is uniquely adapted, both behaviorally and physiologically, to exploit a cyclic prey base.",
+  "context_ids": [
+   "iucn-wildcats-1996:p152:c04",
+   "iucn-wildcats-1996:p153:c01",
+   "iucn-wildcats-1996:p151:c03"
+  ],
+  "label_map": {
+   "S1": "iucn-wildcats-1996:p152:c04",
+   "S2": "iucn-wildcats-1996:p153:c01",
+   "S3": "iucn-wildcats-1996:p151:c03"
+  },
+  "searches": 1,
+  "model_calls": 2,
+  "prompt_tokens": 1609,
+  "completion_tokens": 276,
+  "api_retries": 0,
+  "cost_usd_estimate": null,
+  "seconds": 24.28,
+  "error": null,
+  "stop_reason": "final_answer",
+  "config": {
+   "name": "A0",
+   "retriever": "dense",
+   "top_k": 3,
+   "budget": 3000,
+   "context_mode": "rank",
+   "max_searches": 3,
+   "max_turns": 6,
+   "model": "gemini-3.5-flash",
+   "extra_rules": ""
+  }
+ },
+ {
+  "query_id": "d23",
+  "status": "answered",
+  "answer": "The Andean mountain cat is found only in the high Andes above the timberline, generally above 3,000–4,000 m in elevation [S1]. In the region's biogeographical provinces, it occurs from 3,200 to 4,400 m in the Puna province and from 4,200 m up to the permanent snowline in the Altoandina province [S1].",
+  "raw_answer": "The Andean mountain cat is found only in the high Andes above the timberline, generally above 3,000–4,000 m in elevation [S1]. In the region's biogeographical provinces, it occurs from 3,200 to 4,400 m in the Puna province and from 4,200 m up to the permanent snowline in the Altoandina province [S1].",
+  "citations": [
+   "iucn-wildcats-1996:p142:c05"
+  ],
+  "citation_labels": [
+   "S1"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "mountain cat elevation metres",
+    "raw_query": "mountain cat elevation metres",
+    "filter": {
+     "region": "The Americas"
+    },
+    "top_k": 3,
+    "ms": 98.9,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p142:c05",
+      "page": 142,
+      "score": 0.846393,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p170:c02",
+      "page": 170,
+      "score": 0.842487,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p171:c08",
+      "page": 171,
+      "score": 0.840508,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p142:c05",
+     "iucn-wildcats-1996:p170:c02",
+     "iucn-wildcats-1996:p171:c08"
+    ],
+    "skipped": [],
+    "context_chars_after": 1731
+   },
+   {
+    "event": "answer",
+    "status": "answered"
+   }
+  ],
+  "context": "[S1] (page 142, The Americas, section: Andean mountain cat)\n## Habitat and Distribution\n\nThe Andean mountain cat is apparently very specialized in its habitat requirements, having been found only in the rocky arid and semi-arid zones of the high Andes above the timberline (generally above 3,000-4,000 m in elevation). Vegetation at observation and collection sites has consisted mainly of small scattered dwarf shrubs and clumps of bunchgrass (Pearson 1957, Scrocchi and Halloy 1986). The presence of rock piles and boulders (typical microhabitat of mountain viscachas, and the only type of cover available at such altitudes) may be important (Scrocchi and\n\nIt\n\nAltoandina biogeographical province (xerophyll steppes of\n\ngrasses and herbs, 4,200m up to permanent snowline)\n\nPunefia biogeographical province\n\n(high grass plains and shrub steppes, 3,200 - 4,400m)\n\n[S2] (page 170, The Americas, section: Pampas cat)\nIt occurs on both the eastern and western slopes of the Andes, with an elevational range from 100 up to over 5,000 m, where it is possibly sympatric with the Andean mountain cat (Grimwood 1969, Redford and Eisenberg 1992).\n\nThe range portrayed in Fig. 14 assumes that pampas cat populations are largely continuous. However, in keeping with her theory that there are actually three different species of pampas cat, Garcia-Perea (1994) has produced an alternative range map showing disjunct distributions (Fig. 15). The range she portrays in south-central Brazil should be extended to the east as shown in Fig. 14, based on specimen records collected by Silveira (in submission).\n\n[S3] (page 171, The Americas, section: Jaguarundi)\n## Habitat and Distribution\n\nA cat of the lowlands not generally found above 2,000 m",
+  "context_ids": [
+   "iucn-wildcats-1996:p142:c05",
+   "iucn-wildcats-1996:p170:c02",
+   "iucn-wildcats-1996:p171:c08"
+  ],
+  "label_map": {
+   "S1": "iucn-wildcats-1996:p142:c05",
+   "S2": "iucn-wildcats-1996:p170:c02",
+   "S3": "iucn-wildcats-1996:p171:c08"
+  },
+  "searches": 1,
+  "model_calls": 2,
+  "prompt_tokens": 1251,
+  "completion_tokens": 283,
+  "api_retries": 0,
+  "cost_usd_estimate": null,
+  "seconds": 18.86,
+  "error": null,
+  "stop_reason": "final_answer",
+  "config": {
+   "name": "A0",
+   "retriever": "dense",
+   "top_k": 3,
+   "budget": 3000,
+   "context_mode": "rank",
+   "max_searches": 3,
+   "max_turns": 6,
+   "model": "gemini-3.5-flash",
+   "extra_rules": ""
+  }
+ },
+ {
+  "query_id": "d24",
+  "status": "answered",
+  "answer": "Between 1976 and 1979, nearly 350,000 cat skins were exported from Argentina alone [S1].",
+  "raw_answer": "Between 1976 and 1979, nearly 350,000 cat skins were exported from Argentina alone [S1].",
+  "citations": [
+   "iucn-wildcats-1996:p156:c02"
+  ],
+  "citation_labels": [
+   "S1"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "Geoffroy cat skins exported Argentina 1976 1979",
+    "raw_query": "Geoffroy cat skins exported Argentina 1976 1979",
+    "filter": null,
+    "top_k": 3,
+    "ms": 105.2,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p156:c02",
+      "page": 156,
+      "score": 0.851944,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p155:c04",
+      "page": 155,
+      "score": 0.840933,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p154:c06",
+      "page": 154,
+      "score": 0.836624,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p156:c02",
+     "iucn-wildcats-1996:p155:c04",
+     "iucn-wildcats-1996:p154:c06"
+    ],
+    "skipped": [],
+    "context_chars_after": 2771
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "Geoffroy's cat exported Argentina 1976 1979",
+    "raw_query": "Geoffroy's cat exported Argentina 1976 1979",
+    "filter": null,
+    "top_k": 3,
+    "ms": 101.2,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p155:c04",
+      "page": 155,
+      "score": 0.852439,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p154:c06",
+      "page": 154,
+      "score": 0.841607,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p156:c02",
+      "page": 156,
+      "score": 0.839297,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [],
+    "skipped": [
+     "iucn-wildcats-1996:p155:c04",
+     "iucn-wildcats-1996:p154:c06",
+     "iucn-wildcats-1996:p156:c02"
+    ],
+    "context_chars_after": 2771
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "350,000 skins exported Argentina 1976 1979",
+    "raw_query": "350,000 skins exported Argentina 1976 1979",
+    "filter": null,
+    "top_k": 3,
+    "ms": 103.9,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p156:c02",
+      "page": 156,
+      "score": 0.854542,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p171:c02",
+      "page": 171,
+      "score": 0.823688,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p112:c06",
+      "page": 112,
+      "score": 0.820645,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [],
+    "skipped": [
+     "iucn-wildcats-1996:p156:c02",
+     "iucn-wildcats-1996:p171:c02",
+     "iucn-wildcats-1996:p112:c06"
+    ],
+    "context_chars_after": 2771
+   },
+   {
+    "event": "answer",
+    "status": "answered"
+   }
+  ],
+  "context": "[S1] (page 156, The Americas, section: Puma)\nThe species has been exploited commercially since the international cat skin trade boomed in the late 1960s with nearly 350,000 skins exported from Argentina alone between 1976 and 1979 (Mares and Ojeda 1984). Trade volumes remained high into the 1980s as trade in ocelot pelts declined, averaging 55,000 per year between 1980- 1984 (Broad 1987). Paraguay and Bolivia were the main exporters (in contravention of national legislation) during this time, although it is believed that the bulk of these skins were smuggled in from Brazil and Argentina. International trade has since declined-no significant trade has been reported since 1988 (Govt. of Brazil 1992, WCMC unpubl. data). Paraguay and Uruguay remain as important domestic markets for pelts (Brooks 1992, Ximenez in Zitf. 1990). However, Walton (199 1) reports that most pelts in trade today are derived from cats killed as pests and livestock predators, and that commercial hunting as it existed in the past has essentially ceased.\n\n[S2] (page 155, The Americas, section: Geoffroy's cat)\nFigure 9. Distribution of Geoff roy's cat (0. geoffroyr). 1. Specimen taken near Tiraque (Cabrera 1957); 2. Rio Boppi VI (Bolivia); 3. Defensores del Chaco II; 4. Teniente Encisco II (Paraguay); 5. Quebrada de 10s Cuervos reserve (proposed); 6. Laguna de Castillos IV complex (Uruguay); 7. Rio Pilcomayo II; 8. Fuerte Esperanza I; 9. lber IV complex; 10. Campos del Tuyu I complex; 11. El Payen I; 12. Sierra de la Ventana II; 13. Specimen taken just east of Bariloche, possible occurrence in Nahuel Huapi II complex (Melquist 1985, O.N. Herrera in litt. 1992); 14. Meseta de Somuncura VIII; 15. Peninsula de Valdes VIII; 16. Perito Moreno IV (Argentina); 17. Torres del Paine II* complex (Chile).\n\n[S3] (page 154, The Americas, section: Geoffroy's cat)\n## Description and Behavior\n\n(Plate 6) Geoffroy's cats are small cats, uniformly patterned with small black spots of nearly equal size and spacing. Coat color tends to ochraceous in the north of its range and grey in the south (Guggisberg 1975, Ximenez 1975). Melanism is fairly common (Cabrera and Yepes 1960, Foreman 1988, Brooks 1992). Adult males in Patagonia weighed an average of 4.8 kg (n=5), and females 4.2 kg (n=2) (Johnson and Franklin 1991). Geoffroy's cats have been described as good swimmers that readily enter water (Weigel 1975). In southern Chile's Torres de1 Paine National Park, one female was known to have crossed a 30 meter wide fast-flowing river at least 20 times (Johnson and Franklin 199 1). Fish (Characidae) were found in an examination of stomach contents in Uruguay, in addition to amphibians, reptiles, birds, and small mammals (A. Ximenez in Zitt. 1990). Geoffroy's cats are also described",
+  "context_ids": [
+   "iucn-wildcats-1996:p156:c02",
+   "iucn-wildcats-1996:p155:c04",
+   "iucn-wildcats-1996:p154:c06"
+  ],
+  "label_map": {
+   "S1": "iucn-wildcats-1996:p156:c02",
+   "S2": "iucn-wildcats-1996:p155:c04",
+   "S3": "iucn-wildcats-1996:p154:c06"
+  },
+  "searches": 3,
+  "model_calls": 4,
+  "prompt_tokens": 4216,
+  "completion_tokens": 133,
+  "api_retries": 0,
+  "cost_usd_estimate": null,
+  "seconds": 5.41,
+  "error": null,
+  "stop_reason": "final_answer",
+  "config": {
+   "name": "A0",
+   "retriever": "dense",
+   "top_k": 3,
+   "budget": 3000,
+   "context_mode": "rank",
+   "max_searches": 3,
+   "max_turns": 6,
+   "model": "gemini-3.5-flash",
+   "extra_rules": ""
+  }
+ },
+ {
+  "query_id": "d25",
+  "status": "abstain",
+  "answer": "INSUFFICIENT EVIDENCE: Passages describing a big cat that regularly kills prey such as capybaras by biting through the skull are missing.",
+  "raw_answer": "INSUFFICIENT EVIDENCE: Passages describing a big cat that regularly kills prey such as capybaras by biting through the skull are missing.",
+  "citations": [],
+  "citation_labels": [],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "capybara skull biting through",
+    "raw_query": "capybara skull biting through",
+    "filter": null,
+    "top_k": 3,
+    "ms": 100.6,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p046:c06",
+      "page": 46,
+      "score": 0.804467,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p050:c03",
+      "page": 50,
+      "score": 0.802124,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p090:c06",
+      "page": 90,
+      "score": 0.798786,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p046:c06",
+     "iucn-wildcats-1996:p050:c03",
+     "iucn-wildcats-1996:p090:c06"
+    ],
+    "skipped": [],
+    "context_chars_after": 1953
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "capybara",
+    "raw_query": "capybara",
+    "filter": null,
+    "top_k": 3,
+    "ms": 95.1,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p156:c04",
+      "page": 156,
+      "score": 0.796012,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p049:c06",
+      "page": 49,
+      "score": 0.792944,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p032:c00",
+      "page": 32,
+      "score": 0.790875,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p156:c04",
+     "iucn-wildcats-1996:p049:c06"
+    ],
+    "skipped": [
+     "iucn-wildcats-1996:p032:c00"
+    ],
+    "context_chars_after": 2925
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "jaguar skull capybara",
+    "raw_query": "jaguar skull capybara",
+    "filter": null,
+    "top_k": 3,
+    "ms": 102.5,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p146:c05",
+      "page": 146,
+      "score": 0.830955,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p144:c02",
+      "page": 144,
+      "score": 0.824836,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p144:c00",
+      "page": 144,
+      "score": 0.823328,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [],
+    "skipped": [
+     "iucn-wildcats-1996:p146:c05",
+     "iucn-wildcats-1996:p144:c02",
+     "iucn-wildcats-1996:p144:c00"
+    ],
+    "context_chars_after": 2925
+   },
+   {
+    "event": "search_limit",
+    "query": "jaguar skull bite prey"
+   },
+   {
+    "event": "answer",
+    "status": "abstain"
+   }
+  ],
+  "context": "[S1] (page 46, Sub-Saharan Africa, section: Serval)\n## Description and Behavior\n\n(Plate 2) The serval is well-adapted to hunting small prey in long grass: its legs are slim and relatively long, and shoulder height is about 0.6 m. Its neck is also elongated, its head is small and delicate, and its ears are tall. The auditory bullae are correspondingly well-developed, making up about 22% of skull length (Skinner and Smithers 1990). Males weigh 9- 18 kg (averaging 1 l- 13 kg), and females 9- 13 kg, (averaging 9.7-l 1 kg: Smithers 197 1, Kingdon 1977, Smithers 1978). Coat color is pale yellow, and is marked with solid black spots along the sides and bars on the neck and shoulders.\n\nAlthough 17 subspecies are listed by Allen (1939), their validity is doubtful (see Appendix 1). Smithers (1978) examined specimens from one locality in southern Africa and found external characters among them which had been used to designate six different subspecies within the sub-\n\n[S2] (page 50, Sub-Saharan Africa, section: Leopard)\nIn the rain forest of the Ivory Coast's Tai National Park, on the other hand, a male leopard was captured which weighed 56 kg (Jenny 1993), and two females weighed 32 kg and 33 kg (Jenny in Zitt. 1994).\n\nDespite its relatively small body size, the leopard is still capable of taking large prey. Its skull is massive, giving ample room for attachment of powerful jaw muscles. Its whiskers are particularly long and there are often several extra long hairs in the eyebrows, protecting the eyes and assisting movement through vegetation in darkness (Skinner and Smithers 1990). Its scapula is adapted for the attachment of powerful muscles that raise the thorax, enhancing its ability to climb trees (Hopwood 1947). Leopards can live independent of water for periods of time, obtaining moisture requirements from prey (Bothma and Le Riche 1986).\n\n[S3] (page 90, Tropical Asia, section: Bornean bay cat)\n## Biology\n\nNo information.\n\n[S4] (page 156, The Americas, section: Puma)\n## Other Names\n\nCougar, mountain lion, catamount, panther (English); puma (French); Puma, Silberlowe (German); lean, leon Colorado, lean de montafia (Spanish); onca vermelha, onca parda su$uarana (Brazil); leon sabanero (Colombia); rouge (French Guiana); guasura, yagu-pyt (Guarani); cabcob (Mayan); leopard0 (Mexico); reditigri (Suriname).\n\n[S5] (page 49, Sub-Saharan Africa, section: Leopard)\n## Other Names\n\nPanther (English); leopard, panthere (French); Leopard, Panther (German); leopardo, pantera (Spanish); nebr (Amharic: Ethiopia); eduka, ekun, ogidan (Ibo, Yoruba: Nigeria); !'hbm (Ju/hoan Bushman: Botswana, Namibia); ngoye, nze, goye (Kota, Fang, Kwele: Gabon); damissa (Hausa: west Africa); chui (Kiswahili); kwach (Luo: Kenya, Uganda); oluwaru keri (Maasai: Kenya, Tanzania); loli, mabiti, kweyi, mabilanga, moli, ka'u (Mbuti Pygmy dialects: Zaire); nkewe, sinkwe z inqwe (Setswana: Botswana); shabeel (Somalia).",
+  "context_ids": [
+   "iucn-wildcats-1996:p046:c06",
+   "iucn-wildcats-1996:p050:c03",
+   "iucn-wildcats-1996:p090:c06",
+   "iucn-wildcats-1996:p156:c04",
+   "iucn-wildcats-1996:p049:c06"
+  ],
+  "label_map": {
+   "S1": "iucn-wildcats-1996:p046:c06",
+   "S2": "iucn-wildcats-1996:p050:c03",
+   "S3": "iucn-wildcats-1996:p090:c06",
+   "S4": "iucn-wildcats-1996:p156:c04",
+   "S5": "iucn-wildcats-1996:p049:c06"
+  },
+  "searches": 3,
+  "model_calls": 5,
+  "prompt_tokens": 5424,
+  "completion_tokens": 506,
+  "api_retries": 0,
+  "cost_usd_estimate": null,
+  "seconds": 7.79,
+  "error": null,
+  "stop_reason": "final_answer",
+  "config": {
+   "name": "A0",
+   "retriever": "dense",
+   "top_k": 3,
+   "budget": 3000,
+   "context_mode": "rank",
+   "max_searches": 3,
+   "max_turns": 6,
+   "model": "gemini-3.5-flash",
+   "extra_rules": ""
+  }
+ },
+ {
+  "query_id": "d26",
+  "status": "abstain",
+  "answer": "INSUFFICIENT EVIDENCE: No retrieved passages mention a small Latin American cat that looks like a weasel.",
+  "raw_answer": "INSUFFICIENT EVIDENCE: No retrieved passages mention a small Latin American cat that looks like a weasel.",
+  "citations": [],
+  "citation_labels": [],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "weasel",
+    "raw_query": "weasel",
+    "filter": null,
+    "top_k": 3,
+    "ms": 103.7,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p060:c02",
+      "page": 60,
+      "score": 0.781443,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p062:c00",
+      "page": 62,
+      "score": 0.779562,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p047:c05",
+      "page": 47,
+      "score": 0.776952,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p060:c02",
+     "iucn-wildcats-1996:p062:c00",
+     "iucn-wildcats-1996:p047:c05"
+    ],
+    "skipped": [],
+    "context_chars_after": 1454
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "jaguarundi",
+    "raw_query": "jaguarundi",
+    "filter": null,
+    "top_k": 3,
+    "ms": 104.3,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p173:c01",
+      "page": 173,
+      "score": 0.866523,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p173:c04",
+      "page": 173,
+      "score": 0.852555,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p171:c04",
+      "page": 171,
+      "score": 0.850332,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p173:c01",
+     "iucn-wildcats-1996:p173:c04"
+    ],
+    "skipped": [
+     "iucn-wildcats-1996:p171:c04"
+    ],
+    "context_chars_after": 2481
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "jaguarundi description OR long-bodied OR un-catlike",
+    "raw_query": "jaguarundi description OR long-bodied OR un-catlike",
+    "filter": null,
+    "top_k": 3,
+    "ms": 114.6,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p171:c04",
+      "page": 171,
+      "score": 0.874565,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p172:c01",
+      "page": 172,
+      "score": 0.849557,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p173:c01",
+      "page": 173,
+      "score": 0.844383,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [],
+    "skipped": [
+     "iucn-wildcats-1996:p171:c04",
+     "iucn-wildcats-1996:p172:c01",
+     "iucn-wildcats-1996:p173:c01"
+    ],
+    "context_chars_after": 2481
+   },
+   {
+    "event": "search_limit",
+    "query": "jaguarundi Herpailurus yaguarondi weasel otter"
+   },
+   {
+    "event": "answer",
+    "status": "abstain"
+   }
+  ],
+  "context": "[S1] (page 60, Sub-Saharan Africa, section: African wildcat)\nMendelssohn (1989) also attributes the rarity of African wildcats in Israel to their susceptibility to feline panleukopenia, transmitted by feral cats, which are generally resistant.\n\nAction Planning Projects 10, 15,43, and 89.\n\n[S2] (page 62, North Africa and Southwest Asia, section: Asiatic lion)\nAsiatic lion, Panthera leo\n\npersica (Meyer, 1826)\n\n[S3] (page 47, Sub-Saharan Africa, section: Serval)\n## Biology\n\nReproductive season: (W) Aseasonal, but birth peaks appear to be correlated with wet seasons, when prey densities are at their highest due to new vegetative growth (Kingdon 1977, Smithers 1978). Geertsema (1985) suggests that a peak occurs in the midto late dry season in the Ngorongoro Crater, so that post-rains high prey density coincides with the raising of older but still dependent kittens.\n\nEstrus: (C) 4 days (n=l: Mellen 1989).\n\nGestation: (C) 73 days (n=15; range 70-79) (Stuart and Wilson 1988).\n\nLitter size: (W) 2.5 (n=7; range l-3) (Smithers 1978); (C) 1.96 (n=20: Skinner and Smithers 1990); 2.45 t 0.21 (n=14: Mellen 1989); range l-5 (Stuart and Wilson 1988).\n\nAge at independence: (W) 6-8 months. Newly independent juveniles, tolerated by their mothers, may circulate within their natal range for periods up to and over a year (Geertsema 1985).\n\nAge at sexual maturity: (C) 18-24 months (P. Andrews in litt. 1993).\n\nLongevity: (C) up to 19 years (Green 1991).\n\n[S4] (page 173, The Americas, section: Jaguarundi)\n## Population Status\n\nGlobal: Category 5c. Regional: Category 5. IUCN: not listed. The jaguarundi appears to be relatively common over much of its range (Koford 1976, Vaughan in press) although, while present throughout the Amazon basin rain forest, it is more rare in this habitat type (L. Emmons ipz Z&. 1993). The jaguarundi may now be extinct in Uruguay (Thornback and Jenkins 1982), and is very rare in the southwestern United States near the Rio Grande (Tewes and Everett 1986).\n\n[S5] (page 173, The Americas, section: Jaguarundi)\n## Principal Threats\n\nGenerally not exploited for commercial trade, although jaguarundis are doubtless caught in traps set for commercially valuable species and may be subject to low intensity hunting pressure around settled areas. They are notorious for predation on domestic poultry (Rengger 1830, Alvarez de1 Toro 1952, Leopold 1959, Hall and Dalquest 1963, Goodwyn 1970, Koford 1976, Ferrari et al. 1984, Bisbal 1986, McCarthy 1992).",
+  "context_ids": [
+   "iucn-wildcats-1996:p060:c02",
+   "iucn-wildcats-1996:p062:c00",
+   "iucn-wildcats-1996:p047:c05",
+   "iucn-wildcats-1996:p173:c01",
+   "iucn-wildcats-1996:p173:c04"
+  ],
+  "label_map": {
+   "S1": "iucn-wildcats-1996:p060:c02",
+   "S2": "iucn-wildcats-1996:p062:c00",
+   "S3": "iucn-wildcats-1996:p047:c05",
+   "S4": "iucn-wildcats-1996:p173:c01",
+   "S5": "iucn-wildcats-1996:p173:c04"
+  },
+  "searches": 3,
+  "model_calls": 5,
+  "prompt_tokens": 5245,
+  "completion_tokens": 443,
+  "api_retries": 0,
+  "cost_usd_estimate": null,
+  "seconds": 13.69,
+  "error": null,
+  "stop_reason": "final_answer",
+  "config": {
+   "name": "A0",
+   "retriever": "dense",
+   "top_k": 3,
+   "budget": 3000,
+   "context_mode": "rank",
+   "max_searches": 3,
+   "max_turns": 6,
+   "model": "gemini-3.5-flash",
+   "extra_rules": ""
+  }
+ },
+ {
+  "query_id": "d27",
+  "status": "answered",
+  "answer": "In Belize, a radio-collared margay was found to forage in trees and travel on the ground [S1].",
+  "raw_answer": "In Belize, a radio-collared margay was found to forage in trees and travel on the ground [S1].",
+  "citations": [
+   "iucn-wildcats-1996:p149:c04"
+  ],
+  "citation_labels": [
+   "S1"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "margay Belize radio collared forage travel",
+    "raw_query": "margay Belize radio collared forage travel",
+    "filter": null,
+    "top_k": 3,
+    "ms": 111.1,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p149:c04",
+      "page": 149,
+      "score": 0.863082,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p149:c07",
+      "page": 149,
+      "score": 0.833644,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p150:c02",
+      "page": 150,
+      "score": 0.822235,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p149:c04",
+     "iucn-wildcats-1996:p149:c07",
+     "iucn-wildcats-1996:p150:c02"
+    ],
+    "skipped": [],
+    "context_chars_after": 2735
+   },
+   {
+    "event": "answer",
+    "status": "answered"
+   }
+  ],
+  "context": "[S1] (page 149, The Americas, section: Margay)\nIn Belize, a radio-collared margay was found to forage in trees, but travel on the ground (Konecny 1989). Based on analysis of 27 scats, the most common item in the diet was a small arboreal mammal, the big-eared climbing rat. Squirrels, opossums, arthropods, small birds, and fruit were also taken (Konecny 1989). Other reported arboreal prey includes prehensile-tailed porcupines, marmosets, capuchin monkeys, and three-toed sloths (Goldman 1920, Beebe 1925). Terrestrial prey has also been reported, including spiny pocket rats, cane rats, and cavies (Carvalho 1958, Mondolfi 1986), but in the Belize study margays took more birds and fruit and fewer terrestrial mammals than ocelots or jaguarundis (Konecny 1989). Margays are strongly nocturnal, with highest levels of activity recorded between 0100-0500 both in the wild and captivity; during the daytime, they rest in trees (Petersen 1977a, Konecny 1989).\n\n[S2] (page 149, The Americas, section: Margay)\n## Population Status\n\nGlobal: Category 4. Regional: Category 3. IUCN: Insufficiently Known. Very little is known of the margay's status and abundance across its range. The Amazon Basin is its stronghold. It is reported to be rare in northwestern Argentina (Mares et al. 198 1, A. Canedi in litt. 1993) and Uruguay (A. Ximenez in Zitt. 1990). A subadult male in successional forest in Belize's Cockscomb Basin Wildlife Sanctuary-where margays appear to be less common than in primary forest-had a home range of 11 km* (Konecny 1989). An adult radio-collared male in Brazil's Iguacu National Park monitored over 18 months by P. Crawshaw (pers. comm. 1993) maintained a home range of 16 km*.\n\n[S3] (page 150, The Americas, section: Margay)\nhas been recorded appear in international trade at a time of concern over the level of exploitation of the ocelot, and species of spotted cats in trade were rarely verified. Illegal hunting for domestic markets or for the underground skin trade has been reported to be a continuing a problem in some areas (Melyuist 1984, Paz y Mine 1988, Walton 1991). Aranda (1991) reported that the margay's pelt was the most common in the skin trade in the southern Mexican state of Chiapas, despite its protected status. A margay skin sold for U.S. $5 10, while an ocelot pelt could fetch U.S. $50-90. However, deforestation is now the primary threat to reduced populations now that international trade has virtuallv ceased.\n\nd Action Planning Projects 96 and 97.\n\nFigure 5. Distribution of\n\nthe margay (L. wiedi).\n\n1. Montes Azules II*; 2. Calakmul V* (Mexico); 3. Tikal II**\n\n(Guatemala); 4. Cockscomb\n\nBasin IV (Belize); 5. Rio Platano\n\nII* (Honduras); 6. Santa Rosa II\n\ncomplex (Costa Rica); 7. La",
+  "context_ids": [
+   "iucn-wildcats-1996:p149:c04",
+   "iucn-wildcats-1996:p149:c07",
+   "iucn-wildcats-1996:p150:c02"
+  ],
+  "label_map": {
+   "S1": "iucn-wildcats-1996:p149:c04",
+   "S2": "iucn-wildcats-1996:p149:c07",
+   "S3": "iucn-wildcats-1996:p150:c02"
+  },
+  "searches": 1,
+  "model_calls": 2,
+  "prompt_tokens": 1547,
+  "completion_tokens": 196,
+  "api_retries": 0,
+  "cost_usd_estimate": null,
+  "seconds": 17.62,
+  "error": null,
+  "stop_reason": "final_answer",
+  "config": {
+   "name": "A0",
+   "retriever": "dense",
+   "top_k": 3,
+   "budget": 3000,
+   "context_mode": "rank",
+   "max_searches": 3,
+   "max_turns": 6,
+   "model": "gemini-3.5-flash",
+   "extra_rules": ""
+  }
+ },
+ {
+  "query_id": "d28",
+  "status": "answered",
+  "answer": "Garcia-Perea (1994) proposes that the pampas cat actually consists of three species [S6].",
+  "raw_answer": "Garcia-Perea (1994) proposes that the pampas cat actually consists of three species [S6].",
+  "citations": [
+   "iucn-wildcats-1996:p170:c03"
+  ],
+  "citation_labels": [
+   "S6"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "Garcia-Perea pampas cat",
+    "raw_query": "Garcia-Perea pampas cat",
+    "filter": null,
+    "top_k": 3,
+    "ms": 109.1,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p154:c06",
+      "page": 154,
+      "score": 0.825499,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p155:c04",
+      "page": 155,
+      "score": 0.824602,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p169:c07",
+      "page": 169,
+      "score": 0.823718,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p154:c06",
+     "iucn-wildcats-1996:p155:c04",
+     "iucn-wildcats-1996:p169:c07"
+    ],
+    "skipped": [],
+    "context_chars_after": 1873
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "Garcia-Perea",
+    "raw_query": "Garcia-Perea",
+    "filter": null,
+    "top_k": 3,
+    "ms": 101.1,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p062:c00",
+      "page": 62,
+      "score": 0.762961,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p155:c04",
+      "page": 155,
+      "score": 0.761651,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p140:c00",
+      "page": 140,
+      "score": 0.760726,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p062:c00",
+     "iucn-wildcats-1996:p140:c00"
+    ],
+    "skipped": [
+     "iucn-wildcats-1996:p155:c04"
+    ],
+    "context_chars_after": 2085
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "pampas cat species",
+    "raw_query": "pampas cat species",
+    "filter": null,
+    "top_k": 3,
+    "ms": 105.7,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p170:c03",
+      "page": 170,
+      "score": 0.890972,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p170:c00",
+      "page": 170,
+      "score": 0.881867,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p169:c03",
+      "page": 169,
+      "score": 0.881207,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p170:c03"
+    ],
+    "skipped": [
+     "iucn-wildcats-1996:p170:c00",
+     "iucn-wildcats-1996:p169:c03"
+    ],
+    "context_chars_after": 2728
+   },
+   {
+    "event": "answer",
+    "status": "answered"
+   }
+  ],
+  "context": "[S1] (page 154, The Americas, section: Geoffroy's cat)\n## Description and Behavior\n\n(Plate 6) Geoffroy's cats are small cats, uniformly patterned with small black spots of nearly equal size and spacing. Coat color tends to ochraceous in the north of its range and grey in the south (Guggisberg 1975, Ximenez 1975). Melanism is fairly common (Cabrera and Yepes 1960, Foreman 1988, Brooks 1992). Adult males in Patagonia weighed an average of 4.8 kg (n=5), and females 4.2 kg (n=2) (Johnson and Franklin 1991). Geoffroy's cats have been described as good swimmers that readily enter water (Weigel 1975). In southern Chile's Torres de1 Paine National Park, one female was known to have crossed a 30 meter wide fast-flowing river at least 20 times (Johnson and Franklin 199 1). Fish (Characidae) were found in an examination of stomach contents in Uruguay, in addition to amphibians, reptiles, birds, and small mammals (A. Ximenez in Zitt. 1990). Geoffroy's cats are also described\n\n[S2] (page 155, The Americas, section: Geoffroy's cat)\nFigure 9. Distribution of Geoff roy's cat (0. geoffroyr). 1. Specimen taken near Tiraque (Cabrera 1957); 2. Rio Boppi VI (Bolivia); 3. Defensores del Chaco II; 4. Teniente Encisco II (Paraguay); 5. Quebrada de 10s Cuervos reserve (proposed); 6. Laguna de Castillos IV complex (Uruguay); 7. Rio Pilcomayo II; 8. Fuerte Esperanza I; 9. lber IV complex; 10. Campos del Tuyu I complex; 11. El Payen I; 12. Sierra de la Ventana II; 13. Specimen taken just east of Bariloche, possible occurrence in Nahuel Huapi II complex (Melquist 1985, O.N. Herrera in litt. 1992); 14. Meseta de Somuncura VIII; 15. Peninsula de Valdes VIII; 16. Perito Moreno IV (Argentina); 17. Torres del Paine II* complex (Chile).\n\n[S3] (page 169, The Americas, section: Pampas cat)\n## Habitat and Distribution\n\nThe pampas cat is strongly associated with grass and shrub\n\n[S4] (page 62, North Africa and Southwest Asia, section: Asiatic lion)\nAsiatic lion, Panthera leo\n\npersica (Meyer, 1826)\n\n[S5] (page 140, The Americas, section: Kodkod)\nKod kod, Oncifelis guigna\n\n(Molina, 1782)\n\n[S6] (page 170, The Americas, section: Pampas cat)\n## Population Status\n\nGlobal: Category 5a. Regional: Category 4. IUCN: Indeterminate. The pampas cat is widely distributed, tolerant of altered habitat (including secondary growth, forest plantation, and the fringes of agricultural and settled areas: P. Crawshaw, C. Weber in litt. 1993), and international trade in its pelt ceased in 1987 (WCMC unpubl. data). In the Paraguayan Chaco, it has been described as less common than the Geoffroy's cat (Brooks 1992). Although\n\nchailurus braccatus\n\nFigure 15. Distribution of proposed three species of pampas cat according to Garcia-Perea (1994).",
+  "context_ids": [
+   "iucn-wildcats-1996:p154:c06",
+   "iucn-wildcats-1996:p155:c04",
+   "iucn-wildcats-1996:p169:c07",
+   "iucn-wildcats-1996:p062:c00",
+   "iucn-wildcats-1996:p140:c00",
+   "iucn-wildcats-1996:p170:c03"
+  ],
+  "label_map": {
+   "S1": "iucn-wildcats-1996:p154:c06",
+   "S2": "iucn-wildcats-1996:p155:c04",
+   "S3": "iucn-wildcats-1996:p169:c07",
+   "S4": "iucn-wildcats-1996:p062:c00",
+   "S5": "iucn-wildcats-1996:p140:c00",
+   "S6": "iucn-wildcats-1996:p170:c03"
+  },
+  "searches": 3,
+  "model_calls": 4,
+  "prompt_tokens": 3866,
+  "completion_tokens": 278,
+  "api_retries": 0,
+  "cost_usd_estimate": null,
+  "seconds": 4.46,
+  "error": null,
+  "stop_reason": "final_answer",
+  "config": {
+   "name": "A0",
+   "retriever": "dense",
+   "top_k": 3,
+   "budget": 3000,
+   "context_mode": "rank",
+   "max_searches": 3,
+   "max_turns": 6,
+   "model": "gemini-3.5-flash",
+   "extra_rules": ""
+  }
+ },
+ {
+  "query_id": "d29",
+  "status": "answered",
+  "answer": "The kodkod's higher density on Chiloe Island is possibly linked to the absence of potential competitors or predators, specifically the puma, grey fox, and Andean fox [S1].",
+  "raw_answer": "The kodkod's higher density on Chiloe Island is possibly linked to the absence of potential competitors or predators, specifically the puma, grey fox, and Andean fox [S1].",
+  "citations": [
+   "iucn-wildcats-1996:p141:c01"
+  ],
+  "citation_labels": [
+   "S1"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "kodkod Chiloe Island density",
+    "raw_query": "kodkod Chiloe Island density",
+    "filter": null,
+    "top_k": 3,
+    "ms": 111.1,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p141:c01",
+      "page": 141,
+      "score": 0.855478,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p140:c02",
+      "page": 140,
+      "score": 0.84134,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p140:c07",
+      "page": 140,
+      "score": 0.836505,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p141:c01",
+     "iucn-wildcats-1996:p140:c02",
+     "iucn-wildcats-1996:p140:c07"
+    ],
+    "skipped": [],
+    "context_chars_after": 2876
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "kodkod seems to live at higher densities on Chiloe Island",
+    "raw_query": "kodkod seems to live at higher densities on Chiloe Island",
+    "filter": null,
+    "top_k": 3,
+    "ms": 115.1,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p141:c01",
+      "page": 141,
+      "score": 0.855574,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p140:c03",
+      "page": 140,
+      "score": 0.850191,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p140:c02",
+      "page": 140,
+      "score": 0.84789,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [],
+    "skipped": [
+     "iucn-wildcats-1996:p141:c01",
+     "iucn-wildcats-1996:p140:c03",
+     "iucn-wildcats-1996:p140:c02"
+    ],
+    "context_chars_after": 2876
+   },
+   {
+    "event": "answer",
+    "status": "answered"
+   }
+  ],
+  "context": "[S1] (page 141, The Americas, section: Andean mountain cat)\n## Population Status\n\nGlobal: Category 2. Regional: Category 1. IUCN: Indeterminate. The kodkod has historically been described as quite common (Osgood 1943, Cabrera and Yepes 1960). However, in the dry scrub of central Chile, 10% of the country's area but home to two-thirds of its population (Weber 1983), habitat loss has led to localized and patchy distribution (J. Rottmann in Zitt. 1993). In general, however, the southern forested part of its range is well protected and sparsely populated by humans. Even where its habitat has been altered, such as in central Chile, where 15,000 km2 of pine and eucalyptus plantations have been established (C. Weber in Zitt. 1993), kodkods may do well as rodent populations thrive (J. Rottmann, pers. comm. in Melquist 1984).\n\nThe kodkod seems to live at higher densities on Chiloe Island (Melquist 1984), possibly linked to the absence of the puma, grey fox, and Andean fox (J. Rottmann in Zitt.\n\n[S2] (page 140, The Americas, section: Kodkod)\n## Description and Behavior\n\n(Plate 6) The kodkod is the smallest felid in the Americas, weighing an average of 2.2 kg (n=3: Greer 1965a). It is a buffy to brownish cat heavily patterned with small black spots. The kodkod is closely related to Geoffroy's cat, of which it may be a subspeciesthey do not appear to be sympatric (Hemmer 1978aj. The subject deserves further investigation, particularly in Argentina, where Geoffroy's cat is more common and widely distributed, and has been collected near to the kodkod's known range (Redford and Eisenberg 1992, O.N. Herrera in Zitt. 1992). In comparison to Geoffroy's cat, the kodkod has a small face and much thicker tail (P. Quillen in Zitt. 1993). There is a high incidence of melanism (Cabrera and Yepes 1960, Osgood 1943, Greer 1965a) which, according to Miller and Rottmann (1976), increases with latitude, and is particularly common on Chiloe and Guaitecas islands.\n\n[S3] (page 140, The Americas, section: Kodkod)\n## Habitat and Distribution\n\nFound only in Argentina and Chile (Fig. 1), the kodkod is strongly associated with the moist temperate mixed forests of the southern Andean and Coastal ranges, particularly the Valdivian forest of Chile, which is characterized by the presence of bamboo in the understory (IUCN 1992a). It ranges up to the treeline at approximately 1,900 (Miller and Rottmann 1976) to 2,500 m (Melquist 1984). In Argentina, the kodkod has been recorded from moist montane forest which has Valdivian characteristics, including a multi-layered structure with bamboo, and numerous lianas and epiphytes (Dimitri 1972, N.O. Herr-era in Zitt. 1992). Most records (nine out of 10 in Redford and Eisenberg 1992) coincide with the original distribution of temperate moist Araucarian and Valdivian forest (37-48\" S: Udvardy 1975, C. Weber in Zitt. 1993). J.",
+  "context_ids": [
+   "iucn-wildcats-1996:p141:c01",
+   "iucn-wildcats-1996:p140:c02",
+   "iucn-wildcats-1996:p140:c07"
+  ],
+  "label_map": {
+   "S1": "iucn-wildcats-1996:p141:c01",
+   "S2": "iucn-wildcats-1996:p140:c02",
+   "S3": "iucn-wildcats-1996:p140:c07"
+  },
+  "searches": 2,
+  "model_calls": 3,
+  "prompt_tokens": 2927,
+  "completion_tokens": 281,
+  "api_retries": 0,
+  "cost_usd_estimate": null,
+  "seconds": 6.83,
+  "error": null,
+  "stop_reason": "final_answer",
+  "config": {
+   "name": "A0",
+   "retriever": "dense",
+   "top_k": 3,
+   "budget": 3000,
+   "context_mode": "rank",
+   "max_searches": 3,
+   "max_turns": 6,
+   "model": "gemini-3.5-flash",
+   "extra_rules": ""
+  }
+ },
+ {
+  "query_id": "d30",
+  "status": "answered",
+  "answer": "In the tropics and southern parts of the puma's range, small to medium-sized prey appear to be more important [S2].",
+  "raw_answer": "In the tropics and southern parts of the puma's range, small to medium-sized prey appear to be more important [S2].",
+  "citations": [
+   "iucn-wildcats-1996:p156:c08"
+  ],
+  "citation_labels": [
+   "S2"
+  ],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "puma prey tropics North America",
+    "raw_query": "puma prey tropics North America",
+    "filter": null,
+    "top_k": 3,
+    "ms": 101.7,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p157:c00",
+      "page": 157,
+      "score": 0.870029,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p156:c08",
+      "page": 156,
+      "score": 0.86316,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p160:c00",
+      "page": 160,
+      "score": 0.862809,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p157:c00",
+     "iucn-wildcats-1996:p156:c08",
+     "iucn-wildcats-1996:p160:c00"
+    ],
+    "skipped": [],
+    "context_chars_after": 2577
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "puma prey tropics North America ungulate diet",
+    "raw_query": "puma prey tropics North America ungulate diet",
+    "filter": null,
+    "top_k": 3,
+    "ms": 98.6,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p156:c07",
+      "page": 156,
+      "score": 0.870373,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p157:c00",
+      "page": 157,
+      "score": 0.863626,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p160:c02",
+      "page": 160,
+      "score": 0.850372,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [],
+    "skipped": [
+     "iucn-wildcats-1996:p156:c07",
+     "iucn-wildcats-1996:p157:c00",
+     "iucn-wildcats-1996:p160:c02"
+    ],
+    "context_chars_after": 2577
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "Puma small to medium-sized prey tropics",
+    "raw_query": "Puma small to medium-sized prey tropics",
+    "filter": null,
+    "top_k": 3,
+    "ms": 104.4,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p156:c08",
+      "page": 156,
+      "score": 0.866644,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p157:c00",
+      "page": 157,
+      "score": 0.857565,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p157:c07",
+      "page": 157,
+      "score": 0.847556,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [],
+    "skipped": [
+     "iucn-wildcats-1996:p156:c08",
+     "iucn-wildcats-1996:p157:c00",
+     "iucn-wildcats-1996:p157:c07"
+    ],
+    "context_chars_after": 2577
+   },
+   {
+    "event": "answer",
+    "status": "answered"
+   }
+  ],
+  "context": "[S1] (page 157, The Americas, section: Puma)\njaguars. Still, even in Chile, where jaguars do not occur, small prey is a key element of puma diet. Pumas in the mountains of southern Chile eat 25 European hares for every one guanaco (Johnson et al. in press). Iriarte et ~22. (199 1) point out that the European hare was introduced to South America only 90 years ago, and its significance as a prey item for pumas demonstrates the flexibility of their predatory behavior. It is interesting that the puma occurs in a variety of habitats and takes both large and small prey, similarly to the leopard in the Old World, while the jaguar, like the tiger, is closely tied to well-watered forested environments and is capable of taking very large prey.\n\n[S2] (page 156, The Americas, section: Puma)\nHowever, in the southern parts of puma range, and particularly in the tropics, small to medium-sized prey appear to be more important. Although the studies on which this conclusion is based suffer from extremely small sample sizes (Rabinowitz and Nottingham 1986, Emmons 1987, Crawshaw and Quigley in prep.), Iriarte et al. (1990) suggest that the puma's smaller body size in the tropics, and its low rate of predation on larger prey (such as tapirs), tig are linked to interspecific competition with the jaguar (the largest American felid). Pumas in the tropics are probably still capable of taking large prey, but Crawshaw and Quigley (in prep.), working on a ranch in the subtropical Brazilian Pantanal, found that while pumas take calves of domestic cattle and sheep, adult cattle were taken only by\n\n[S3] (page 160, The Americas, section: Puma)\nVenezuela, Uruguay. Hunting regulated: Canada, Mexico, Peru, United States. No legal protection: Ecuador, El Salvador, Guyana (Fuller et al. 1987, R. Hoogesteijn in litt. 1993).\n\nThere is good information available about the protection status of the puma on a regional level in North America. The eastern cougar is protected in the Canadian provinces of Nova Scotia, New Brunswick, and Ontario (Macey 1979). Elsewhere in Canada, pumas are protected in Manitoba, Saskatchewan, and Yukon, but not at all in the Northwest Territories. Hunting is regulated in Alberta and British Columbia. In the U.S., the eastern cougar is fully protected under the Endangered Species Act. In the west, pumas are fully protected only in South Dakota and California. Hunting is regulated in Arizona, Colorado, Idaho, Montana, Nevada, New Mexico, Oklahoma, Oregon, Utah, Washington, and Wyoming. Pumas are not legally protected in Texas (Tischendorf 1991).",
+  "context_ids": [
+   "iucn-wildcats-1996:p157:c00",
+   "iucn-wildcats-1996:p156:c08",
+   "iucn-wildcats-1996:p160:c00"
+  ],
+  "label_map": {
+   "S1": "iucn-wildcats-1996:p157:c00",
+   "S2": "iucn-wildcats-1996:p156:c08",
+   "S3": "iucn-wildcats-1996:p160:c00"
+  },
+  "searches": 3,
+  "model_calls": 4,
+  "prompt_tokens": 3605,
+  "completion_tokens": 394,
+  "api_retries": 0,
+  "cost_usd_estimate": null,
+  "seconds": 33.56,
+  "error": null,
+  "stop_reason": "final_answer",
+  "config": {
+   "name": "A0",
+   "retriever": "dense",
+   "top_k": 3,
+   "budget": 3000,
+   "context_mode": "rank",
+   "max_searches": 3,
+   "max_turns": 6,
+   "model": "gemini-3.5-flash",
+   "extra_rules": ""
+  }
+ },
+ {
+  "query_id": "u01",
+  "status": "abstain",
+  "answer": "INSUFFICIENT EVIDENCE: The provided passages do not contain information about India's 2018 national tiger census.",
+  "raw_answer": "INSUFFICIENT EVIDENCE: The provided passages do not contain information about India's 2018 national tiger census.",
+  "citations": [],
+  "citation_labels": [],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "2018 national tiger census count India",
+    "raw_query": "2018 national tiger census count India",
+    "filter": null,
+    "top_k": 3,
+    "ms": 108.5,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p083:c06",
+      "page": 83,
+      "score": 0.857398,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p083:c05",
+      "page": 83,
+      "score": 0.855647,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p086:c04",
+      "page": 86,
+      "score": 0.841101,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p083:c06",
+     "iucn-wildcats-1996:p083:c05",
+     "iucn-wildcats-1996:p086:c04"
+    ],
+    "skipped": [],
+    "context_chars_after": 2621
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "2018",
+    "raw_query": "2018",
+    "filter": null,
+    "top_k": 3,
+    "ms": 126.0,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p062:c00",
+      "page": 62,
+      "score": 0.80245,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p090:c06",
+      "page": 90,
+      "score": 0.792585,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p033:c00",
+      "page": 33,
+      "score": 0.78945,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p062:c00",
+     "iucn-wildcats-1996:p090:c06",
+     "iucn-wildcats-1996:p033:c00"
+    ],
+    "skipped": [],
+    "context_chars_after": 2940
+   },
+   {
+    "event": "answer",
+    "status": "abstain"
+   }
+  ],
+  "context": "[S1] (page 83, Tropical Asia, section: Tiger)\nHowever, it has been officially stated that the population estimates of predators and prey base in India suffer from large margins of error (Govt. of India 1993). Karanth (1987, 1993b) is highly critical of the methodology of pugmark identification and counting (see Part II Chapter 3). Unofficial estimates in 1993 by experienced tiger managers ranged from 2,000 to 4,500 (Jackson 1993a, V. Thapar, pers. comm.). Including a few hundred tigers in Nepal (late 1993 estimate 250: C. McDougal, pers. comm.), Bhutan, Bangladesh, and western Myanmar, the total population of Bengal tigers (Pt. tigris) is probably not more than 4,500 (Jackson 1993a).\n\n[S2] (page 83, Tropical Asia, section: Tiger)\nOf all the range states, India has by far the largest number of tigers. Gee (1964) suggested that it was possible that there were 40,000 tigers in India early in this century, compared to about 4,000 by the time he wrote. In 1972, an official census found positive evidence of fewer than 2,000 tigers in India (Govt. of India 1972), located in four main areas of forest: the foot of the Himalayas in north and northeastern India, the forests of central and eastern India, and a narrow strip paralleling the southwestern coast. An intensive conservation program, Project Tiger, was started shortly thereafter (for more information about Project Tiger, see Part II, Chapter l), and its 1989 census estimated numbers nationwide at 4,334. However, there has been widespread poaching in the early 1990s and the most recent 1993 census estimates 3,750 tigers (including, as with the previous total, sub-adults) (Ghosh 1994).\n\n[S3] (page 86, Tropical Asia, section: Tiger)\n## Occurrence in Protected Areas\n\nThe tiger, like other big cats, probably has little future outside protected areas because of actual and perceived threats to livestock and human life. Its current range extends through one of the most densely inhabited regions of the world, where human populations are rising at an average of 1.87 percent per annum (WRI/UNEP/UNDP 1992). In India, the human population had increased by over 300 million (nearly 50%) and livestock by over 100 million during the 20 years since Project Tiger began (Govt. of India 1993).\n\nBangladesh: Tigers are found throughout the Sundarbans mangrove forests, including the small reserves (total area 320 km2) of Sundarbans East, South & West IV, and may\n\n1993)\n\nUngulate Prey1 Tiger Density*\n\nVery high I 1.65\n\nMedium-high IO.00\n\nHigh 8.78\n\nHigh 6.92\n\nMedium-high 3.73\n\nMedium-low 1 .I-2.23\n\nLow ID3\n\nwoods Low 0.6-0.86\n\nwoods Very low 0.139'45\n\n[S4] (page 62, North Africa and Southwest Asia, section: Asiatic lion)\nAsiatic lion, Panthera leo\n\npersica (Meyer, 1826)\n\n[S5] (page 90, Tropical Asia, section: Bornean bay cat)\n## Biology\n\nNo information.\n\n[S6] (page 33, Sub-Saharan Africa, section: Black-footed cat)\nBlack-footed cat, Fe/is\n\nnigripes Burchell, 1824",
+  "context_ids": [
+   "iucn-wildcats-1996:p083:c06",
+   "iucn-wildcats-1996:p083:c05",
+   "iucn-wildcats-1996:p086:c04",
+   "iucn-wildcats-1996:p062:c00",
+   "iucn-wildcats-1996:p090:c06",
+   "iucn-wildcats-1996:p033:c00"
+  ],
+  "label_map": {
+   "S1": "iucn-wildcats-1996:p083:c06",
+   "S2": "iucn-wildcats-1996:p083:c05",
+   "S3": "iucn-wildcats-1996:p086:c04",
+   "S4": "iucn-wildcats-1996:p062:c00",
+   "S5": "iucn-wildcats-1996:p090:c06",
+   "S6": "iucn-wildcats-1996:p033:c00"
+  },
+  "searches": 2,
+  "model_calls": 3,
+  "prompt_tokens": 2861,
+  "completion_tokens": 296,
+  "api_retries": 0,
+  "cost_usd_estimate": null,
+  "seconds": 4.2,
+  "error": null,
+  "stop_reason": "final_answer",
+  "config": {
+   "name": "A0",
+   "retriever": "dense",
+   "top_k": 3,
+   "budget": 3000,
+   "context_mode": "rank",
+   "max_searches": 3,
+   "max_turns": 6,
+   "model": "gemini-3.5-flash",
+   "extra_rules": ""
+  }
+ },
+ {
+  "query_id": "u02",
+  "status": "abstain",
+  "answer": "INSUFFICIENT EVIDENCE: The provided passages do not contain information on the maximum running speed of the jaguar.",
+  "raw_answer": "INSUFFICIENT EVIDENCE: The provided passages do not contain information on the maximum running speed of the jaguar.",
+  "citations": [],
+  "citation_labels": [],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "jaguar running speed maximum km/h mph Panthera onca",
+    "raw_query": "jaguar running speed maximum km/h mph Panthera onca",
+    "filter": null,
+    "top_k": 3,
+    "ms": 106.7,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p146:c05",
+      "page": 146,
+      "score": 0.83119,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p037:c05",
+      "page": 37,
+      "score": 0.828768,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p144:c00",
+      "page": 144,
+      "score": 0.82684,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p146:c05",
+     "iucn-wildcats-1996:p037:c05"
+    ],
+    "skipped": [
+     "iucn-wildcats-1996:p144:c00"
+    ],
+    "context_chars_after": 2022
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "jaguar speed running Panthera onca km/h mph",
+    "raw_query": "jaguar speed running Panthera onca km/h mph",
+    "filter": null,
+    "top_k": 3,
+    "ms": 102.6,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p146:c05",
+      "page": 146,
+      "score": 0.834863,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p144:c00",
+      "page": 144,
+      "score": 0.827412,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p144:c05",
+      "page": 144,
+      "score": 0.823117,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [],
+    "skipped": [
+     "iucn-wildcats-1996:p146:c05",
+     "iucn-wildcats-1996:p144:c00",
+     "iucn-wildcats-1996:p144:c05"
+    ],
+    "context_chars_after": 2022
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "Panthera onca jaguar speed swim run climb",
+    "raw_query": "Panthera onca jaguar speed swim run climb",
+    "filter": null,
+    "top_k": 3,
+    "ms": 113.7,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p144:c05",
+      "page": 144,
+      "score": 0.832826,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p145:c01",
+      "page": 145,
+      "score": 0.816229,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p144:c00",
+      "page": 144,
+      "score": 0.81357,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [],
+    "skipped": [
+     "iucn-wildcats-1996:p144:c05",
+     "iucn-wildcats-1996:p145:c01",
+     "iucn-wildcats-1996:p144:c00"
+    ],
+    "context_chars_after": 2022
+   },
+   {
+    "event": "answer",
+    "status": "abstain"
+   }
+  ],
+  "context": "[S1] (page 146, The Americas, section: Jaguar)\n## Principal Threats\n\nDeforestation rates are highest in Latin America (FAO 1993), and fragmentation of forest habitat isolates jaguar populations so that they are more vulnerable to the predations of man. People compete with jaguars for prey (Jorgenson and Redford 1993), and jaguars are frequently shot on sight, despite protective legislation. The most urgent conservation issue is the current intolerance of ranchers for jaguars (see Part II, Chapter 2 for more discussion of this issue). In many cattle-ranching operations in the region, livestock roam widely and become essentially feral (Schaller 1983, Quigley and Crawshaw 1992). Cattle have been shown to constitute a major portion of jaguar diet in studies carried out on ranches in seasonally flooded Savannah woodland (Hoogesteijn et al. 1993, Crawshaw and Quigley in prep.).\n\nThe vulnerability of the jaguar to persecution is demonstrated by its disappearance by the mid- 1900s from the southwestern U.S. and northern Mexico, areas which are today home to important puma\n\n[S2] (page 37, Sub-Saharan Africa, section: Cheetah)\nAccording to K. Sevrin (pers. comm. in Eaton 1974: 24), a captive cheetah was accurately clocked at 112 kph over a short distance. In the wild, out of 78 chases measured and timed by G. Frame (Frame and Frame 1981: 181), the top speed was 87 kph. Antelopes, the main prey of cheetah, reach top speeds of 80-97 kph (Garland 1983), so peak speeds reached at some portion of a cheetah's sprint probably do exceed the oft-quoted, but seldom documented, 110 kph. Cheetah sprints rarely last longer than 200-300 m, while most antelope can run much further. Heat builds up rapidly during a sprint, and cheetahs have not evolved the evaporative heat release mechanisms of gazelles and goats, even though their energetic cost of running is equivalent (Taylor and Rowntree 1973, Taylor et al. 1974). Despite its refinements, the cheetah, like the other cats, is a sprinter rather than a courser.",
+  "context_ids": [
+   "iucn-wildcats-1996:p146:c05",
+   "iucn-wildcats-1996:p037:c05"
+  ],
+  "label_map": {
+   "S1": "iucn-wildcats-1996:p146:c05",
+   "S2": "iucn-wildcats-1996:p037:c05"
+  },
+  "searches": 3,
+  "model_calls": 4,
+  "prompt_tokens": 3302,
+  "completion_tokens": 287,
+  "api_retries": 0,
+  "cost_usd_estimate": null,
+  "seconds": 6.11,
+  "error": null,
+  "stop_reason": "final_answer",
+  "config": {
+   "name": "A0",
+   "retriever": "dense",
+   "top_k": 3,
+   "budget": 3000,
+   "context_mode": "rank",
+   "max_searches": 3,
+   "max_turns": 6,
+   "model": "gemini-3.5-flash",
+   "extra_rules": ""
+  }
+ },
+ {
+  "query_id": "u03",
+  "status": "abstain",
+  "answer": "INSUFFICIENT EVIDENCE: The passages do not state the number of chromosomes of the marbled cat.",
+  "raw_answer": "INSUFFICIENT EVIDENCE: The passages do not state the number of chromosomes of the marbled cat.",
+  "citations": [],
+  "citation_labels": [],
+  "invalid_citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "marbled cat chromosome",
+    "raw_query": "marbled cat chromosome",
+    "filter": null,
+    "top_k": 3,
+    "ms": 100.3,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p101:c05",
+      "page": 101,
+      "score": 0.860305,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p102:c01",
+      "page": 102,
+      "score": 0.853506,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p101:c06",
+      "page": 101,
+      "score": 0.851649,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p101:c05",
+     "iucn-wildcats-1996:p102:c01",
+     "iucn-wildcats-1996:p101:c06"
+    ],
+    "skipped": [],
+    "context_chars_after": 2187
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "karyotype chromosome 38 36 marbled cat",
+    "raw_query": "karyotype chromosome 38 36 marbled cat",
+    "filter": null,
+    "top_k": 3,
+    "ms": 105.7,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p101:c05",
+      "page": 101,
+      "score": 0.85562,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p102:c01",
+      "page": 102,
+      "score": 0.840473,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p101:c06",
+      "page": 101,
+      "score": 0.835227,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [],
+    "skipped": [
+     "iucn-wildcats-1996:p101:c05",
+     "iucn-wildcats-1996:p102:c01",
+     "iucn-wildcats-1996:p101:c06"
+    ],
+    "context_chars_after": 2187
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "retriever": "dense",
+    "query": "karyotype chromosomes",
+    "raw_query": "karyotype chromosomes",
+    "filter": null,
+    "top_k": 3,
+    "ms": 107.4,
+    "results": [
+     {
+      "id": "iucn-wildcats-1996:p090:c06",
+      "page": 90,
+      "score": 0.822935,
+      "rank": 1
+     },
+     {
+      "id": "iucn-wildcats-1996:p047:c05",
+      "page": 47,
+      "score": 0.81967,
+      "rank": 2
+     },
+     {
+      "id": "iucn-wildcats-1996:p123:c03",
+      "page": 123,
+      "score": 0.818779,
+      "rank": 3
+     }
+    ],
+    "added_to_context": [
+     "iucn-wildcats-1996:p090:c06"
+    ],
+    "skipped": [
+     "iucn-wildcats-1996:p047:c05",
+     "iucn-wildcats-1996:p123:c03"
+    ],
+    "context_chars_after": 2272
+   },
+   {
+    "event": "answer",
+    "status": "abstain"
+   }
+  ],
+  "context": "[S1] (page 101, Tropical Asia, section: Marbled cat)\n## Description and Behavior\n\n(Plate 8) The marbled cat's coat is very similar to that of the clouded leopard, although the black-edged blotches on the sides of its body are less distinct, and black spots on the limbs more numerous. It also has a long tail, equivalent to or longer than head-body length (TL = 48-55 cm: Pocock 1939a). Corbett and Hill (1993) place both species in the genus Pardofelis, noting that \"the unique and complex pattern of the pelage is unlikely to be independently derived or primitive.\" Groves (1982) also supports a close relationship, noting that, like the clouded leopard, the marbled cat's upper canines are relatively enlarged. However, the marbled cat is less than one-third the weight of the clouded leopard, has a shorter, rounder skull (Pocock 1932b) and shares an identical karyotype with Lynx, Panthera, and Uncia (Wurster-Hill and Centerwall 1982).\n\n[S2] (page 102, Tropical Asia, section: Marbled cat)\nFigure 12. Distribution of the marbled cat (/? marmorata). 1. Specimen district in the early 1980s: only record of species occurrence for Nepal species distribution (C. McDougal in litt. 1992); 2. Khangchengdzonga (India) + Royal Manas II (Bhutan) complex; 4. Balphakram II; 5. Namdapha from China: specimen Shuangjiang, Yunnan province (Gao eta/. Nam Bai Cat Tien II (Vietnam); 10. Phu Luang IV; 11. Khao Yai II complex; Khitchakut II; 13. Huai Kha Khaeng IV complex; 14. Khlong Saeng VIII (Sabah, Malaysia); 16. Gunung Leuser II* complex; 17. Kerinci Selatan II complex; 19. Way Kambas IV (Sumatra, Indonesia); 20. Gunung Game Reserve; 21. Bukit Raya I; 22. Bukit Suharto V (Kalimantan, that a specimen was captured in a chicken house on the Barito River, southern Borneo, \"in a district which for miles around and for many years had been cleared of native forest and planted for rubber and cereals.\n\n[S3] (page 101, Tropical Asia, section: Marbled cat)\nThe evolutionary history of marmorata continues to be a taxonomic puzzle: Wozencraft's (1993) revision of the family Felidae concluded that the classification of the marbled cat should best be considered incertae sedis, or uncertain.\n\n[S4] (page 90, Tropical Asia, section: Bornean bay cat)\n## Biology\n\nNo information.",
+  "context_ids": [
+   "iucn-wildcats-1996:p101:c05",
+   "iucn-wildcats-1996:p102:c01",
+   "iucn-wildcats-1996:p101:c06",
+   "iucn-wildcats-1996:p090:c06"
+  ],
+  "label_map": {
+   "S1": "iucn-wildcats-1996:p101:c05",
+   "S2": "iucn-wildcats-1996:p102:c01",
+   "S3": "iucn-wildcats-1996:p101:c06",
+   "S4": "iucn-wildcats-1996:p090:c06"
+  },
+  "searches": 3,
+  "model_calls": 4,
+  "prompt_tokens": 3778,
+  "completion_tokens": 523,
+  "api_retries": 0,
+  "cost_usd_estimate": null,
+  "seconds": 8.92,
+  "error": null,
+  "stop_reason": "final_answer",
+  "config": {
+   "name": "A0",
+   "retriever": "dense",
+   "top_k": 3,
+   "budget": 3000,
+   "context_mode": "rank",
+   "max_searches": 3,
+   "max_turns": 6,
+   "model": "gemini-3.5-flash",
+   "extra_rules": ""
+  }
+ }
+]

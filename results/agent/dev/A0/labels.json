@@ -1,0 +1,11 @@
+{
+ "d03": {"reason": "Từ chối nhầm. Lượt 1 (query paraphrase) lấp gần đầy budget bằng p.59/34/33; lượt 2-3 tìm đúng p.58 nhưng bị bỏ vì hết budget 3000 ký tự."},
+ "d06": {"grade": 2, "reason": "Đúng (Gir Forest). Trích p.63 'the Asiatic lion was confined to the Gir Forest' — evidence thay thế hợp lệ cho p.62."},
+ "d07": {"grade": 2, "reason": "Đúng ý chính (lấy độ ẩm từ con mồi); thiếu vế 'sống xa nguồn nước' nhưng đó là bối cảnh, không phải đáp án."},
+ "d17": {"reason": "Từ chối nhầm. Lượt 2-3 tìm đúng p.121 (Chinese mountain cat) nhưng bị bỏ vì budget đã đầy từ lượt 1."},
+ "d19": {"grade": 2, "reason": "Đúng và đủ; [S2] p.135 chứa evidence, [S1] p.58 hỗ trợ đúng câu so sánh cân nặng mèo rừng châu Phi."},
+ "d23": {"grade": 1, "support": [false], "reason": "Câu chính đúng (trên 3.000-4.000 m), nhưng thêm chi tiết 'Puna 3,200-4,400 m' không có trong context -> có khẳng định không căn cứ; [S1] không hỗ trợ toàn bộ."},
+ "d25": {"reason": "Từ chối nhầm. Lượt 3 'jaguar skull capybara' trả về p.144 (gold) nhưng bị bỏ vì hết budget."},
+ "d26": {"reason": "Từ chối nhầm. Lượt 2-3 trả về p.171 (gold, jaguarundi) nhưng bị bỏ vì hết budget; chỉ thêm được p.173."},
+ "d28": {"grade": 2, "reason": "Đúng (3 loài). [S6] p.170 chú thích hình 'proposed three species of pampas cat according to Garcia-Perea (1994)' hỗ trợ."}
+}

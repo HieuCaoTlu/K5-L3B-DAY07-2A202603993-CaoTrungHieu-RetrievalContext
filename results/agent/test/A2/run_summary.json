@@ -1,0 +1,78 @@
+{
+ "config": {
+  "name": "A2",
+  "retriever": "hybrid",
+  "top_k": 3,
+  "budget": 3000,
+  "context_mode": "rank",
+  "header": "no_species",
+  "max_searches": 3,
+  "max_turns": 6,
+  "model": "gemini-3.5-flash-lite",
+  "extra_rules": ""
+ },
+ "split": "test",
+ "cases": 13,
+ "errors": 0,
+ "status": {
+  "answered": 9,
+  "abstain": 4,
+  "error": 0
+ },
+ "context_evidence_rate": {
+  "n": 9,
+  "N": 10
+ },
+ "searches_distribution": {
+  "1": 10,
+  "2": 2,
+  "3": 1
+ },
+ "median_seconds": 12.0,
+ "total_seconds": 204.4,
+ "prompt_tokens": 23561,
+ "completion_tokens": 814,
+ "cost_usd": 0.0,
+ "context_hits": [
+  {
+   "query_id": "n01",
+   "context_hit": true
+  },
+  {
+   "query_id": "n02",
+   "context_hit": true
+  },
+  {
+   "query_id": "n03",
+   "context_hit": true
+  },
+  {
+   "query_id": "n04",
+   "context_hit": true
+  },
+  {
+   "query_id": "n05",
+   "context_hit": true
+  },
+  {
+   "query_id": "n06",
+   "context_hit": true
+  },
+  {
+   "query_id": "n07",
+   "context_hit": true
+  },
+  {
+   "query_id": "n08",
+   "context_hit": true
+  },
+  {
+   "query_id": "n09",
+   "context_hit": false
+  },
+  {
+   "query_id": "n10",
+   "context_hit": true
+  }
+ ]
+}

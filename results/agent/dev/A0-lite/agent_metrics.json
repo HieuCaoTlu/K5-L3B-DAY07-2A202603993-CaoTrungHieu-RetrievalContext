@@ -1,0 +1,49 @@
+{
+ "cases": 33,
+ "provider_errors": 0,
+ "tool_use": {
+  "n": 33,
+  "N": 33
+ },
+ "grounded_answer": {
+  "0": 4,
+  "1": 1,
+  "2": 25,
+  "N": 30,
+  "mean": 1.7
+ },
+ "citation_validity": {
+  "n": 26,
+  "N": 26
+ },
+ "answer_citation_coverage": {
+  "n": 26,
+  "N": 26
+ },
+ "abstention": {
+  "n": 3,
+  "N": 3
+ },
+ "false_abstention": {
+  "n": 4,
+  "N": 30
+ },
+ "config": "A0-lite",
+ "split": "dev",
+ "context_evidence_rate": {
+  "n": 26,
+  "N": 30
+ },
+ "searches_distribution": {
+  "1": 22,
+  "2": 5,
+  "3": 6
+ },
+ "mean_searches": 1.52,
+ "median_seconds": 4.11,
+ "total_seconds": 160.4,
+ "prompt_tokens": 69213,
+ "completion_tokens": 2142,
+ "cost_usd": 0.0,
+ "invalid_citation_labels": 0
+}

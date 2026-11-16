@@ -1,0 +1,14 @@
+{
+  "postgres": "16.16 (Debian 16.16-1.pgdg12+1)",
+  "pgvector": "0.8.7",
+  "index": "B",
+  "chunks": 859,
+  "embedding_model": "intfloat/multilingual-e5-base",
+  "vector_dim": 768,
+  "embedding_revision": "d128750597153bb5987e10b1c3493a34e5a4502a",
+  "query_prefix": "query: ",
+  "pages": 142,
+  "exported_chunks": 859,
+  "search": "exact cosine, sequential scan (no ANN)",
+  "database_url": "local docker (see .env.example)"
+}
